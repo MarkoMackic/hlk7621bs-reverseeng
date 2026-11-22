@@ -79,6 +79,9 @@ The log of that will be in repository as : `log_22_11_2026.log`
 
 For that I'd conclude this day, I'll try to analyze the output some other day, actually these logs are just firmware load and than some communication not related to updating displays themselves.
 
+So just a bit more, we can see the ble device is sendinx `0x08 0x02` while waiting for firmware...
+
+The first thing our program sends to device is as it seems firmware length ( file `hd_slave.bin` which can be found in extracted firmware is 93504 bytes long, when converted to hex `0x016d40` and the program send something very similar ( `01 40 6d` ) ( don't know why byte order is wrong at the beginning ), and after response from device (`06` ) the firmware is dumped byte for byte after which we get `cf` from device and `06` is again sent to device. From there on, we will continue.
 
 
 
