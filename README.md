@@ -84,5 +84,16 @@ So just a bit more, we can see the ble device is sendinx `0x08 0x02` while waiti
 The first thing our program sends to device is as it seems firmware length ( file `hd_slave.bin` which can be found in extracted firmware is 93504 bytes long, when converted to hex `0x016d40` and the program send something very similar ( `01 40 6d` ) ( don't know why byte order is wrong at the beginning ), and after response from device (`06` ) the firmware is dumped byte for byte after which we get `cf` from device and `06` is again sent to device. From there on, we will continue.
 
 
+# day 3
+
+Ok, so we'll continue where we left of, now I'm also going to install mqtt proxy between the base station and the server ( it's not using tls so I'm going to be able to sniff raw trafic on that ). 
+
+I'm going to use `https://github.com/VerSprite/zancudo` as interceptor proxy. 
+
+To note: device auto restarts sometimes for some strange reason. 
+
+Nothing to talk about right now, still struggling with streaming all the log files correctly. 
+  
+
 
 
