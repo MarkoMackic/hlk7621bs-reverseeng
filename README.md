@@ -114,6 +114,19 @@ To summerize todays work, I've created a simple run_all.sh script that is going 
 
 I added hooks to redact the phrases from the logs. Installing them using `./install_hooks.sh`
 
+Some remarks based on issue raised by @Picard2000:
+  - GAAT service UUID present in hd_slave.bin
+  - concluded that more than 1 ( probably all munufacturers from china ) use same software ( zk_ap_keep_running -> Zkong? ) 
+  - if they use the same software, are they interchangable? 
+  - all goodix chipsets on these devices do have fused memory? do they crypt the comm? 
+
+
+Other questions:
+  - The firmware on tags runs as is. Why is firmware/part of it streamed for devices on AP?
+  - MQTT communication is over http and seemingly username/password combinations of AP devices seem very low security, why not tls?
+
+Since AP devices are not exposed, there is no inherent threat for objects, but security here was not first concern obviously.
+
 
 
 
