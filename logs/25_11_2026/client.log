@@ -1,0 +1,125 @@
+2026/11/25 22:34:50 socat-mipsel32-static-debian-squeeze[11004] N using stdout for writing
+2026/11/25 22:34:50 socat-mipsel32-static-debian-squeeze[11004] N forking off child, using pty for reading
+2026/11/25 22:34:50 socat-mipsel32-static-debian-squeeze[11004] N forked off child process 11005
+2026/11/25 22:34:50 socat-mipsel32-static-debian-squeeze[11004] N forked off child process 11005
+2026/11/25 22:34:50 socat-mipsel32-static-debian-squeeze[11004] N starting data transfer loop with FDs [1,1] and [5,5]
+2026/11/25 22:34:50 socat-mipsel32-static-debian-squeeze[11005] N execvp'ing "/mqtt_client_mod_port"
+[0]Log file /tmp/0.log open successfully.
+SW version:1.0.3
+MAC:E4:38:19:13:78:C3
+SN:66AP02526002
+Model:EAP-M4
+OEM Name:EAP-M4
+Work Mode:0
+Power Level:9
+Server addr:192.168.1.17:8883
+*REDACTED*
+*REDACTED*
+wait for load ble firmware
+zkAPEslLoadFirmware
+firmware_download /dev/ttyDEV0 /usr/sbin/hd_slave.bin
+Can't Open Serial Port: No such file or directory
+SetupSerial zgy: Bad file descriptor
+wait for load ble firmware
+Can't Open Serial Port: No such file or directory
+SetupSerial zgy: Bad file descriptor
+wait for load ble firmware
+Can't Open Serial Port: No such file or directory
+SetupSerial zgy: Bad file descriptor
+wait for load ble firmware
+Can't Open Serial Port: No such file or directory
+SetupSerial zgy: Bad file descriptor
+wait for load ble firmware
+wait for load ble firmware
+wait for load ble firmware
+wait for load ble firmware
+wait for load ble firmware
+-->
+[zkAPGatewaySendBufPush][IN]Head:0,Tail:1,Len:108
+fcntl=0
+fd->open=7
+uartFd[0]:7
+uartFd 7 init 1, speed=1000000 flow_ctrl=0 databits=8 stopbits=1 parity=78
+wait for load ble firmware
+zkAPEslLoadFirmware
+firmware_download /dev/ttyDEV1 /usr/sbin/hd_slave.bin
+wait for load ble firmware
+wait for load ble firmware
+wait for load ble firmware
+wait for load ble firmware
+-->
+[zkAPGatewaySendBufPush][IN]Head:0,Tail:2,Len:108
+fcntl=0
+fd->open=9
+uartFd[1]:9
+uartFd 9 init 1, speed=1000000 flow_ctrl=0 databits=8 stopbits=1 parity=78
+wait for load ble firmware
+zkAPEslLoadFirmware
+firmware_download /dev/ttyDEV2 /usr/sbin/hd_slave.bin
+wait for load ble firmware
+wait for load ble firmware
+wait for load ble firmware
+wait for load ble firmware
+-->
+[zkAPGatewaySendBufPush][IN]Head:0,Tail:3,Len:108
+fcntl=0
+fd->open=10
+uartFd[2]:10
+uartFd 10 init 1, speed=1000000 flow_ctrl=0 databits=8 stopbits=1 parity=78
+wait for load ble firmware
+zkAPEslLoadFirmware
+firmware_download /dev/ttyDEV3 /usr/sbin/hd_slave.bin
+wait for load ble firmware
+wait for load ble firmware
+wait for load ble firmware
+wait for load ble firmware
+-->
+[zkAPGatewaySendBufPush][IN]Head:0,Tail:4,Len:108
+fcntl=0
+fd->open=11
+uartFd[3]:11
+uartFd 11 init 1, speed=1000000 flow_ctrl=0 databits=8 stopbits=1 parity=78
+zkAPGatewayCmdListInit
+[zkAPGatewayFunInit]GatewayFun pthread is starting...
+[zkAPGatewayFunInit]GatewayFun pthread started successfully.
+Connected to broker
+[22:35:21.985810]topic:RegServer/Join,len:289
+AP joining
+Message published (mid: 2)
+Received message: 92 from topic: E438191378C3/TopicSet
+[22:35:22.218194]Topic info is null, changed to unsubed stat
+Received message: 520 from topic: E438191378C3/TopicSet
+[22:35:22.218694][0]:TopicType ESLModule
+[1]:TopicType GatewayModule
+[22:35:22.219094][0]:ESL Config Type sleepconfig
+[1]:ESL Config Type period
+AP rollperiod 120
+[3]AdvTypeSet: type=1, timeout=0x78
+[zkAPGatewaySendBufPush][IN]Head:0,Tail:5,Len:109
+Ignore join, current fsm stat:2 
+AP PUB:1722919071/Gateway/E438191378C3
+AP SUB:99999/99999/Gateway/E438191378C3
+ESL PUB:1722919071/ESL/E438191378C3
+ESL SUB:99999/99999/ESL/E438191378C3
+[22:35:22.991685]topic:RegServer/Join,len:97
+[1]Roll:0D 0A 0D 00 02 00 0F 01 64 0A E4 38 19 13 78 C3 08 0A 
+[3]Roll intel:0D 0A 0B 00 02 00 09 63 65 04 08 0A 
+[0]Roll:0D 0A 0D 00 02 00 0F [2]Roll:0D 0A 0D 00 02 00 0F 01 64 0A E4 38 19 13 78 C3 08 01 64 0A E4 38 0A 
+19 13 78 C3 08 0A 
+[22:35:23.179188]topic:1722919071/Gateway/E438191378C3,len:145
+[zkAPGatewaySendBufProcess][OUT]Head:0,Tail:5
+[22:35:23.179568]topic:1722919071/Gateway/E438191378C3,len:145
+[zkAPGatewaySendBufProcess][OUT]Head:1,Tail:5
+Message published (mid: 7)
+[22:35:23.179728]topic:1722919071/Gateway/E438191378C3,len:145
+Message published (mid: 8)
+[zkAPGatewaySendBufProcess][OUT]Head:2,Tail:5
+Message published (mid: 9)
+[22:35:23.179908]topic:1722919071/Gateway/E438191378C3,len:145
+[zkAPGatewaySendBufProcess][OUT]Head:3,Tail:5
+Message published (mid: 10)
+[22:35:23.180068]topic:1722919071/Gateway/E438191378C3,len:149
+[zkAPGatewaySendBufProcess][OUT]Head:4,Tail:5
+[zkAPGatewaySendBufProcess][OUT]Head:5,Tail:5,Send 5 packet
+Message published (mid: 11)
+Message published (mid: 6)

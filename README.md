@@ -94,6 +94,26 @@ To note: device auto restarts sometimes for some strange reason.
 
 Nothing to talk about right now, still struggling with streaming all the log files correctly. 
   
+# day 4
+
+So I created some helpers to get things easier, I'm not going to have more shells open as I can't really track what is going on. I created a host entry named `basestation` and I'm just 
+gonna execute commands on remote machine like `ssh basestation sh < whateverfile.sh`.
+
+Actually after some fiddleing around I will have a singe sh script to run everything and store logs where they need to be.  
+
+I have further trimmed socat params ( sync can be probably removed to, but anyways )
+
+I will have to mask log files for credentials.
+
+What I have struggled with is transfering the logs of main application since they are neither pumped to stdout nor to stderr as it seems, and the solution was in front of my eyes all the time.
+I'm now using socat to stream those logs also ( it creates a vitural terminal and execs the application ). 
+
+So now we should be read to see some full logs and go from there.
+
+To summerize todays work, I've created a simple run_all.sh script that is going to intercept all basestation comms, and also have logs of all the apps that are necessary to progress.
+
+I added hooks to redact the phrases from the logs. Installing them using `./install_hooks.sh`
+
 
 
 

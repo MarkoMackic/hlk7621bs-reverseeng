@@ -1,2 +1,5 @@
 unpacked/*
+env.sh
+*.swp
+censor_logs.txt
 
