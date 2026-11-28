@@ -127,6 +127,49 @@ Other questions:
 
 Since AP devices are not exposed, there is no inherent threat for objects, but security here was not first concern obviously.
 
+# day 5
 
+So today I'm going to try to analyze how the image is formed for the display, e.g. transmitter over network.
+
+I've already been fiddling with it and first of a note regarding that. It seems the display is bound to transciver it connects to, so I'll have to monitor
+all serial communication to see how the image is beeing transfered down the line.
+
+I'm working with 2.9'' (black, white, red, yellow capable), with resolution 296x128 px.
+
+I set device to single rectangle, yellow. If we assume resolution, we have 37_888 pixels in total,  which can have 4 colors, so 151552 bits in total to represent that without any compression,
+which is 18994 bytes ( we get only 264 ). 
+
+Than I added an empty textbox which yielded 264 bytes ( but content was not the same ). I have to write those files somehow if I'm gonna reference them, gonna do that today.
+
+But when I added a `.` inside a textbox, content got to be 268 bytes. We can conclude it's packing screen content in some way. 
+
+OK, I've modified zancudo a bit to store publish packets as bin files ( after topic has been decoded ) so I can diff them, can be found on my github (`MarkoMackic/zancudo`).
+
+Also I've modified log storage to not overwrite anything existing for the date ( because I want every run to be available so I can reference it )
+
+OK, so, to further reduce stuff, I'm going to just have some text on the screen ( text12341 ) on the yellow background, and I'm going to alter the last 5 to 1 and back to 5 and so on to see
+what is different in what server sends to me.
+
+I have captured 8 packets of data which we're going to analyze:
+
+```
+1. Packet identifier: 4172cab3-c646-4ba6-bde1-26d961fd906d, dataTotal: 560 - change to 1
+2. Packet identifier: 73172ed2-2b15-45ec-9964-47f93bae2a5a, dataTotal: 564 - change to 5
+3. Packet identifier: 928db118-f90f-4f91-add0-fdd58e427e23, dataTotal: 560 - change to 1
+4. Packet identifier: 2248524a-7c05-4f0d-86e0-98b1606b9c4a, dataTotal: 560 - meta change, same content
+5. Packet identifier: 108a5606-c12f-4365-a7f8-c0df60ca08b9, dataTotal: 564 - change to 5
+6. Packet identifier: 8ebb4bda-3bfe-475a-b9f7-174677291e7a, dataTotal: 560 - change to 1
+7. Packet identifier: 5210f2a7-ede7-4e95-8c94-7c81f104a186, dataTotal: 564 - change to 5
+8. Packet identifier: c19fc70d-8486-4f72-8313-6bde660a0ff7, dataTotal: 560 - change to 1
+```
+
+I have added autocomplete for easier search of those files (`source autocomplete.sh`), should be corrected for absolute path, but it's fine for now.
+
+From 3-4 I have changed some name in template, and not the actual value. 
+
+OK, I'll store diffs to diffs with (xxx_xxx.diff), I'll first b64decode those packets, and
+that is it for today.
+
+The diffs are at `logs/28_11_2026/mqtt_packet_diffs`
 
 

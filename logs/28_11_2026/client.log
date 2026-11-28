@@ -1,0 +1,1418 @@
+2026/11/27 23:06:49 socat-mipsel32-static-debian-squeeze[7259] N using stdout for writing
+2026/11/27 23:06:49 socat-mipsel32-static-debian-squeeze[7259] N forking off child, using pty for reading
+2026/11/27 23:06:49 socat-mipsel32-static-debian-squeeze[7259] N forked off child process 7260
+2026/11/27 23:06:49 socat-mipsel32-static-debian-squeeze[7259] N forked off child process 7260
+2026/11/27 23:06:49 socat-mipsel32-static-debian-squeeze[7259] N starting data transfer loop with FDs [1,1] and [5,5]
+2026/11/27 23:06:49 socat-mipsel32-static-debian-squeeze[7260] N execvp'ing "/mqtt_client_mod_port"
+[0]Log file /tmp/0.log open successfully.
+SW version:1.0.3
+MAC:E4:38:19:13:78:C3
+SN:66AP02526002
+Model:EAP-M4
+OEM Name:EAP-M4
+Work Mode:0
+Power Level:9
+Server addr:192.168.1.17:8883
+*REDACTED*
+*REDACTED*
+wait for load ble firmware
+zkAPEslLoadFirmware
+firmware_download /dev/ttyDEV0 /usr/sbin/hd_slave.bin
+Can't Open Serial Port: No such file or directory
+SetupSerial zgy: Bad file descriptor
+wait for load ble firmware
+Can't Open Serial Port: No such file or directory
+SetupSerial zgy: Bad file descriptor
+wait for load ble firmware
+Can't Open Serial Port: No such file or directory
+SetupSerial zgy: Bad file descriptor
+wait for load ble firmware
+Can't Open Serial Port: No such file or directory
+SetupSerial zgy: Bad file descriptor
+wait for load ble firmware
+Can't Open Serial Port: No such file or directory
+SetupSerial zgy: Bad file descriptor
+wait for load ble firmware
+Can't Open Serial Port: No such file or directory
+SetupSerial zgy: Bad file descriptor
+wait for load ble firmware
+wait for load ble firmware
+wait for load ble firmware
+wait for load ble firmware
+wait for load ble firmware
+-->
+[zkAPGatewaySendBufPush][IN]Head:0,Tail:1,Len:108
+fcntl=0
+fd->open=7
+uartFd[0]:7
+uartFd 7 init 1, speed=1000000 flow_ctrl=0 databits=8 stopbits=1 parity=78
+wait for load ble firmware
+zkAPEslLoadFirmware
+firmware_download /dev/ttyDEV1 /usr/sbin/hd_slave.bin
+wait for load ble firmware
+wait for load ble firmware
+wait for load ble firmware
+wait for load ble firmware
+wait for load ble firmware
+-->
+[zkAPGatewaySendBufPush][IN]Head:0,Tail:2,Len:108
+fcntl=0
+fd->open=9
+uartFd[1]:9
+uartFd 9 init 1, speed=1000000 flow_ctrl=0 databits=8 stopbits=1 parity=78
+wait for load ble firmware
+zkAPEslLoadFirmware
+firmware_download /dev/ttyDEV2 /usr/sbin/hd_slave.bin
+wait for load ble firmware
+wait for load ble firmware
+wait for load ble firmware
+wait for load ble firmware
+wait for load ble firmware
+-->
+[zkAPGatewaySendBufPush][IN]Head:0,Tail:3,Len:108
+fcntl=0
+fd->open=10
+uartFd[2]:10
+uartFd 10 init 1, speed=1000000 flow_ctrl=0 databits=8 stopbits=1 parity=78
+wait for load ble firmware
+zkAPEslLoadFirmware
+firmware_download /dev/ttyDEV3 /usr/sbin/hd_slave.bin
+wait for load ble firmware
+wait for load ble firmware
+wait for load ble firmware
+wait for load ble firmware
+wait for load ble firmware
+-->
+[zkAPGatewaySendBufPush][IN]Head:0,Tail:4,Len:108
+fcntl=0
+fd->open=11
+uartFd[3]:11
+uartFd 11 init 1, speed=1000000 flow_ctrl=0 databits=8 stopbits=1 parity=78
+zkAPGatewayCmdListInit
+[zkAPGatewayFunInit]GatewayFun pthread is starting...
+[zkAPGatewayFunInit]GatewayFun pthread started successfully.
+[23:07:26.099595]topic:RegServer/Join,len:289
+AP joining
+Message published (mid: 1)
+Connected to broker
+[23:07:27.102508]topic:RegServer/Join,len:289
+AP joining
+Message published (mid: 3)
+Received message: 92 from topic: E438191378C3/TopicSet
+[23:07:27.574914]Topic info is null, changed to unsubed stat
+Received message: 520 from topic: E438191378C3/TopicSet
+[23:07:27.579474][0]:TopicType ESLModule
+[1]:TopicType GatewayModule
+[23:07:27.579974][0]:ESL Config Type sleepconfig
+[1]:ESL Config Type period
+AP rollperiod 120
+[3]AdvTypeSet: type=1, timeout=0x78
+[zkAPGatewaySendBufPush][IN]Head:0,Tail:5,Len:109
+Ignore join, current fsm stat:2 
+AP PUB:1722919071/Gateway/E438191378C3
+AP SUB:99999/99999/Gateway/E438191378C3
+ESL PUB:1722919071/ESL/E438191378C3
+ESL SUB:99999/99999/ESL/E438191378C3
+[23:07:28.108841]topic:RegServer/Join,len:97
+[3]Roll intel:0D 0A 0B 00 02 00 09 63 65 04 08 0A 
+[0]Roll:0D 0A 0D 00 02 [1]Roll:0D 0A 0D 00 00 0F 01 64 [2]Roll:0D 0A 0D 00 02 0A 02 E4 00 0F 38 00 19 01 64 13 0F 01 78 0A C3 64 0A 08 E4 0A E4 38 
+19 13 78 C3 08 0A 
+38 19 13 78 C3 08 0A 
+[23:07:28.295743]topic:1722919071/Gateway/E438191378C3,len:145
+[zkAPGatewaySendBufProcess][OUT]Head:0,Tail:5
+[23:07:28.296063]topic:1722919071/Gateway/E438191378C3,len:145
+[zkAPGatewaySendBufProcess][OUT]Head:1,Tail:5
+[23:07:28.296223]topic:1722919071/Gateway/E438191378C3,len:145
+[zkAPGatewaySendBufProcess][OUT]Head:2,Tail:5
+Message published (mid: 8)
+Message published (mid: 9)
+[23:07:28.296463]topic:1722919071/Gateway/E438191378C3,len:145
+Message published (mid: 10)
+[zkAPGatewaySendBufProcess][OUT]Head:3,Tail:5
+Message published (mid: 11)
+[23:07:28.296623]topic:1722919071/Gateway/E438191378C3,len:149
+Message published (mid: 12)
+[zkAPGatewaySendBufProcess][OUT]Head:4,Tail:5
+[zkAPGatewaySendBufProcess][OUT]Head:5,Tail:5,Send 5 packet
+Message published (mid: 7)
+[23:07:48.560305][0]Client[CE010F008D65] log on
+[0]Uncomplete packet,need len:128
+[zkAPSendBufPush][IN]Head:0,Tail:1,Len:124
+[23:07:48.750268]topic:1722919071/ESL/E438191378C3,len:169
+[23:07:48.750488][zkAPSendBufProcess][OUT]Head:1,Tail:1,Send 1 packet
+Message published (mid: 13)
+Received message: 32 from topic: 99999/99999/ESL/E438191378C3
+[23:07:49.110132]receive packet:
+01 CE 01 0F 00 8D 65 00 00 00 /r/n[CE010F008D65]Try Fast,len:24
+[23:07:49.111092][0]Send 31 DATA
+[0]Uncomplete packet,need len:34
+[23:07:49.304295][0]Recv ACK, SN:a1, error code:0
+[0]No need free
+[zkAPSendBufPush][IN]Head:1,Tail:2,Len:30
+[23:07:49.305275]topic:1722919071/ESL/E438191378C3,len:41
+[23:07:49.305455][zkAPSendBufProcess][OUT]Head:2,Tail:2,Send 1 packet
+Message published (mid: 14)
+[23:07:49.343275][0]Client[CE010F008D65] log off,reason:166 
+[0]Roll:0D 0A 0D 00 02 00 0F 01 64 0A E4 38 19 13 78 C3 08 0A 
+ap_daemon_thread: last=1795820875 cur=1795820875
+[23:08:11.974268][0]Client[CE010F008BB2] log on
+[0]Uncomplete packet,need len:128
+[zkAPSendBufPush][IN]Head:2,Tail:3,Len:124
+[23:08:12.500374]topic:1722919071/ESL/E438191378C3,len:169
+[23:08:12.500554][zkAPSendBufProcess][OUT]Head:3,Tail:3,Send 1 packet
+Message published (mid: 15)
+Received message: 32 from topic: 99999/99999/ESL/E438191378C3
+[23:08:12.709657]receive packet:
+01 CE 01 0F 00 8B B2 00 00 00 /r/n[CE010F008BB2]Try Fast,len:24
+[23:08:12.709857][0]Send 31 DATA
+[23:08:12.798258][0]Recv ACK, SN:a2, error code:0
+[0]No need free
+[zkAPSendBufPush][IN]Head:3,Tail:4,Len:30
+[23:08:12.800318]topic:1722919071/ESL/E438191378C3,len:41
+[23:08:12.800518][zkAPSendBufProcess][OUT]Head:4,Tail:4,Send 1 packet
+Message published (mid: 16)
+[23:08:12.858259][0]Client[CE010F008BB2] log off,reason:166 
+[0]Roll:0D 0A 0D 00 02 00 0F 01 64 0A E4 38 19 13 78 C3 08 0A 
+[23:08:20.444277][2]Client[CE010F008888] log on
+[23:08:20.546298][2]Client[CE010F008888] log off,reason:206 
+[2]Roll:0D 0A 0D 00 02 00 0F 01 64 0A E4 38 19 13 78 C3 08 0A 
+ap_daemon_thread: last=1795820905 cur=1795820905
+[23:08:26.541236][1]Client[CE010F008BAD] log on
+[23:08:26.641257][1]Client[CE010F008BAD] log off,reason:206 
+[1]Roll:0D 0A 0D 00 02 00 0F 01 64 0A E4 38 19 13 78 C3 08 0A 
+[23:08:30.687249][1]Client[CE010F008969] log on
+[23:08:30.791271][1]Client[CE010F008969] log off,reason:206 
+[1]Roll:0D 0A 0D 00 02 00 0F 01 64 0A E4 38 19 13 78 C3 08 0A 
+[23:08:31.145275][1]Client[CE010F008969] log on
+[23:08:31.944266][0]Client[CE010F008AC4] log on
+[0]Uncomplete packet,need len:128
+[zkAPSendBufPush][IN]Head:4,Tail:5,Len:124
+[23:08:32.082287]topic:1722919071/ESL/E438191378C3,len:169
+[23:08:32.082507][zkAPSendBufProcess][OUT]Head:5,Tail:5,Send 1 packet
+Message published (mid: 17)
+[23:08:32.143248][1]Client[CE010F008969] log off,reason:152 
+[1]Roll:0D 0A 0D 00 02 00 0F 01 64 0A E4 38 19 13 78 C3 08 0A 
+Received message: 32 from topic: 99999/99999/ESL/E438191378C3
+[23:08:32.328851]receive packet:
+01 CE 01 0F 00 8A C4 00 00 00 /r/n[CE010F008AC4]Try Fast,len:24
+[23:08:32.329051][0]Send 31 DATA
+[23:08:32.358311][0]Recv ACK, SN:9e, error code:0
+[0]No need free
+[zkAPSendBufPush][IN]Head:5,Tail:6,Len:30
+[23:08:32.360311]topic:1722919071/ESL/E438191378C3,len:41
+[23:08:32.360491][zkAPSendBufProcess][OUT]Head:6,Tail:6,Send 1 packet
+Message published (mid: 18)
+[23:08:32.398311][0]Client[CE010F008AC4] log off,reason:166 
+[0]Roll:0D 0A 0D 00 02 00 0F 01 64 0A E4 38 19 13 78 C3 08 0A 
+[23:08:32.960339][0]Client[CE010F008B66] log on
+[0]Uncomplete packet,need len:128
+[zkAPSendBufPush][IN]Head:6,Tail:7,Len:124
+[23:08:34.926264]topic:1722919071/ESL/E438191378C3,len:169
+[23:08:34.926484][zkAPSendBufProcess][OUT]Head:7,Tail:7,Send 1 packet
+Message published (mid: 19)
+Received message: 32 from topic: 99999/99999/ESL/E438191378C3
+[23:08:35.296629]receive packet:
+01 CE 01 0F 00 8B 66 00 00 00 /r/n[CE010F008B66]Try Fast,len:24
+[23:08:35.296889][0]Send 31 DATA
+[23:08:35.522332][0]Recv ACK, SN:9c, error code:0
+[0]No need free
+[zkAPSendBufPush][IN]Head:7,Tail:8,Len:30
+[23:08:35.524312]topic:1722919071/ESL/E438191378C3,len:41
+[23:08:35.524532][zkAPSendBufProcess][OUT]Head:8,Tail:8,Send 1 packet
+Message published (mid: 20)
+[23:08:35.582313][0]Client[CE010F008B66] log off,reason:178 
+[0]Roll:0D 0A 0D 00 02 00 0F 01 64 0A E4 38 19 13 78 C3 08 0A 
+[23:08:36.119260][1]Client[CE010F008B00] log on
+[23:08:36.225281][1]Client[CE010F008B00] log off,reason:206 
+[1]Roll:0D 0A 0D 00 02 00 0F 01 64 0A E4 38 19 13 78 C3 08 0A 
+ap_daemon_thread: last=1795820935 cur=1795820935
+Received message: 560 from topic: 99999/99999/ESL/E438191378C3
+[23:09:00.379813]receive packet:
+01 CE 01 0F 00 8D 6A 00 00 01 /r/n[CE010F008D6A]Try Fast,len:419
+[A2E]Insert a new buf,buf size:426,fsmIdx:0
+[1]Roll:0D 0A 0B 00 02 00 09 E0 03 04 8D 6A 
+[3]Roll intel:0D 0A 0B 00 02 00 09 63 65 04 08 0A 
+[0]Roll:0D 0A 0B 00 02 00 09 E0 03 04 8D 6A 
+[2]Roll:0D 0A 0B 00 02 00 09 E0 03 04 8D 6A 
+[23:09:09.795274][0]Client[CE010F008D6A] log on
+[0]Uncomplete packet,need len:128
+[zkAPSendBufPush][IN]Head:8,Tail:9,Len:124
+[23:09:09.914236]topic:1722919071/ESL/E438191378C3,len:169
+[23:09:09.914276][0]Send 426 DATA
+[23:09:09.914516][zkAPSendBufProcess][OUT]Head:9,Tail:9,Send 1 packet
+Message published (mid: 21)
+[0][zkAPEslA2EBufPopSend]SN:136,len:426
+[23:09:10.070298][0]Recv ACK, SN:136, error code:0
+[zkAPSendBufPush][IN]Head:9,Tail:10,Len:30
+[2]Roll:0D 0A [3]Roll intel:0D 0A 0B 00 02 00 09 63 65 04 08 0A 
+[1]Roll:0D 00 02 00 0F 01 64 0A E4 38 19 13 78 C3 08 0A 
+0D 0A 0D 00 02 00 0F 01 64 0A E4 38 19 13 78 C3 08 0A 
+[23:09:10.122379][0]Client[CE010F008D6A] log off,reason:166 
+[0]Roll:0D 0A 0D 00 02 00 0F 01 64 0A E4 38 19 13 78 C3 08 0A 
+Received message: 32 from topic: 99999/99999/ESL/E438191378C3
+[23:09:10.142299]receive packet:
+01 CE 01 0F 00 8D 6A 00 00 01 /r/n[CE010F008D6A]Try Fast,len:24
+[A2E]Insert a new buf,buf size:31,fsmIdx:0
+[3]Roll intel:0D 0A 0B 00 02 00 09 63 65 04 08 0A 
+[1]Roll:0D 0A 0B 00 02 00 09 E0 03 04 8D 6A 
+[2]Roll:0D 0A 0B 00 02 00 09 E0 03 04 8D 6A 
+[0]Roll:0D 0A 0B 00 02 00 09 E0 03 04 8D 6A 
+[23:09:10.214820]topic:1722919071/ESL/E438191378C3,len:41
+[23:09:10.215080][zkAPSendBufProcess][OUT]Head:10,Tail:10,Send 1 packet
+Message published (mid: 22)
+ap_daemon_thread: last=1795820965 cur=1795820965
+[3]Roll:0D [0]Roll:0D 0A 0B 0A [2]Roll:0B 00 02 00 02 00 09 E0 03 04 8D 6A 
+0D 0A 0B 00 02 00 09 E0 03 04 8D 6A 
+00 09 E0 03 04 8D 6A 
+[1]Roll:0D 0A 0B 00 02 00 09 E0 03 04 8D 6A 
+[23:09:33.702303][3]Client[CE010F008A01] log on
+[3]Uncomplete packet,need len:128
+[zkAPSendBufPush][IN]Head:10,Tail:11,Len:124
+[23:09:34.793237]topic:1722919071/ESL/E438191378C3,len:169
+[23:09:34.793457][zkAPSendBufProcess][OUT]Head:11,Tail:11,Send 1 packet
+Message published (mid: 23)
+Received message: 32 from topic: 99999/99999/ESL/E438191378C3
+[23:09:35.195462]receive packet:
+01 CE 01 0F 00 8A 01 00 00 00 /r/n[CE010F008A01]Try Fast,len:24
+[23:09:35.195642][3]Send 31 DATA
+[23:09:35.330264][3]Recv ACK, SN:a1, error code:0
+[3]No need free
+[zkAPSendBufPush][IN]Head:11,Tail:12,Len:30
+[23:09:35.331264]topic:1722919071/ESL/E438191378C3,len:41
+[23:09:35.331444][zkAPSendBufProcess][OUT]Head:12,Tail:12,Send 1 packet
+Message published (mid: 24)
+[23:09:35.396245][3]Client[CE010F008A01] log off,reason:178 
+[3]Roll:0D 0A 0B 00 02 00 09 E0 03 04 8D 6A 
+[23:09:41.710287][3]Client[CE010F008D6A] log on
+[3]Uncomplete packet,need len:118
+[zkAPSendBufPush][IN]Head:12,Tail:13,Len:114
+[23:09:41.833248]topic:1722919071/ESL/E438191378C3,len:153
+[23:09:41.833468][zkAPSendBufProcess][OUT]Head:13,Tail:13,Send 1 packet
+Message published (mid: 25)
+[23:09:41.834268][3]Send 31 DATA
+[3][zkAPEslA2EBufPopSend]SN:137,len:31
+[23:09:41.870329][3]Recv ACK, SN:137, error code:0
+[zkAPSendBufPush][IN]Head:13,Tail:14,Len:30
+[1]Roll:0D 0A 0D 00 02 00 0F 01 64 0A E4 38 19 13 78 C3 08 0A 
+[2]Roll:0D 0A 0D 00 02 00 0F 01 64 0A E4 38 19 13 78 C3 08 0A 
+[0]Roll:0D 0A 0D 00 02 00 0F 01 64 0A E4 38 19 13 78 C3 08 0A 
+[23:09:41.919329][3]Client[CE010F008D6A] log off,reason:166 
+[3]Roll:0D 0A 0D 00 02 00 0F 65 00 0A E4 38 19 13 78 C3 08 0A 
+[23:09:42.010510]topic:1722919071/ESL/E438191378C3,len:41
+[23:09:42.010770][zkAPSendBufProcess][OUT]Head:14,Tail:14,Send 1 packet
+Message published (mid: 26)
+[23:09:53.805303][2]Client[CE010F008BCA] log on
+ap_daemon_thread: last=1795820995 cur=1795820995
+[23:09:55.335343][2]Client[CE010F008BCA] log off,reason:152 
+[2]Roll:0D 0A 0D 00 02 00 0F 01 64 0A E4 38 19 13 78 C3 08 0A 
+[23:09:56.311315][2]Client[CE010F008BCA] log on
+[23:09:56.417277][2]Client[CE010F008BCA] log off,reason:206 
+[2]Roll:0D 0A 0D 00 02 00 0F 01 64 0A E4 38 19 13 78 C3 08 0A 
+[23:10:14.010244][1]Client[CE010F008969] log on
+[23:10:14.129245][1]Client[CE010F008969] log off,reason:206 
+[1]Roll:0D 0A 0D 00 02 00 0F 01 64 0A E4 38 19 13 78 C3 08 0A 
+[23:10:14.181306][3]Client[CE010F008D88] log on
+[23:10:14.290267][3]Client[CE010F008D88] log off,reason:206 
+[3]Roll:0D 0A 0D 00 02 00 0F 65 00 0A E4 38 19 13 78 C3 08 0A 
+ap_daemon_thread: last=1795821025 cur=1795821025
+[23:10:25.693315][2]Client[CE010F008882] log on
+[23:10:25.812276][2]Client[CE010F008882] log off,reason:206 
+[2]Roll:0D 0A 0D 00 02 00 0F 01 64 0A E4 38 19 13 78 C3 08 0A 
+[23:10:28.680273][1]Client[CE010F00885C] log on
+[23:10:28.784294][1]Client[CE010F00885C] log off,reason:206 
+[1]Roll:0D 0A 0D 00 02 00 0F 01 64 0A E4 38 19 13 78 C3 08 0A 
+[23:10:37.533287][2]Client[CE010F008D74] log on
+[23:10:38.761263][2]Client[CE010F008D74] log off,reason:152 
+[2]Roll:0D 0A 0D 00 02 00 0F 01 64 0A E4 38 19 13 78 C3 08 0A 
+[23:10:38.765303][2]Client[CE010F008BAD] log on
+[zkAPSendBufPush][IN]Head:14,Tail:15,Len:124
+[23:10:39.171249]topic:1722919071/ESL/E438191378C3,len:169
+[23:10:39.171469][zkAPSendBufProcess][OUT]Head:15,Tail:15,Send 1 packet
+Message published (mid: 27)
+Received message: 32 from topic: 99999/99999/ESL/E438191378C3
+[23:10:39.399831]receive packet:
+01 CE 01 0F 00 8B AD 00 00 00 /r/n[CE010F008BAD]Try Fast,len:24
+[23:10:39.400031][2]Send 31 DATA
+[2]Uncomplete packet,need len:34
+[23:10:39.449272][2]Recv ACK, SN:9f, error code:0
+[2]No need free
+[zkAPSendBufPush][IN]Head:15,Tail:16,Len:30
+[23:10:39.451272]topic:1722919071/ESL/E438191378C3,len:41
+[23:10:39.451472][zkAPSendBufProcess][OUT]Head:16,Tail:16,Send 1 packet
+Message published (mid: 28)
+[23:10:39.511293][2]Client[CE010F008BAD] log off,reason:178 
+[2]Roll:0D 0A 0D 00 02 00 0F 01 64 0A E4 38 19 13 78 C3 08 0A 
+[23:10:39.791277][2]Client[CE010F008D74] log on
+[2]Uncomplete packet,need len:128
+[zkAPSendBufPush][IN]Head:16,Tail:17,Len:124
+[23:10:41.403237]topic:1722919071/ESL/E438191378C3,len:169
+[23:10:41.403457][zkAPSendBufProcess][OUT]Head:17,Tail:17,Send 1 packet
+Message published (mid: 29)
+Received message: 32 from topic: 99999/99999/ESL/E438191378C3
+[23:10:41.757262]receive packet:
+01 CE 01 0F 00 8D 74 00 00 00 /r/n[CE010F008D74]Try Fast,len:24
+[23:10:41.757462][2]Send 31 DATA
+[23:10:41.879263][2]Recv ACK, SN:a4, error code:0
+[2]No need free
+[zkAPSendBufPush][IN]Head:17,Tail:18,Len:30
+[23:10:41.881284]topic:1722919071/ESL/E438191378C3,len:41
+[23:10:41.881484][zkAPSendBufProcess][OUT]Head:18,Tail:18,Send 1 packet
+Message published (mid: 30)
+[23:10:41.941284][2]Client[CE010F008D74] log off,reason:178 
+[2]Roll:0D 0A 0D 00 02 00 0F 01 64 0A E4 38 19 13 78 C3 08 0A 
+[23:10:43.984311][1]Client[CE010F008AF1] log on
+[23:10:44.834262][0]Client[CE010F008888] log on
+[23:10:44.944263][0]Client[CE010F008888] log off,reason:206 
+[0]Roll:0D 0A 0D 00 02 00 0F 01 64 0A E4 38 19 13 78 C3 08 0A 
+[23:10:45.010364][0]Client[CE010F008888] log on
+[23:10:45.204266][1]Client[CE010F008AF1] log off,reason:152 
+[1]Roll:0D 0A 0D 00 02 00 0F 01 64 0A E4 38 19 13 78 C3 08 0A 
+[23:10:46.008297][0]Client[CE010F008888] log off,reason:152 
+[0]Roll:0D 0A 0D 00 02 00 0F 01 64 0A E4 38 19 13 78 C3 08 0A 
+[23:10:46.978269][0]Client[CE010F008888] log on
+[23:10:47.082291][0]Client[CE010F008888] log off,reason:206 
+[0]Roll:0D 0A 0D 00 02 00 0F 01 64 0A E4 38 19 13 78 C3 08 0A 
+[23:10:48.539269][2]Client[CE010F008BA8] log on
+[23:10:50.203291][2]Client[CE010F008BA8] log off,reason:152 
+[2]Roll:0D 0A 0D 00 02 00 0F 01 64 0A E4 38 19 13 78 C3 08 0A 
+[23:10:50.608236][1]Client[CE010F008B76] log on
+[23:10:51.229264][2]Client[CE010F008BA8] log on
+[23:10:51.606249][1]Client[CE010F008B76] log off,reason:152 
+[1]Roll:0D 0A 0D 00 02 00 0F 01 64 0A E4 38 19 13 78 C3 08 0A 
+[23:10:52.470260][1]Client[CE010F008B76] log on
+[2]Uncomplete packet,need len:128
+[zkAPSendBufPush][IN]Head:18,Tail:19,Len:124
+[23:10:52.547261]topic:1722919071/ESL/E438191378C3,len:169
+[23:10:52.547461][zkAPSendBufProcess][OUT]Head:19,Tail:19,Send 1 packet
+Message published (mid: 31)
+[23:10:52.584282][1]Client[CE010F008B76] log off,reason:206 
+[1]Roll:0D 0A 0D 00 02 00 0F 01 64 0A E4 38 19 13 78 C3 08 0A 
+[23:10:52.600322][1]Client[CE010F008B76] log on
+Received message: 32 from topic: 99999/99999/ESL/E438191378C3
+[23:10:52.815645]receive packet:
+01 CE 01 0F 00 8B A8 00 00 00 /r/n[CE010F008BA8]Try Fast,len:24
+[23:10:52.815825][2]Send 31 DATA
+[23:10:53.598315][1]Client[CE010F008B76] log off,reason:152 
+[1]Roll:0D 0A 0D 00 02 00 0F 01 64 0A E4 38 19 13 78 C3 08 0A 
+[23:10:53.621315][2]Recv ACK, SN:9e, error code:0
+[2]No need free
+[zkAPSendBufPush][IN]Head:19,Tail:20,Len:30
+[23:10:53.623295]topic:1722919071/ESL/E438191378C3,len:41
+[23:10:53.623495][zkAPSendBufProcess][OUT]Head:20,Tail:20,Send 1 packet
+Message published (mid: 32)
+[23:10:53.681276][2]Client[CE010F008BA8] log off,reason:178 
+[2]Roll:0D 0A 0D 00 02 00 0F 01 64 0A E4 38 19 13 78 C3 08 0A 
+ap_daemon_thread: last=1795821055 cur=1795821055
+[23:11:05.311306][3]Client[CE010F008969] log on
+[23:11:05.427287][3]Client[CE010F008969] log off,reason:206 
+[3]Roll:0D 0A 0D 00 02 00 0F 65 00 0A E4 38 19 13 78 C3 08 0A 
+[23:11:06.907287][2]Client[CE010F008924] log on
+[2]Uncomplete packet,need len:128
+[zkAPSendBufPush][IN]Head:20,Tail:21,Len:124
+[23:11:07.031288]topic:1722919071/ESL/E438191378C3,len:169
+[23:11:07.031508][zkAPSendBufProcess][OUT]Head:21,Tail:21,Send 1 packet
+Message published (mid: 33)
+Received message: 32 from topic: 99999/99999/ESL/E438191378C3
+[23:11:07.238491]receive packet:
+01 CE 01 0F 00 89 24 00 00 00 /r/n[CE010F008924]Try Fast,len:24
+[23:11:07.238691][2]Send 31 DATA
+[2]Uncomplete packet,need len:34
+[23:11:07.327272][2]Recv ACK, SN:a4, error code:0
+[2]No need free
+[zkAPSendBufPush][IN]Head:21,Tail:22,Len:30
+[23:11:07.329312]topic:1722919071/ESL/E438191378C3,len:41
+[23:11:07.329532][zkAPSendBufProcess][OUT]Head:22,Tail:22,Send 1 packet
+Message published (mid: 34)
+[23:11:07.391313][2]Client[CE010F008924] log off,reason:178 
+[2]Roll:0D 0A 0D 00 02 00 0F 01 64 0A E4 38 19 13 78 C3 08 0A 
+ap_daemon_thread: last=1795821085 cur=1795821085
+[23:11:36.130320][1]Client[CE010F008B4F] log on
+[23:11:36.240262][0]Client[CE010F008AF1] log on
+[1]Uncomplete packet,need len:128
+[zkAPSendBufPush][IN]Head:22,Tail:23,Len:124
+[23:11:37.187295]topic:1722919071/ESL/E438191378C3,len:169
+[23:11:37.187495][zkAPSendBufProcess][OUT]Head:23,Tail:23,Send 1 packet
+Message published (mid: 35)
+Received message: 32 from topic: 99999/99999/ESL/E438191378C3
+[23:11:37.411098]receive packet:
+01 CE 01 0F 00 8B 4F 00 00 00 /r/n[CE010F008B4F]Try Fast,len:24
+[23:11:37.411378][1]Send 31 DATA
+[23:11:37.424278][0]Client[CE010F008AF1] log off,reason:152 
+[0]Roll:0D 0A 0D 00 02 00 0F 01 64 0A E4 38 19 13 78 C3 08 0A 
+[23:11:37.684261][1]Recv ACK, SN:9d, error code:0
+[1]No need free
+[zkAPSendBufPush][IN]Head:23,Tail:24,Len:30
+[23:11:37.686241]topic:1722919071/ESL/E438191378C3,len:41
+[23:11:37.686461][zkAPSendBufProcess][OUT]Head:24,Tail:24,Send 1 packet
+Message published (mid: 36)
+[23:11:37.742282][1]Client[CE010F008B4F] log off,reason:178 
+[1]Roll:0D 0A 0D 00 02 00 0F 01 64 0A E4 38 19 13 78 C3 08 0A 
+[23:11:38.533273][0]Client[CE010F008AF1] log on
+[23:11:40.624281][0]Client[CE010F008AF1] log off,reason:152 
+[23:11:40.624501][0]Client[CE010F00899E] log on
+[0]Uncomplete packet,need len:128
+[zkAPSendBufPush][IN]Head:24,Tail:25,Len:124
+[23:11:40.627321]topic:1722919071/ESL/E438191378C3,len:169
+[23:11:40.627521][zkAPSendBufProcess][OUT]Head:25,Tail:25,Send 1 packet
+Message published (mid: 37)
+Received message: 32 from topic: 99999/99999/ESL/E438191378C3
+[23:11:41.044787]receive packet:
+01 CE 01 0F 00 89 9E 00 00 00 /r/n[CE010F00899E]Try Fast,len:24
+[23:11:41.044987][0]Send 31 DATA
+[0]Uncomplete packet,need len:34
+[23:11:41.103248][0]Recv ACK, SN:9e, error code:0
+[0]No need free
+[zkAPSendBufPush][IN]Head:25,Tail:26,Len:30
+[23:11:41.104248]topic:1722919071/ESL/E438191378C3,len:41
+[23:11:41.104448][zkAPSendBufProcess][OUT]Head:26,Tail:26,Send 1 packet
+Message published (mid: 38)
+[23:11:41.162269][0]Client[CE010F00899E] log off,reason:166 
+[0]Roll:0D 0A 0D 00 02 00 0F 01 64 0A E4 38 19 13 78 C3 08 0A 
+ap_daemon_thread: last=1795821115 cur=1795821115
+[23:11:57.144287][0]Client[CE010F008882] log on
+[23:11:57.248308][0]Client[CE010F008882] log off,reason:206 
+[0]Roll:0D 0A 0D 00 02 00 0F 01 64 0A E4 38 19 13 78 C3 08 0A 
+[23:11:57.324289][0]Client[CE010F008882] log on
+[23:11:59.006292][0]Client[CE010F008882] log off,reason:152 
+[0]Roll:0D 0A 0D 00 02 00 0F 01 64 0A E4 38 19 13 78 C3 08 0A 
+[23:12:05.012274][0]Client[CE010F008B46] log on
+[23:12:05.118275][0]Client[CE010F008B46] log off,reason:206 
+[0]Roll:0D 0A 0D 00 02 00 0F 01 64 0A E4 38 19 13 78 C3 08 0A 
+[23:12:16.085245][2]Client[CE010F008969] log on
+[23:12:17.985291][2]Client[CE010F008969] log off,reason:152 
+[2]Roll:0D 0A 0D 00 02 00 0F 01 64 0A E4 38 19 13 78 C3 08 0A 
+[23:12:18.945284][2]Client[CE010F008969] log on
+[23:12:20.325263][2]Client[CE010F008969] log off,reason:152 
+[2]Roll:0D 0A 0D 00 02 00 0F 01 64 0A E4 38 19 13 78 C3 08 0A 
+ap_daemon_thread: last=1795821145 cur=1795821145
+[23:12:25.846278][3]Client[CE010F008D88] log on
+[23:12:25.954260][3]Client[CE010F008D88] log off,reason:206 
+[3]Roll:0D 0A 0D 00 02 00 0F 65 00 0A E4 38 19 13 78 C3 08 0A 
+[23:12:25.986280][3]Client[CE010F008D88] log on
+[23:12:26.094281][3]Client[CE010F008D88] log off,reason:206 
+[3]Roll:0D 0A 0D 00 02 00 0F 65 00 0A E4 38 19 13 78 C3 08 0A 
+[23:12:26.110282][3]Client[CE010F008D88] log on
+[23:12:27.112295][3]Client[CE010F008D88] log off,reason:152 
+[3]Roll:0D 0A 0D 00 02 00 0F 65 00 0A E4 38 19 13 78 C3 08 0A 
+[23:12:52.436300][2]Client[CE010F008AF1] log on
+[23:12:53.561276][2]Client[CE010F008AF1] log off,reason:152 
+[2]Roll:0D 0A 0D 00 02 00 0F 01 64 0A E4 38 19 13 78 C3 08 0A 
+[23:12:54.382267][2]Client[CE010F008AF1] log on
+ap_daemon_thread: last=1795821175 cur=1795821175
+[23:12:55.381261][2]Client[CE010F008AF1] log off,reason:152 
+[2]Roll:0D 0A 0D 00 02 00 0F 01 64 0A E4 38 19 13 78 C3 08 0A 
+[23:12:55.688285][3]Client[CE010F008B46] log on
+[23:12:56.797280][3]Client[CE010F008B46] log off,reason:152 
+[3]Roll:0D 0A 0D 00 02 00 0F 65 00 0A E4 38 19 13 78 C3 08 0A 
+[23:12:57.796274][3]Client[CE010F008B46] log on
+[23:12:58.536304][0]Client[CE010F008888] log on
+[23:12:58.640285][0]Client[CE010F008888] log off,reason:206 
+[0]Roll:0D 0A 0D 00 02 00 0F 01 64 0A E4 38 19 13 78 C3 08 0A 
+[23:12:58.794307][3]Client[CE010F008B46] log off,reason:152 
+[3]Roll:0D 0A 0D 00 02 00 0F 65 00 0A E4 38 19 13 78 C3 08 0A 
+[23:12:59.720240][3]Client[CE010F008B46] log on
+[23:12:59.838241][3]Client[CE010F008B46] log off,reason:206 
+[3]Roll:0D 0A 0D 00 02 00 0F 65 00 0A E4 38 19 13 78 C3 08 0A 
+ap_daemon_thread: last=1795821205 cur=1795821205
+[23:13:31.673275][1]Client[CE010F008969] log on
+[23:13:32.671289][1]Client[CE010F008969] log off,reason:152 
+[1]Roll:0D 0A 0D 00 02 00 0F 01 64 0A E4 38 19 13 78 C3 08 0A 
+[23:13:44.940256][0]Client[CE010F008AF1] log on
+[23:13:45.044297][0]Client[CE010F008AF1] log off,reason:206 
+[0]Roll:0D 0A 0D 00 02 00 0F 01 64 0A E4 38 19 13 78 C3 08 0A 
+[23:13:45.280300][0]Client[CE010F008AF1] log on
+[23:13:46.278254][0]Client[CE010F008AF1] log off,reason:152 
+[0]Roll:0D 0A 0D 00 02 00 0F 01 64 0A E4 38 19 13 78 C3 08 0A 
+[23:13:49.436297][1]Client[CE010F008BCA] log on
+[23:13:49.547298][1]Client[CE010F008BCA] log off,reason:206 
+[1]Roll:0D 0A 0D 00 02 00 0F 01 64 0A E4 38 19 13 78 C3 08 0A 
+[23:13:49.730281][1]Client[CE010F008BCA] log on
+[23:13:49.847282][1]Client[CE010F008BCA] log off,reason:206 
+[1]Roll:0D 0A 0D 00 02 00 0F 01 64 0A E4 38 19 13 78 C3 08 0A 
+[23:13:50.096286][2]Client[CE010F008B46] log on
+[23:13:51.578266][2]Client[CE010F008B46] log off,reason:152 
+[2]Roll:0D 0A 0D 00 02 00 0F 01 64 0A E4 38 19 13 78 C3 08 0A 
+[23:13:52.580300][2]Client[CE010F008B46] log on
+[23:13:52.697321][2]Client[CE010F008B46] log off,reason:206 
+[2]Roll:0D 0A 0D 00 02 00 0F 01 64 0A E4 38 19 13 78 C3 08 0A 
+[23:13:52.811283][2]Client[CE010F008B46] log on
+[23:13:54.097280][2]Client[CE010F008B46] log off,reason:152 
+[2]Roll:0D 0A 0D 00 02 00 0F 01 64 0A E4 38 19 13 78 C3 08 0A 
+ap_daemon_thread: last=1795821235 cur=1795821235
+[23:13:55.114314][2]Client[CE010F008B46] log on
+[23:13:56.935259][2]Client[CE010F008B46] log off,reason:152 
+[2]Roll:0D 0A 0D 00 02 00 0F 01 64 0A E4 38 19 13 78 C3 08 0A 
+[23:14:22.203263][2]Client[CE010F00885C] log on
+[2]Uncomplete packet,need len:128
+[zkAPSendBufPush][IN]Head:26,Tail:27,Len:124
+[23:14:23.200276]topic:1722919071/ESL/E438191378C3,len:169
+[23:14:23.200496][zkAPSendBufProcess][OUT]Head:27,Tail:27,Send 1 packet
+Message published (mid: 39)
+Received message: 32 from topic: 99999/99999/ESL/E438191378C3
+[23:14:23.559561]receive packet:
+01 CE 01 0F 00 88 5C 00 00 00 /r/n[CE010F00885C]Try Fast,len:24
+[23:14:23.559761][2]Send 31 DATA
+[23:14:24.675236][2]Recv ACK, SN:9e, error code:0
+[2]No need free
+[zkAPSendBufPush][IN]Head:27,Tail:28,Len:30
+[23:14:24.676276]topic:1722919071/ESL/E438191378C3,len:41
+[23:14:24.676456][zkAPSendBufProcess][OUT]Head:28,Tail:28,Send 1 packet
+Message published (mid: 40)
+[23:14:24.731257][2]Client[CE010F00885C] log off,reason:178 
+[2]Roll:0D 0A 0D 00 02 00 0F 01 64 0A E4 38 19 13 78 C3 08 0A 
+ap_daemon_thread: last=1795821265 cur=1795821265
+[23:14:36.125292][1]Client[CE010F008AF1] log on
+[23:14:37.123266][1]Client[CE010F008AF1] log off,reason:152 
+[1]Roll:0D 0A 0D 00 02 00 0F 01 64 0A E4 38 19 13 78 C3 08 0A 
+[23:14:38.099299][1]Client[CE010F008AF1] log on
+[23:14:39.097313][1]Client[CE010F008AF1] log off,reason:152 
+[1]Roll:0D 0A 0D 00 02 00 0F 01 64 0A E4 38 19 13 78 C3 08 0A 
+[23:14:39.874263][0]Client[CE010F008888] log on
+[23:14:39.969344][1]Client[CE010F008AF1] log on
+[23:14:39.976285][0]Client[CE010F008888] log off,reason:206 
+[0]Roll:0D 0A 0D 00 02 00 0F 01 64 0A E4 38 19 13 78 C3 08 0A 
+[23:14:40.983278][1]Client[CE010F008AF1] log off,reason:152 
+[1]Roll:0D 0A 0D 00 02 00 0F 01 64 0A E4 38 19 13 78 C3 08 0A 
+[23:14:48.189256][3]Client[CE010F008B46] log on
+[23:14:49.187270][3]Client[CE010F008B46] log off,reason:152 
+[3]Roll:0D 0A 0D 00 02 00 0F 65 00 0A E4 38 19 13 78 C3 08 0A 
+[23:14:50.079382][3]Client[CE010F008B46] log on
+[23:14:50.197284][3]Client[CE010F008B46] log off,reason:206 
+[3]Roll:0D 0A 0D 00 02 00 0F 65 00 0A E4 38 19 13 78 C3 08 0A 
+[23:14:50.249284][3]Client[CE010F008B46] log on
+[23:14:50.315265][1]Client[CE010F008BCA] log on
+[23:14:50.429267][1]Client[CE010F008BCA] log off,reason:206 
+[1]Roll:0D 0A 0D 00 02 00 0F 01 64 0A E4 38 19 13 78 C3 08 0A 
+[23:14:51.955307][3]Client[CE010F008B46] log off,reason:152 
+[3]Roll:0D 0A 0D 00 02 00 0F 65 00 0A E4 38 19 13 78 C3 08 0A 
+[23:14:53.441308][3]Client[CE010F008882] log on
+[23:14:53.557289][3]Client[CE010F008882] log off,reason:206 
+[3]Roll:0D 0A 0D 00 02 00 0F 65 00 0A E4 38 19 13 78 C3 08 0A 
+[23:14:53.691331][3]Client[CE010F008882] log on
+[23:14:53.797293][3]Client[CE010F008882] log off,reason:206 
+[3]Roll:0D 0A 0D 00 02 00 0F 65 00 0A E4 38 19 13 78 C3 08 0A 
+ap_daemon_thread: last=1795821295 cur=1795821295
+[23:15:05.698294][0]Client[CE010F008918] log on
+[zkAPSendBufPush][IN]Head:28,Tail:29,Len:124
+[23:15:06.106260]topic:1722919071/ESL/E438191378C3,len:169
+[23:15:06.106480][zkAPSendBufProcess][OUT]Head:29,Tail:29,Send 1 packet
+Message published (mid: 41)
+Received message: 32 from topic: 99999/99999/ESL/E438191378C3
+[23:15:06.460085]receive packet:
+01 CE 01 0F 00 89 18 00 00 00 /r/n[CE010F008918]Try Fast,len:24
+[23:15:06.460305][0]Send 31 DATA
+[23:15:06.585246][0]Recv ACK, SN:a4, error code:0
+[0]No need free
+[zkAPSendBufPush][IN]Head:29,Tail:30,Len:30
+[23:15:06.588286]topic:1722919071/ESL/E438191378C3,len:41
+[23:15:06.588506][zkAPSendBufProcess][OUT]Head:30,Tail:30,Send 1 packet
+Message published (mid: 42)
+[23:15:06.645307][0]Client[CE010F008918] log off,reason:178 
+[0]Roll:0D 0A 0D 00 02 00 0F 01 64 0A E4 38 19 13 78 C3 08 0A 
+ap_daemon_thread: last=1795821325 cur=1795821325
+[23:15:25.393322][0]Client[CE010F008969] log on
+[23:15:26.602259][0]Client[CE010F008969] log off,reason:152 
+[0]Roll:0D 0A 0D 00 02 00 0F 01 64 0A E4 38 19 13 78 C3 08 0A 
+[23:15:27.710294][0]Client[CE010F008969] log on
+[23:15:30.262268][0]Client[CE010F008969] log off,reason:152 
+[0]Roll:0D 0A 0D 00 02 00 0F 01 64 0A E4 38 19 13 78 C3 08 0A 
+[23:15:41.138316][2]Client[CE010F008888] log on
+[23:15:41.254258][2]Client[CE010F008888] log off,reason:206 
+[2]Roll:0D 0A 0D 00 02 00 0F 01 64 0A E4 38 19 13 78 C3 08 0A 
+[23:15:54.888263][2]Client[CE010F008882] log on
+[23:15:54.000304][2]Client[CE010F008882] log off,reason:206 
+[2]Roll:0D 0A 0D 00 02 00 0F 01 64 0A E4 38 19 13 78 C3 08 0A 
+ap_daemon_thread: last=1795821355 cur=1795821355
+[23:15:58.920278][2]Client[CE010F008D88] log on
+[23:15:59.918291][2]Client[CE010F008D88] log off,reason:152 
+[2]Roll:0D 0A 0D 00 02 00 0F 01 64 0A E4 38 19 13 78 C3 08 0A 
+[23:16:09.556302][2]Client[CE010F008B61] log on
+[23:16:11.136324][2]Client[CE010F008B61] log off,reason:152 
+[2]Roll:0D 0A 0D 00 02 00 0F 01 64 0A E4 38 19 13 78 C3 08 0A 
+[23:16:12.000295][2]Client[CE010F008B61] log on
+[23:16:15.737306][2]Client[CE010F008B61] log off,reason:152 
+[2]Roll:0D 0A 0D 00 02 00 0F 01 64 0A E4 38 19 13 78 C3 08 0A 
+[23:16:16.724280][2]Client[CE010F008B61] log on
+[23:16:19.355335][2]Client[CE010F008B61] log off,reason:152 
+[2]Roll:0D 0A 0D 00 02 00 0F 01 64 0A E4 38 19 13 78 C3 08 0A 
+[23:16:20.180307][2]Client[CE010F008B61] log on
+[23:16:22.755281][2]Client[CE010F008B61] log off,reason:152 
+[2]Roll:0D 0A 0D 00 02 00 0F 01 64 0A E4 38 19 13 78 C3 08 0A 
+ap_daemon_thread: last=1795821385 cur=1795821385
+[23:16:31.438299][0]Client[CE010F008969] log on
+[23:16:32.437253][0]Client[CE010F008969] log off,reason:152 
+[0]Roll:0D 0A 0D 00 02 00 0F 01 64 0A E4 38 19 13 78 C3 08 0A 
+[23:16:43.462243][3]Client[CE010F008AF1] log on
+[23:16:44.460296][3]Client[CE010F008AF1] log off,reason:152 
+[3]Roll:0D 0A 0D 00 02 00 0F 65 00 0A E4 38 19 13 78 C3 08 0A 
+[23:16:51.636294][2]Client[CE010F008888] log on
+[23:16:53.332237][2]Client[CE010F008888] log off,reason:152 
+[2]Roll:0D 0A 0D 00 02 00 0F 01 64 0A E4 38 19 13 78 C3 08 0A 
+[23:16:54.276289][0]Client[CE010F008D08] log on
+[1]Idle -> Roll
+[1]Roll:0D 0A 0D 00 02 00 0F 01 64 0A E4 38 19 13 78 C3 08 0A 
+[23:16:54.412271][2]Client[CE010F008888] log on
+[0]Uncomplete packet,need len:128
+[zkAPSendBufPush][IN]Head:30,Tail:31,Len:124
+[23:16:54.913238]topic:1722919071/ESL/E438191378C3,len:169
+[23:16:54.913458][zkAPSendBufProcess][OUT]Head:31,Tail:31,Send 1 packet
+Message published (mid: 43)
+ap_daemon_thread: last=1795821415 cur=1795821415
+Received message: 32 from topic: 99999/99999/ESL/E438191378C3
+[23:16:55.211662]receive packet:
+01 CE 01 0F 00 8D 08 00 00 00 /r/n[CE010F008D08]Try Fast,len:24
+[23:16:55.211862][0]Send 31 DATA
+[23:16:55.470306][0]Recv ACK, SN:a6, error code:0
+[0]No need free
+[zkAPSendBufPush][IN]Head:31,Tail:32,Len:30
+[23:16:55.471246]topic:1722919071/ESL/E438191378C3,len:41
+[23:16:55.471446][zkAPSendBufProcess][OUT]Head:32,Tail:32,Send 1 packet
+Message published (mid: 44)
+[23:16:55.534307][0]Client[CE010F008D08] log off,reason:178 
+[0]Roll:0D 0A 0D 00 02 00 0F 01 64 0A E4 38 19 13 78 C3 08 0A 
+[23:16:56.730303][2]Client[CE010F008888] log off,reason:152 
+[2]Roll:0D 0A 0D 00 02 00 0F 01 64 0A E4 38 19 13 78 C3 08 0A 
+[23:17:06.441275][1]Client[CE010F008B3B] log on
+[23:17:08.775266][1]Client[CE010F008B3B] log off,reason:152 
+[1]Roll:0D 0A 0D 00 02 00 0F 01 64 0A E4 38 19 13 78 C3 08 0A 
+[23:17:09.687259][1]Client[CE010F008B3B] log on
+[23:17:10.753273][1]Client[CE010F008B3B] log off,reason:152 
+[1]Roll:0D 0A 0D 00 02 00 0F 01 64 0A E4 38 19 13 78 C3 08 0A 
+[23:17:11.721266][1]Client[CE010F008B3B] log on
+[23:17:13.093285][1]Client[CE010F008B3B] log off,reason:152 
+[1]Roll:0D 0A 0D 00 02 00 0F 01 64 0A E4 38 19 13 78 C3 08 0A 
+[23:17:24.038333][0]Client[CE010F008969] log on
+[23:17:25.036327][0]Client[CE010F008969] log off,reason:152 
+[0]Roll:0D 0A 0D 00 02 00 0F 01 64 0A E4 38 19 13 78 C3 08 0A 
+ap_daemon_thread: last=1795821445 cur=1795821445
+[23:17:26.108361][0]Client[CE010F008969] log on
+[23:17:26.222283][0]Client[CE010F008969] log off,reason:206 
+[0]Roll:0D 0A 0D 00 02 00 0F 01 64 0A E4 38 19 13 78 C3 08 0A 
+[23:17:34.116270][2]Client[CE010F008AF1] log on
+[23:17:34.228272][2]Client[CE010F008AF1] log off,reason:206 
+[2]Roll:0D 0A 0D 00 02 00 0F 01 64 0A E4 38 19 13 78 C3 08 0A 
+[23:17:34.287312][2]Client[CE010F008AF1] log on
+[23:17:36.264259][2]Client[CE010F008AF1] log off,reason:152 
+[2]Roll:0D 0A 0D 00 02 00 0F 01 64 0A E4 38 19 13 78 C3 08 0A 
+[23:17:36.972249][2]Client[CE010F008AF1] log on
+[23:17:37.087290][2]Client[CE010F008AF1] log off,reason:206 
+[2]Roll:0D 0A 0D 00 02 00 0F 01 64 0A E4 38 19 13 78 C3 08 0A 
+[23:17:44.757274][1]Client[CE010F008B46] log on
+[23:17:45.754348][1]Client[CE010F008B46] log off,reason:152 
+[1]Roll:0D 0A 0D 00 02 00 0F 01 64 0A E4 38 19 13 78 C3 08 0A 
+Received message: 564 from topic: 99999/99999/ESL/E438191378C3
+[23:17:51.394364]receive packet:
+01 CE 01 0F 00 8D 6A 00 00 01 /r/n[CE010F008D6A]Try Fast,len:421
+[A2E]Insert a new buf,buf size:428,fsmIdx:0
+[3]Roll:0D 0A 0B 00 02 00 09 E0 03 04 8D [2]Roll:0D 0A 0B 00 [1]Roll:0D 02 00 09 E0 0A 0B 03 6A 04 00 02 8D 
+6A 
+00 09 E0 03 04 8D 6A 
+[0]Roll:0D 0A 0B 00 02 00 09 E0 03 04 8D 6A 
+[23:17:54.272283][3]Client[CE010F008D6A] log on
+[3]Uncomplete packet,need len:118
+[zkAPSendBufPush][IN]Head:32,Tail:33,Len:114
+[23:17:54.364265][3]Send 428 DATA
+[3][zkAPEslA2EBufPopSend]SN:138,len:428
+[23:17:54.365325]topic:1722919071/ESL/E438191378C3,len:153
+[23:17:54.365585][zkAPSendBufProcess][OUT]Head:33,Tail:33,Send 1 packet
+Message published (mid: 45)
+[23:17:54.521267][3]Recv ACK, SN:138, error code:0
+[zkAPSendBufPush][IN]Head:33,Tail:34,Len:30
+[1]Roll:0D 0A 0D 00 02 00 0F 01 64 0A E4 38 19 13 78 C3 08 0A 
+[0]Roll:0D 0A 0D 00 02 00 0F 01 64 0A E4 38 19 13 78 C3 08 0A 
+[2]Roll:0D 0A 0D 00 02 00 0F 01 64 0A E4 38 19 13 78 C3 08 0A 
+[23:17:54.568988][3]Client[CE010F008D6A] log off,reason:166 
+[3]Roll:0D 0A 0D 00 02 00 0F 65 00 0A E4 38 19 13 78 C3 08 0A 
+[23:17:54.661569]topic:1722919071/ESL/E438191378C3,len:41
+[23:17:54.661849][zkAPSendBufProcess][OUT]Head:34,Tail:34,Send 1 packet
+Message published (mid: 46)
+ap_daemon_thread: last=1795821475 cur=1795821475
+[23:18:04.560243][3]Client[CE010F008B3B] log on
+[23:18:04.674265][3]Client[CE010F008B3B] log off,reason:206 
+[3]Roll:0D 0A 0D 00 02 00 0F 65 00 0A E4 38 19 13 78 C3 08 0A 
+[23:18:08.575277][1]Client[CE010F008888] log on
+[23:18:09.573291][1]Client[CE010F008888] log off,reason:152 
+[1]Roll:0D 0A 0D 00 02 00 0F 01 64 0A E4 38 19 13 78 C3 08 0A 
+[23:18:14.983324][1]Client[CE010F008B61] log on
+[23:18:15.981278][1]Client[CE010F008B61] log off,reason:152 
+[1]Roll:0D 0A 0D 00 02 00 0F 01 64 0A E4 38 19 13 78 C3 08 0A 
+[23:18:16.602246][0]Client[CE010F008D66] log on
+[23:18:16.704268][0]Client[CE010F008D66] log off,reason:206 
+[0]Roll:0D 0A 0D 00 02 00 0F 01 64 0A E4 38 19 13 78 C3 08 0A 
+[23:18:16.996252][0]Client[CE010F008D66] log on
+[23:18:17.150274][3]Client[CE010F008969] log on
+[23:18:17.262295][3]Client[CE010F008969] log off,reason:206 
+[3]Roll:0D 0A 0D 00 02 00 0F 65 00 0A E4 38 19 13 78 C3 08 0A 
+[23:18:18.922278][0]Client[CE010F008D66] log off,reason:152 
+[0]Roll:0D 0A 0D 00 02 00 0F 01 64 0A E4 38 19 13 78 C3 08 0A 
+[23:18:19.928271][0]Client[CE010F008D66] log on
+[23:18:20.926245][0]Client[CE010F008D66] log off,reason:152 
+[0]Roll:0D 0A 0D 00 02 00 0F 01 64 0A E4 38 19 13 78 C3 08 0A 
+ap_daemon_thread: last=1795821505 cur=1795821505
+[23:18:45.622260][1]Client[CE010F008B46] log on
+[23:18:45.736321][1]Client[CE010F008B46] log off,reason:206 
+[1]Roll:0D 0A 0D 00 02 00 0F 01 64 0A E4 38 19 13 78 C3 08 0A 
+[23:18:45.781322][1]Client[CE010F008B46] log on
+[23:18:45.895323][1]Client[CE010F008B46] log off,reason:206 
+[1]Roll:0D 0A 0D 00 02 00 0F 01 64 0A E4 38 19 13 78 C3 08 0A 
+[23:18:45.901343][1]Client[CE010F008B46] log on
+[23:18:46.015325][1]Client[CE010F008B46] log off,reason:206 
+[1]Roll:0D 0A 0D 00 02 00 0F 01 64 0A E4 38 19 13 78 C3 08 0A 
+ap_daemon_thread: last=1795821535 cur=1795821535
+[23:19:05.935295][1]Client[CE010F008B76] log on
+[23:19:06.045276][1]Client[CE010F008B76] log off,reason:206 
+[1]Roll:0D 0A 0D 00 02 00 0F 01 64 0A E4 38 19 13 78 C3 08 0A 
+[23:19:06.125277][1]Client[CE010F008B76] log on
+[23:19:06.227259][1]Client[CE010F008B76] log off,reason:206 
+[1]Roll:0D 0A 0D 00 02 00 0F 01 64 0A E4 38 19 13 78 C3 08 0A 
+[23:19:10.443296][1]Client[CE010F008888] log on
+[23:19:11.441269][1]Client[CE010F008888] log off,reason:152 
+[1]Roll:0D 0A 0D 00 02 00 0F 01 64 0A E4 38 19 13 78 C3 08 0A 
+[23:19:15.346282][3]Client[CE010F008B3B] log on
+[23:19:15.450284][3]Client[CE010F008B3B] log off,reason:206 
+[3]Roll:0D 0A 0D 00 02 00 0F 65 00 0A E4 38 19 13 78 C3 08 0A 
+[23:19:18.516285][0]Client[CE010F008AF1] log on
+[23:19:18.626307][0]Client[CE010F008AF1] log off,reason:206 
+[0]Roll:0D 0A 0D 00 02 00 0F 01 64 0A E4 38 19 13 78 C3 08 0A 
+[23:19:18.824289][0]Client[CE010F008AF1] log on
+[23:19:19.824263][0]Client[CE010F008AF1] log off,reason:152 
+[0]Roll:0D 0A 0D 00 02 00 0F 01 64 0A E4 38 19 13 78 C3 08 0A 
+ap_daemon_thread: last=1795821565 cur=1795821565
+[23:19:26.810278][2]Client[CE010F008D2F] log on
+[23:19:26.914299][2]Client[CE010F008D2F] log off,reason:206 
+[2]Roll:0D 0A 0D 00 02 00 0F 01 64 0A E4 38 19 13 78 C3 08 0A 
+[23:19:26.932299][2]Client[CE010F008D2F] log on
+[23:19:27.034301][2]Client[CE010F008D2F] log off,reason:206 
+[2]Roll:0D 0A 0D 00 02 00 0F 01 64 0A E4 38 19 13 78 C3 08 0A 
+[23:19:33.814292][0]Client[CE010F008BCA] log on
+[23:19:33.918294][0]Client[CE010F008BCA] log off,reason:206 
+[0]Roll:0D 0A 0D 00 02 00 0F 01 64 0A E4 38 19 13 78 C3 08 0A 
+[23:19:33.930354][0]Client[CE010F008BCA] log on
+[23:19:34.724265][3]Client[CE010F008851] log on
+[23:19:34.834286][3]Client[CE010F008851] log off,reason:206 
+[3]Roll:0D 0A 0D 00 02 00 0F 65 00 0A E4 38 19 13 78 C3 08 0A 
+[23:19:35.316273][0]Client[CE010F008BCA] log off,reason:152 
+[0]Roll:0D 0A 0D 00 02 00 0F 01 64 0A E4 38 19 13 78 C3 08 0A 
+[23:19:36.676331][3]Client[CE010F008B98] log on
+[23:19:39.176285][3]Client[CE010F008B98] log off,reason:152 
+[3]Roll:0D 0A 0D 00 02 00 0F 65 00 0A E4 38 19 13 78 C3 08 0A 
+ap_daemon_thread: last=1795821595 cur=1795821595
+[23:19:56.779283][3]Client[CE010F008B46] log on
+[23:19:57.776337][3]Client[CE010F008B46] log off,reason:152 
+[3]Roll:0D 0A 0D 00 02 00 0F 65 00 0A E4 38 19 13 78 C3 08 0A 
+[23:20:10.749313][1]Client[CE010F008B98] log on
+[23:20:11.746286][1]Client[CE010F008B98] log off,reason:152 
+[1]Roll:0D 0A 0D 00 02 00 0F 01 64 0A E4 38 19 13 78 C3 08 0A 
+[23:20:12.101311][0]Client[CE010F008888] log on
+[23:20:12.212292][0]Client[CE010F008888] log off,reason:206 
+[0]Roll:0D 0A 0D 00 02 00 0F 01 64 0A E4 38 19 13 78 C3 08 0A 
+[23:20:12.299353][0]Client[CE010F008888] log on
+[23:20:12.412295][0]Client[CE010F008888] log off,reason:206 
+[0]Roll:0D 0A 0D 00 02 00 0F 01 64 0A E4 38 19 13 78 C3 08 0A 
+[23:20:12.481276][0]Client[CE010F008888] log on
+[23:20:12.592257][0]Client[CE010F008888] log off,reason:206 
+[0]Roll:0D 0A 0D 00 02 00 0F 01 64 0A E4 38 19 13 78 C3 08 0A 
+[23:20:16.100285][2]Client[CE010F008B3B] log on
+[2]Uncomplete packet,need len:128
+[zkAPSendBufPush][IN]Head:34,Tail:35,Len:124
+[23:20:16.633252]topic:1722919071/ESL/E438191378C3,len:169
+[23:20:16.633452][zkAPSendBufProcess][OUT]Head:35,Tail:35,Send 1 packet
+Message published (mid: 47)
+Received message: 32 from topic: 99999/99999/ESL/E438191378C3
+[23:20:16.864635]receive packet:
+01 CE 01 0F 00 8B 3B 00 00 00 /r/n[CE010F008B3B]Try Fast,len:24
+[23:20:16.864835][2]Send 31 DATA
+[23:20:17.047278][2]Recv ACK, SN:9c, error code:0
+[2]No need free
+[zkAPSendBufPush][IN]Head:35,Tail:36,Len:30
+[23:20:17.048258]topic:1722919071/ESL/E438191378C3,len:41
+[23:20:17.048458][zkAPSendBufProcess][OUT]Head:36,Tail:36,Send 1 packet
+Message published (mid: 48)
+[23:20:17.102298][2]Client[CE010F008B3B] log off,reason:178 
+[2]Roll:0D 0A 0D 00 02 00 0F 01 64 0A E4 38 19 13 78 C3 08 0A 
+ap_daemon_thread: last=1795821625 cur=1795821625
+[23:20:53.402250][2]Client[CE010F008888] log on
+[23:20:54.400243][2]Client[CE010F008888] log off,reason:152 
+[2]Roll:0D 0A 0D 00 02 00 0F 01 64 0A E4 38 19 13 78 C3 08 0A 
+ap_daemon_thread: last=1795821655 cur=1795821655
+[23:21:01.078293][2]Client[CE010F008D88] log on
+[23:21:02.076287][2]Client[CE010F008D88] log off,reason:152 
+[2]Roll:0D 0A 0D 00 02 00 0F 01 64 0A E4 38 19 13 78 C3 08 0A 
+[23:21:03.162282][2]Client[CE010F008D88] log on
+[23:21:04.226296][2]Client[CE010F008D88] log off,reason:152 
+[2]Roll:0D 0A 0D 00 02 00 0F 01 64 0A E4 38 19 13 78 C3 08 0A 
+[23:21:09.265304][3]Client[CE010F008B46] log on
+[23:21:10.612282][3]Client[CE010F008B46] log off,reason:152 
+[3]Roll:0D 0A 0D 00 02 00 0F 65 00 0A E4 38 19 13 78 C3 08 0A 
+[23:21:11.652256][3]Client[CE010F008B46] log on
+[23:21:13.056255][3]Client[CE010F008B46] log off,reason:152 
+[23:21:13.056455][3]Client[CE010F008B98] log on
+[23:21:13.317259][3]Client[CE010F008B98] log off,reason:152 
+[3]Roll:0D 0A 0D 00 02 00 0F 65 00 0A E4 38 19 13 78 C3 08 0A 
+[23:21:13.842306][3]Client[CE010F008B46] log on
+[23:21:14.841300][3]Client[CE010F008B46] log off,reason:152 
+[3]Roll:0D 0A 0D 00 02 00 0F 65 00 0A E4 38 19 13 78 C3 08 0A 
+[23:21:22.070297][2]Client[CE010F008A02] log on
+[23:21:23.067291][2]Client[CE010F008A02] log off,reason:152 
+[2]Roll:0D 0A 0D 00 02 00 0F 01 64 0A E4 38 19 13 78 C3 08 0A 
+ap_daemon_thread: last=1795821685 cur=1795821685
+[23:21:27.621272][3]Client[CE010F008BCA] log on
+[23:21:27.732254][3]Client[CE010F008BCA] log off,reason:206 
+[3]Roll:0D 0A 0D 00 02 00 0F 65 00 0A E4 38 19 13 78 C3 08 0A 
+[23:21:27.879256][3]Client[CE010F008BCA] log on
+[23:21:28.878249][3]Client[CE010F008BCA] log off,reason:152 
+[3]Roll:0D 0A 0D 00 02 00 0F 65 00 0A E4 38 19 13 78 C3 08 0A 
+[23:21:29.991284][3]Client[CE010F008969] log on
+[23:21:30.096286][3]Client[CE010F008969] log off,reason:206 
+[3]Roll:0D 0A 0D 00 02 00 0F 65 00 0A E4 38 19 13 78 C3 08 0A 
+Received message: 560 from topic: 99999/99999/ESL/E438191378C3
+[23:21:36.431271]receive packet:
+01 CE 01 0F 00 8D 6A 00 00 01 /r/n[CE010F008D6A]Try Fast,len:419
+[A2E]Insert a new buf,buf size:426,fsmIdx:0
+[3]Roll:0D 0A 0B 00 02 [1]Roll:0D 0A 0B 00 02 00 09 E0 03 04 8D 6A 
+[0]Roll:0D 0A 0B 00 02 00 09 E0 03 04 8D 6A 00 09 07 03 04 00 00 
+
+[2]Roll:0D 0A 0B 00 02 00 09 E0 03 04 8D 6A 
+[23:21:37.053440][0]Client[CE010F008D6A] log on
+[0]Uncomplete packet,need len:118
+[zkAPSendBufPush][IN]Head:36,Tail:37,Len:114
+[23:21:37.159301][0]Send 426 DATA
+[23:21:37.159321][0][zkAPEslA2EBufPopSend]SN:139,len:426
+topic:1722919071/ESL/E438191378C3,len:153
+[23:21:37.159681][zkAPSendBufProcess][OUT]Head:37,Tail:37,Send 1 packet
+Message published (mid: 49)
+[23:21:37.316283][0]Recv ACK, SN:139, error code:0
+[zkAPSendBufPush][IN]Head:37,Tail:38,Len:30
+[2]Roll:0D 0A 0D 00 02 00 0F 01 64 0A E4 38 19 13 78 C3 08 0A 
+[3]Roll:0D 0A 0D 00 02 00 0F 65 00 0A E4 38 19 13 78 C3 08 0A 
+[1]Roll:0D 0A 0D 00 02 00 0F 01 64 0A E4 38 19 13 78 C3 08 0A 
+[23:21:37.368564][0]Client[CE010F008D6A] log off,reason:166 
+[0]Roll:0D 0A 0D 00 02 00 0F 01 64 0A E4 38 19 13 78 C3 08 0A 
+[23:21:37.458705]topic:1722919071/ESL/E438191378C3,len:41
+[23:21:37.458985][zkAPSendBufProcess][OUT]Head:38,Tail:38,Send 1 packet
+Message published (mid: 50)
+[23:21:53.810286][1]Client[CE010F008888] log on
+[23:21:54.808320][1]Client[CE010F008888] log off,reason:152 
+[1]Roll:0D 0A 0D 00 02 00 0F 01 64 0A E4 38 19 13 78 C3 08 0A 
+ap_daemon_thread: last=1795821715 cur=1795821715
+[23:21:55.780373][1]Client[CE010F008888] log on
+[23:21:56.780246][1]Client[CE010F008888] log off,reason:152 
+[1]Roll:0D 0A 0D 00 02 00 0F 01 64 0A E4 38 19 13 78 C3 08 0A 
+[23:22:00.984283][0]Client[CE010F008882] log on
+[23:22:01.098245][0]Client[CE010F008882] log off,reason:206 
+[0]Roll:0D 0A 0D 00 02 00 0F 01 64 0A E4 38 19 13 78 C3 08 0A 
+[23:22:04.788335][1]Client[CE010F008B98] log on
+[23:22:04.898316][1]Client[CE010F008B98] log off,reason:206 
+[1]Roll:0D 0A 0D 00 02 00 0F 01 64 0A E4 38 19 13 78 C3 08 0A 
+[23:22:05.082319][1]Client[CE010F008B98] log on
+[23:22:07.676354][1]Client[CE010F008B98] log off,reason:152 
+[1]Roll:0D 0A 0D 00 02 00 0F 01 64 0A E4 38 19 13 78 C3 08 0A 
+Received message: 560 from topic: 99999/99999/ESL/E438191378C3
+[23:22:20.537447]receive packet:
+01 CE 01 0F 00 8D 6A 00 00 01 /r/n[CE010F008D6A]Try Fast,len:419
+[A2E]Insert a new buf,buf size:426,fsmIdx:0
+[3]Roll:0D 0A 0B 00 02 00 09 E0 03 04 8D [1]Roll:0D 0A 0B 00 02 00 6A [2]Roll:
+0D 0A 0B 00 02 00 [0]Roll:09 0D 0A 0B 00 02 00 09 E0 03 04 8D 6A 
+09 E0 03 04 8D 6A 
+E0 03 04 8D 6A 
+ap_daemon_thread: last=1795821745 cur=1795821745
+[23:22:26.466268][3]Client[CE010F008B46] log on
+[23:22:27.462321][3]Client[CE010F008B46] log off,reason:152 
+[3]Roll:0D 0A 0B 00 02 00 09 E0 03 04 8D 6A 
+[23:22:29.190264][2]Client[CE010F008D6A] log on
+[zkAPSendBufPush][IN]Head:38,Tail:39,Len:114
+[23:22:29.298366]topic:1722919071/ESL/E438191378C3,len:153
+[23:22:29.298606][zkAPSendBufProcess][OUT]Head:39,Tail:39,Send 1 packet
+Message published (mid: 51)
+[23:22:29.301286][2]Send 426 DATA
+[2][zkAPEslA2EBufPopSend]SN:13A,len:426
+[23:22:29.457288][2]Recv ACK, SN:13a, error code:0
+[zkAPSendBufPush][IN]Head:39,Tail:40,Len:30
+[1]Roll:0D 0A 0D 00 02 00 0F 01 64 0A E4 38 19 13 78 C3 08 0A 
+[3]Roll:0D 0A 0D 00 02 00 0F 65 00 0A E4 38 19 13 78 C3 08 0A 
+[0]Roll:0D 0A 0D 00 02 00 0F 01 64 0A E4 38 19 13 78 C3 08 0A 
+[23:22:29.508409][2]Client[CE010F008D6A] log off,reason:166 
+[2]Roll:0D 0A 0D 00 02 00 0F 01 64 0A E4 38 19 13 78 C3 08 0A 
+[23:22:29.596710]topic:1722919071/ESL/E438191378C3,len:41
+[23:22:29.596990][zkAPSendBufProcess][OUT]Head:40,Tail:40,Send 1 packet
+Message published (mid: 52)
+[23:22:33.554283][0]Client[CE010F008A02] log on
+[23:22:33.659245][0]Client[CE010F008A02] log off,reason:206 
+[0]Roll:0D 0A 0D 00 02 00 0F 01 64 0A E4 38 19 13 78 C3 08 0A 
+[23:22:36.229299][3]Client[CE010F008888] log on
+[23:22:37.230293][3]Client[CE010F008888] log off,reason:152 
+[3]Roll:0D 0A 0D 00 02 00 0F 65 00 0A E4 38 19 13 78 C3 08 0A 
+[23:22:39.884289][3]Client[CE010F008BCA] log on
+[23:22:39.989270][3]Client[CE010F008BCA] log off,reason:206 
+[3]Roll:0D 0A 0D 00 02 00 0F 65 00 0A E4 38 19 13 78 C3 08 0A 
+[23:22:40.451236][1]Client[CE010F008969] log on
+[23:22:41.448290][1]Client[CE010F008969] log off,reason:152 
+[1]Roll:0D 0A 0D 00 02 00 0F 01 64 0A E4 38 19 13 78 C3 08 0A 
+[23:22:41.741354][1]Client[CE010F008969] log on
+[23:22:41.854275][1]Client[CE010F008969] log off,reason:206 
+[1]Roll:0D 0A 0D 00 02 00 0F 01 64 0A E4 38 19 13 78 C3 08 0A 
+[23:22:44.561252][0]Client[CE010F008D66] log on
+[23:22:45.558325][0]Client[CE010F008D66] log off,reason:152 
+[0]Roll:0D 0A 0D 00 02 00 0F 01 64 0A E4 38 19 13 78 C3 08 0A 
+[23:22:51.999312][3]Client[CE010F008882] log on
+[23:22:52.115314][3]Client[CE010F008882] log off,reason:206 
+[3]Roll:0D 0A 0D 00 02 00 0F 65 00 0A E4 38 19 13 78 C3 08 0A 
+ap_daemon_thread: last=1795821775 cur=1795821775
+Received message: 564 from topic: 99999/99999/ESL/E438191378C3
+[23:23:12.553430]receive packet:
+01 CE 01 0F 00 8D 6A 00 00 01 /r/n[CE010F008D6A]Try Fast,len:421
+[A2E]Insert a new buf,buf size:428,fsmIdx:0
+[2]Roll:0D 0A 0B 00 02 00 09 E0 03 04 8D 6A 
+[1]Roll:0D 0A 0B 00 02 00 09 E0 03 04 8D 6A 
+[0]Roll:0D 0A 0B 00 02 00 09 E0 03 04 8D 6A 
+[3]Roll:0D 0A 0B 00 02 00 09 E0 03 04 8D 6A 
+[23:23:19.207300][3]Client[CE010F008B98] log on
+[23:23:20.339335][3]Client[CE010F008B98] log off,reason:152 
+[3]Roll:0D 0A 0B 00 02 00 09 E0 03 04 8D 6A 
+[23:23:21.177346][2]Client[CE010F008D6A] log on
+[2]Uncomplete packet,need len:118
+[zkAPSendBufPush][IN]Head:40,Tail:41,Len:114
+[23:23:21.299288]topic:1722919071/ESL/E438191378C3,len:153
+[23:23:21.299328][2]Send 428 DATA
+[2][zkAPEslA2EBufPopSend]SN:13B,len:428
+[23:23:21.299568][zkAPSendBufProcess][OUT]Head:41,Tail:41,Send 1 packet
+Message published (mid: 53)
+[23:23:21.455330][2]Recv ACK, SN:13b, error code:0
+[zkAPSendBufPush][IN]Head:41,Tail:42,Len:30
+[0]Roll:0D 0A 0D 00 02 00 0F 01 64 0A E4 38 19 13 78 C3 08 0A 
+[1]Roll:0D 0A 0D 00 02 00 0F 01 64 0A E4 38 19 13 78 C3 08 0A 
+[3]Roll:0D 0A 0D 00 02 00 0F 65 00 0A E4 38 19 13 78 C3 08 0A 
+[23:23:21.506751][2]Client[CE010F008D6A] log off,reason:166 
+[2]Roll:0D 0A 0D 00 02 00 0F 01 64 0A E4 38 19 13 78 C3 08 0A 
+[23:23:21.596932]topic:1722919071/ESL/E438191378C3,len:41
+[23:23:21.597212][zkAPSendBufProcess][OUT]Head:42,Tail:42,Send 1 packet
+Message published (mid: 54)
+[23:23:25.088259][1]Client[CE010F008AF1] log on
+ap_daemon_thread: last=1795821805 cur=1795821805
+[23:23:26.716321][1]Client[CE010F008AF1] log off,reason:152 
+[1]Roll:0D 0A 0D 00 02 00 0F 01 64 0A E4 38 19 13 78 C3 08 0A 
+[23:23:28.108320][1]Client[CE010F008888] log on
+[23:23:28.212281][1]Client[CE010F008888] log off,reason:206 
+[1]Roll:0D 0A 0D 00 02 00 0F 01 64 0A E4 38 19 13 78 C3 08 0A 
+[23:23:32.240276][0]Client[CE010F008969] log on
+[23:23:33.238329][0]Client[CE010F008969] log off,reason:152 
+[0]Roll:0D 0A 0D 00 02 00 0F 01 64 0A E4 38 19 13 78 C3 08 0A 
+[23:23:34.204262][0]Client[CE010F008969] log on
+[23:23:35.202316][0]Client[CE010F008969] log off,reason:152 
+[0]Roll:0D 0A 0D 00 02 00 0F 01 64 0A E4 38 19 13 78 C3 08 0A 
+[23:23:40.593488][2]Client[CE010F008BCA] log on
+[23:23:41.592302][2]Client[CE010F008BCA] log off,reason:152 
+[2]Roll:0D 0A 0D 00 02 00 0F 01 64 0A E4 38 19 13 78 C3 08 0A 
+ap_daemon_thread: last=1795821835 cur=1795821835
+[23:23:57.341314][3]Client[CE010F008851] log on
+[23:23:57.452296][3]Client[CE010F008851] log off,reason:206 
+[3]Roll:0D 0A 0D 00 02 00 0F 65 00 0A E4 38 19 13 78 C3 08 0A 
+ap_daemon_thread: last=1795821865 cur=1795821865
+[23:24:26.312285][1]Client[CE010F008969] log on
+[23:24:27.310279][1]Client[CE010F008969] log off,reason:152 
+[1]Roll:0D 0A 0D 00 02 00 0F 01 64 0A E4 38 19 13 78 C3 08 0A 
+[23:24:28.622316][1]Client[CE010F008969] log on
+[23:24:29.125283][3]Client[CE010F008888] log on
+[23:24:29.620310][1]Client[CE010F008969] log off,reason:152 
+[1]Roll:0D 0A 0D 00 02 00 0F 01 64 0A E4 38 19 13 78 C3 08 0A 
+[23:24:30.371240][3]Client[CE010F008888] log off,reason:152 
+[3]Roll:0D 0A 0D 00 02 00 0F 65 00 0A E4 38 19 13 78 C3 08 0A 
+Received message: 560 from topic: 99999/99999/ESL/E438191378C3
+[23:24:38.471249]receive packet:
+01 CE 01 0F 00 8D 6A 00 00 01 /r/n[CE010F008D6A]Try Fast,len:419
+[A2E]Insert a new buf,buf size:426,fsmIdx:0
+[3]Roll:0D 0A 0B 00 02 00 09 E0 03 04 8D 6A 
+[0]Roll:0D 0A 0B 00 02 00 09 E0 03 04 [2]Roll:0D 0A 0B 8D 00 02 00 09 E0 03 04 8D 6A 
+[1]Roll:0D 0A 0B 00 02 00 09 E0 03 04 8D 6A 
+6A 
+[23:24:43.423276][1]Client[CE010F008D6A] log on
+[1]Uncomplete packet,need len:118
+[zkAPSendBufPush][IN]Head:42,Tail:43,Len:114
+[23:24:43.516257]topic:1722919071/ESL/E438191378C3,len:153
+[23:24:43.516477][zkAPSendBufProcess][OUT]Head:43,Tail:43,Send 1 packet
+Message published (mid: 55)
+[23:24:43.517317][1]Send 426 DATA
+[1][zkAPEslA2EBufPopSend]SN:13C,len:426
+[23:24:43.673259][1]Recv ACK, SN:13c, error code:0
+[zkAPSendBufPush][IN]Head:43,Tail:44,Len:30
+[2]Roll:0D 0A 0D 00 02 00 0F 01 64 0A E4 38 19 13 78 C3 08 0A 
+[0]Roll:0D 0A 0D 00 02 00 0F 01 64 0A E4 38 19 13 78 C3 08 0A 
+[3]Roll:0D 0A 0D 00 02 00 0F 65 00 0A E4 38 19 13 78 C3 08 0A 
+[23:24:43.720840][1]Client[CE010F008D6A] log off,reason:166 
+[1]Roll:0D 0A 0D 00 02 00 0F 01 64 0A E4 38 19 13 78 C3 08 0A 
+[23:24:43.811681]topic:1722919071/ESL/E438191378C3,len:41
+[23:24:43.811941][zkAPSendBufProcess][OUT]Head:44,Tail:44,Send 1 packet
+Message published (mid: 56)
+[23:24:53.510252][3]Client[CE010F008882] log on
+[23:24:54.509245][3]Client[CE010F008882] log off,reason:152 
+[3]Roll:0D 0A 0D 00 02 00 0F 65 00 0A E4 38 19 13 78 C3 08 0A 
+ap_daemon_thread: last=1795821895 cur=1795821895
+Received message: 564 from topic: 99999/99999/ESL/E438191378C3
+[23:25:16.487642]receive packet:
+01 CE 01 0F 00 8D 6A 00 00 01 /r/n[CE010F008D6A]Try Fast,len:421
+[A2E]Insert a new buf,buf size:428,fsmIdx:0
+[3]Roll:0D 0A 0B 00 02 00 09 E0 03 04 8D 6A 
+[2]Roll:0D 0A 0B 00 02 00 09 E0 03 04 8D 6A 
+[1]Roll:0D [0]Roll:0D 0A 0B 00 02 00 09 E0 03 04 8D 6A 
+0A 0B 00 02 00 09 E0 03 04 8D 6A 
+[23:25:23.179292][3]Client[CE010F008B98] log on
+[23:25:24.897295][3]Client[CE010F008B98] log off,reason:152 
+[3]Roll:0D 0A 0B 00 02 00 09 E0 03 04 8D 6A 
+ap_daemon_thread: last=1795821925 cur=1795821925
+[23:25:25.349261][3]Client[CE010F008D6A] log on
+[3]Uncomplete packet,need len:118
+[zkAPSendBufPush][IN]Head:44,Tail:45,Len:114
+[23:25:25.434242][3]Send 428 DATA
+[23:25:25.434262][3][zkAPEslA2EBufPopSend]SN:13D,len:428
+topic:1722919071/ESL/E438191378C3,len:153
+[23:25:25.434622][zkAPSendBufProcess][OUT]Head:45,Tail:45,Send 1 packet
+Message published (mid: 57)
+[23:25:25.591324][3]Recv ACK, SN:13d, error code:0
+[zkAPSendBufPush][IN]Head:45,Tail:46,Len:30
+[1]Roll:0D 0A 0D 00 02 00 0F 01 64 0A E4 38 19 13 78 C3 08 0A 
+[2]Roll:0D 0A 0D 00 02 00 0F 01 64 0A E4 38 19 13 78 C3 08 0A 
+[0]Roll:0D 0A 0D 00 02 00 0F 01 64 0A E4 38 19 13 78 C3 08 0A 
+[23:25:25.639365][3]Client[CE010F008D6A] log off,reason:166 
+[3]Roll:0D 0A 0D 00 02 00 0F 65 00 0A E4 38 19 13 78 C3 08 0A 
+[23:25:25.731086]topic:1722919071/ESL/E438191378C3,len:41
+[23:25:25.731406][zkAPSendBufProcess][OUT]Head:46,Tail:46,Send 1 packet
+Message published (mid: 58)
+[23:25:25.928329][3]Client[CE010F008B98] log on
+[3]Uncomplete packet,need len:128
+[zkAPSendBufPush][IN]Head:46,Tail:47,Len:124
+[23:25:26.403255]topic:1722919071/ESL/E438191378C3,len:169
+[23:25:26.403475][zkAPSendBufProcess][OUT]Head:47,Tail:47,Send 1 packet
+Message published (mid: 59)
+Received message: 32 from topic: 99999/99999/ESL/E438191378C3
+[23:25:26.800701]receive packet:
+01 CE 01 0F 00 8B 98 00 00 00 /r/n[CE010F008B98]Try Fast,len:24
+[23:25:26.800881][3]Send 31 DATA
+[23:25:26.878262][3]Recv ACK, SN:9f, error code:0
+[3]No need free
+[zkAPSendBufPush][IN]Head:47,Tail:48,Len:30
+[23:25:26.880302]topic:1722919071/ESL/E438191378C3,len:41
+[23:25:26.880522][zkAPSendBufProcess][OUT]Head:48,Tail:48,Send 1 packet
+Message published (mid: 60)
+[23:25:26.938242][3]Client[CE010F008B98] log off,reason:178 
+[3]Roll:0D 0A 0D 00 02 00 0F 65 00 0A E4 38 19 13 78 C3 08 0A 
+[23:25:31.314301][3]Client[CE010F008969] log on
+[23:25:31.320281][2]Client[CE010F008888] log on
+[23:25:31.418323][3]Client[CE010F008969] log off,reason:206 
+[23:25:31.418523][3]Client[CE010F008B46] log on
+[23:25:31.432383][2]Client[CE010F008888] log off,reason:206 
+[2]Roll:0D 0A 0D 00 02 00 0F 01 64 0A E4 38 19 13 78 C3 08 0A 
+[23:25:31.458283][2]Client[CE010F008888] log on
+[23:25:32.830322][2]Client[CE010F008888] log off,reason:152 
+[2]Roll:0D 0A 0D 00 02 00 0F 01 64 0A E4 38 19 13 78 C3 08 0A 
+[23:25:32.928303][3]Client[CE010F008B46] log off,reason:152 
+[3]Roll:0D 0A 0D 00 02 00 0F 65 00 0A E4 38 19 13 78 C3 08 0A 
+[23:25:33.700314][2]Client[CE010F008888] log on
+[23:25:33.836335][3]Client[CE010F008B46] log on
+[23:25:34.698307][2]Client[CE010F008888] log off,reason:152 
+[2]Roll:0D 0A 0D 00 02 00 0F 01 64 0A E4 38 19 13 78 C3 08 0A 
+[23:25:36.790295][3]Client[CE010F008B46] log off,reason:152 
+[3]Roll:0D 0A 0D 00 02 00 0F 65 00 0A E4 38 19 13 78 C3 08 0A 
+[23:25:37.842269][3]Client[CE010F008B46] log on
+[23:25:38.928324][3]Client[CE010F008B46] log off,reason:152 
+[3]Roll:0D 0A 0D 00 02 00 0F 65 00 0A E4 38 19 13 78 C3 08 0A 
+ap_daemon_thread: last=1795821955 cur=1795821955
+[23:26:12.043270][3]Client[CE010F008969] log on
+[23:26:12.160312][3]Client[CE010F008969] log off,reason:206 
+[3]Roll:0D 0A 0D 00 02 00 0F 65 00 0A E4 38 19 13 78 C3 08 0A 
+ap_daemon_thread: last=1795821985 cur=1795821985
+[23:26:25.156307][0]Client[CE010F008882] log on
+[23:26:26.153260][0]Client[CE010F008882] log off,reason:152 
+[0]Roll:0D 0A 0D 00 02 00 0F 01 64 0A E4 38 19 13 78 C3 08 0A 
+[23:26:36.294277][3]Client[CE010F008888] log on
+[23:26:36.410298][3]Client[CE010F008888] log off,reason:206 
+[3]Roll:0D 0A 0D 00 02 00 0F 65 00 0A E4 38 19 13 78 C3 08 0A 
+Received message: 560 from topic: 99999/99999/ESL/E438191378C3
+[23:26:36.491159]receive packet:
+01 CE 01 0F 00 8D 6A 00 00 01 /r/n[CE010F008D6A]Try Fast,len:419
+[A2E]Insert a new buf,buf size:426,fsmIdx:0
+[0]Roll:0D 0A 0B 00 02 00 09 E0 03 04 8D 6A 
+[1]Roll:0D 0A 0B 00 02 00 09 E0 03 04 8D 6A 
+[3]Roll:0D 0A 0B 00 02 00 09 E0 03 04 8D 6A 
+[2]Roll:0D 0A 0B 00 02 00 09 E0 03 04 8D 6A 
+[23:26:37.425392][1]Client[CE010F008D6A] log on
+[1]Uncomplete packet,need len:118
+[zkAPSendBufPush][IN]Head:48,Tail:49,Len:114
+[23:26:37.511293][1]Send 426 DATA
+[1][zkAPEslA2EBufPopSend]SN:13E,len:426
+[23:26:37.512313]topic:1722919071/ESL/E438191378C3,len:153
+[23:26:37.512553][zkAPSendBufProcess][OUT]Head:49,Tail:49,Send 1 packet
+Message published (mid: 61)
+[23:26:37.668295][1]Recv ACK, SN:13e, error code:0
+[zkAPSendBufPush][IN]Head:49,Tail:50,Len:30
+[3]Roll:0D 0A 0D 00 02 00 0F 65 00 0A E4 38 19 13 78 C3 08 0A 
+[0]Roll:0D 0A 0D 00 02 00 0F 01 64 0A E4 38 19 13 78 C3 08 0A 
+[2]Roll:0D 0A 0D 00 02 00 0F 01 64 0A E4 38 19 13 78 C3 08 0A 
+[23:26:37.718496][1]Client[CE010F008D6A] log off,reason:166 
+[1]Roll:0D 0A 0D 00 02 00 0F 01 64 0A E4 38 19 13 78 C3 08 0A 
+[23:26:37.808997]topic:1722919071/ESL/E438191378C3,len:41
+[23:26:37.809317][zkAPSendBufProcess][OUT]Head:50,Tail:50,Send 1 packet
+Message published (mid: 62)
+[23:26:40.208469][1]Client[CE010F008B46] log on
+[23:26:41.209243][1]Client[CE010F008B46] log off,reason:152 
+[1]Roll:0D 0A 0D 00 02 00 0F 01 64 0A E4 38 19 13 78 C3 08 0A 
+[23:26:42.083334][1]Client[CE010F008B46] log on
+[23:26:43.081308][1]Client[CE010F008B46] log off,reason:152 
+[1]Roll:0D 0A 0D 00 02 00 0F 01 64 0A E4 38 19 13 78 C3 08 0A 
+[23:26:44.699290][1]Client[CE010F008BCA] log on
+[23:26:44.807291][1]Client[CE010F008BCA] log off,reason:206 
+[1]Roll:0D 0A 0D 00 02 00 0F 01 64 0A E4 38 19 13 78 C3 08 0A 
+[23:26:44.833271][1]Client[CE010F008BCA] log on
+[23:26:48.205297][1]Client[CE010F008BCA] log off,reason:152 
+[1]Roll:0D 0A 0D 00 02 00 0F 01 64 0A E4 38 19 13 78 C3 08 0A 
+[23:26:49.053288][1]Client[CE010F008BCA] log on
+[23:26:51.325319][1]Client[CE010F008BCA] log off,reason:152 
+[1]Roll:0D 0A 0D 00 02 00 0F 01 64 0A E4 38 19 13 78 C3 08 0A 
+ap_daemon_thread: last=1795822015 cur=1795822015
+[23:27:00.670265][3]Client[CE010F008AF1] log on
+[23:27:00.780286][3]Client[CE010F008AF1] log off,reason:206 
+[3]Roll:0D 0A 0D 00 02 00 0F 65 00 0A E4 38 19 13 78 C3 08 0A 
+[23:27:12.633266][1]Client[CE010F008969] log on
+[23:27:13.631299][1]Client[CE010F008969] log off,reason:152 
+[1]Roll:0D 0A 0D 00 02 00 0F 01 64 0A E4 38 19 13 78 C3 08 0A 
+[23:27:14.791315][1]Client[CE010F008969] log on
+[23:27:15.789268][1]Client[CE010F008969] log off,reason:152 
+[1]Roll:0D 0A 0D 00 02 00 0F 01 64 0A E4 38 19 13 78 C3 08 0A 
+ap_daemon_thread: last=1795822045 cur=1795822045
+[23:27:26.973259][0]Client[CE010F008882] log on
+[23:27:27.971292][0]Client[CE010F008882] log off,reason:152 
+[0]Roll:0D 0A 0D 00 02 00 0F 01 64 0A E4 38 19 13 78 C3 08 0A 
+[23:27:42.500267][2]Client[CE010F008B46] log on
+[23:27:43.499261][2]Client[CE010F008B46] log off,reason:152 
+[2]Roll:0D 0A 0D 00 02 00 0F 01 64 0A E4 38 19 13 78 C3 08 0A 
+[23:27:44.599296][2]Client[CE010F008B46] log on
+[23:27:46.287338][2]Client[CE010F008B46] log off,reason:152 
+[2]Roll:0D 0A 0D 00 02 00 0F 01 64 0A E4 38 19 13 78 C3 08 0A 
+[23:27:47.310312][2]Client[CE010F008B46] log on
+[zkAPSendBufPush][IN]Head:50,Tail:51,Len:124
+[23:27:48.191264]topic:1722919071/ESL/E438191378C3,len:169
+[23:27:48.191464][zkAPSendBufProcess][OUT]Head:51,Tail:51,Send 1 packet
+Message published (mid: 63)
+Received message: 32 from topic: 99999/99999/ESL/E438191378C3
+[23:27:48.421147]receive packet:
+01 CE 01 0F 00 8B 46 00 00 00 /r/n[CE010F008B46]Try Fast,len:24
+[23:27:48.421387][2]Send 31 DATA
+[23:27:48.748311][2]Recv ACK, SN:a4, error code:0
+[2]No need free
+[zkAPSendBufPush][IN]Head:51,Tail:52,Len:30
+[23:27:48.750251]topic:1722919071/ESL/E438191378C3,len:41
+[23:27:48.750451][zkAPSendBufProcess][OUT]Head:52,Tail:52,Send 1 packet
+Message published (mid: 64)
+[23:27:48.804292][2]Client[CE010F008B46] log off,reason:178 
+[2]Roll:0D 0A 0D 00 02 00 0F 01 64 0A E4 38 19 13 78 C3 08 0A 
+[23:27:51.448248][0]Client[CE010F008AF1] log on
+[23:27:53.374274][0]Client[CE010F008AF1] log off,reason:152 
+[0]Roll:0D 0A 0D 00 02 00 0F 01 64 0A E4 38 19 13 78 C3 08 0A 
+ap_daemon_thread: last=1795822075 cur=1795822075
+[23:28:02.842401][0]Client[CE010F008BCA] log on
+[0]Uncomplete packet,need len:128
+[zkAPSendBufPush][IN]Head:52,Tail:53,Len:124
+[23:28:04.031237]topic:1722919071/ESL/E438191378C3,len:169
+[23:28:04.031477][zkAPSendBufProcess][OUT]Head:53,Tail:53,Send 1 packet
+Message published (mid: 65)
+Received message: 32 from topic: 99999/99999/ESL/E438191378C3
+[23:28:04.292940]receive packet:
+01 CE 01 0F 00 8B CA 00 00 00 /r/n[CE010F008BCA]Try Fast,len:24
+[23:28:04.293140][0]Send 31 DATA
+[23:28:04.745307][0]Recv ACK, SN:a4, error code:0
+[0]No need free
+[zkAPSendBufPush][IN]Head:53,Tail:54,Len:30
+[23:28:04.747287]topic:1722919071/ESL/E438191378C3,len:41
+[23:28:04.747487][zkAPSendBufProcess][OUT]Head:54,Tail:54,Send 1 packet
+Message published (mid: 66)
+[23:28:04.805287][0]Client[CE010F008BCA] log off,reason:178 
+[0]Roll:0D 0A 0D 00 02 00 0F 01 64 0A E4 38 19 13 78 C3 08 0A 
+[23:28:08.190253][3]Client[CE010F008888] log on
+[23:28:08.306294][3]Client[CE010F008888] log off,reason:206 
+[3]Roll:0D 0A 0D 00 02 00 0F 65 00 0A E4 38 19 13 78 C3 08 0A 
+ap_daemon_thread: last=1795822105 cur=1795822105
+ap_daemon_thread: last=1795822135 cur=1795822135
+[23:29:18.146280][3]Client[CE010F008BAE] log on
+[23:29:18.260282][3]Client[CE010F008BAE] log off,reason:206 
+[3]Roll:0D 0A 0D 00 02 00 0F 65 00 0A E4 38 19 13 78 C3 08 0A 
+[23:29:18.640347][0]Client[CE010F008888] log on
+[23:29:18.666287][3]Client[CE010F008BAE] log on
+[23:29:18.780289][3]Client[CE010F008BAE] log off,reason:206 
+[3]Roll:0D 0A 0D 00 02 00 0F 65 00 0A E4 38 19 13 78 C3 08 0A 
+[23:29:19.642281][0]Client[CE010F008888] log off,reason:152 
+[0]Roll:0D 0A 0D 00 02 00 0F 01 64 0A E4 38 19 13 78 C3 08 0A 
+[1]Idle -> Roll
+[1]Roll:0D 0A 0D 00 02 00 0F 01 64 0A E4 38 19 13 78 C3 08 0A 
+[23:29:20.580275][0]Client[CE010F008888] log on
+[23:29:21.578249][0]Client[CE010F008888] log off,reason:152 
+[0]Roll:0D 0A 0D 00 02 00 0F 01 64 0A E4 38 19 13 78 C3 08 0A 
+[23:29:22.402261][0]Client[CE010F008888] log on
+[23:29:22.504242][0]Client[CE010F008888] log off,reason:206 
+[0]Roll:0D 0A 0D 00 02 00 0F 01 64 0A E4 38 19 13 78 C3 08 0A 
+ap_daemon_thread: last=1795822165 cur=1795822165
+[23:29:26.058333][3]Client[CE010F008AF1] log on
+[23:29:27.056288][3]Client[CE010F008AF1] log off,reason:152 
+[3]Roll:0D 0A 0D 00 02 00 0F 65 00 0A E4 38 19 13 78 C3 08 0A 
+[23:29:49.697293][0]Client[CE010F008B76] log on
+[23:29:49.811314][0]Client[CE010F008B76] log off,reason:206 
+[0]Roll:0D 0A 0D 00 02 00 0F 01 64 0A E4 38 19 13 78 C3 08 0A 
+[23:29:51.872284][3]Client[CE010F008D67] log on
+[23:29:51.978245][3]Client[CE010F008D67] log off,reason:206 
+[3]Roll:0D 0A 0D 00 02 00 0F 65 00 0A E4 38 19 13 78 C3 08 0A 
+[2]Idle -> Roll
+[2]Roll:0D 0A 0D 00 02 00 0F 01 64 0A E4 38 19 13 78 C3 08 0A 
+ap_daemon_thread: last=1795822195 cur=1795822195
+[23:30:23.157312][1]Client[CE010F008888] log on
+[23:30:23.263294][1]Client[CE010F008888] log off,reason:206 
+[1]Roll:0D 0A 0D 00 02 00 0F 01 64 0A E4 38 19 13 78 C3 08 0A 
+ap_daemon_thread: last=1795822225 cur=1795822225
+[23:30:27.328312][2]Client[CE010F008969] log on
+[2]Uncomplete packet,need len:128
+[zkAPSendBufPush][IN]Head:54,Tail:55,Len:124
+[23:30:27.922260]topic:1722919071/ESL/E438191378C3,len:169
+[23:30:27.922500][zkAPSendBufProcess][OUT]Head:55,Tail:55,Send 1 packet
+Message published (mid: 67)
+Received message: 32 from topic: 99999/99999/ESL/E438191378C3
+[23:30:28.274545]receive packet:
+01 CE 01 0F 00 89 69 00 00 00 /r/n[CE010F008969]Try Fast,len:24
+[23:30:28.274745][2]Send 31 DATA
+[23:30:28.358307][2]Recv ACK, SN:9d, error code:0
+[2]No need free
+[zkAPSendBufPush][IN]Head:55,Tail:56,Len:30
+[23:30:28.360267]topic:1722919071/ESL/E438191378C3,len:41
+[23:30:28.360467][zkAPSendBufProcess][OUT]Head:56,Tail:56,Send 1 packet
+Message published (mid: 68)
+[23:30:28.416247][2]Client[CE010F008969] log off,reason:178 
+[2]Roll:0D 0A 0D 00 02 00 0F 01 64 0A E4 38 19 13 78 C3 08 0A 
+[23:30:36.824288][3]Client[CE010F008AF1] log on
+[23:30:36.936289][3]Client[CE010F008AF1] log off,reason:206 
+[3]Roll:0D 0A 0D 00 02 00 0F 65 00 0A E4 38 19 13 78 C3 08 0A 
+[23:30:37.334315][3]Client[CE010F008AF1] log on
+[23:30:37.436277][3]Client[CE010F008AF1] log off,reason:206 
+[3]Roll:0D 0A 0D 00 02 00 0F 65 00 0A E4 38 19 13 78 C3 08 0A 
+ap_daemon_thread: last=1795822255 cur=1795822255
+[23:31:14.247303][0]Client[CE010F008D67] log on
+[23:31:14.358285][0]Client[CE010F008D67] log off,reason:206 
+[0]Roll:0D 0A 0D 00 02 00 0F 01 64 0A E4 38 19 13 78 C3 08 0A 
+ap_daemon_thread: last=1795822285 cur=1795822285
+[23:31:29.696284][3]Client[CE010F008851] log on
+[23:31:29.808266][3]Client[CE010F008851] log off,reason:206 
+[3]Roll:0D 0A 0D 00 02 00 0F 65 00 0A E4 38 19 13 78 C3 08 0A 
+[23:31:34.050267][1]Client[CE010F008888] log on
+[23:31:35.048261][1]Client[CE010F008888] log off,reason:152 
+[1]Roll:0D 0A 0D 00 02 00 0F 01 64 0A E4 38 19 13 78 C3 08 0A 
+[23:31:37.734299][3]Client[CE010F008D88] log on
+[23:31:38.732274][3]Client[CE010F008D88] log off,reason:152 
+[3]Roll:0D 0A 0D 00 02 00 0F 65 00 0A E4 38 19 13 78 C3 08 0A 
+[23:31:47.775263][2]Client[CE010F008AF1] log on
+[23:31:48.773277][2]Client[CE010F008AF1] log off,reason:152 
+[2]Roll:0D 0A 0D 00 02 00 0F 01 64 0A E4 38 19 13 78 C3 08 0A 
+[23:31:49.809292][2]Client[CE010F008AF1] log on
+[23:31:51.635278][2]Client[CE010F008AF1] log off,reason:152 
+[2]Roll:0D 0A 0D 00 02 00 0F 01 64 0A E4 38 19 13 78 C3 08 0A 
+ap_daemon_thread: last=1795822315 cur=1795822315
+[23:32:02.684276][3]Client[CE010F008882] log on
+[23:32:02.790237][3]Client[CE010F008882] log off,reason:206 
+[3]Roll:0D 0A 0D 00 02 00 0F 65 00 0A E4 38 19 13 78 C3 08 0A 
+[23:32:04.617304][0]Client[CE010F008D67] log on
+[23:32:04.719305][0]Client[CE010F008D67] log off,reason:206 
+[0]Roll:0D 0A 0D 00 02 00 0F 01 64 0A E4 38 19 13 78 C3 08 0A 
+[23:32:12.729279][3]Client[CE010F008932] log on
+[23:32:12.832281][3]Client[CE010F008932] log off,reason:206 
+[3]Roll:0D 0A 0D 00 02 00 0F 65 00 0A E4 38 19 13 78 C3 08 0A 
+[23:32:12.842281][3]Client[CE010F008932] log on
+[23:32:12.951303][3]Client[CE010F008932] log off,reason:206 
+[3]Roll:0D 0A 0D 00 02 00 0F 65 00 0A E4 38 19 13 78 C3 08 0A 
+[23:32:13.079304][3]Client[CE010F008932] log on
+[23:32:14.890250][3]Client[CE010F008932] log off,reason:152 
+[3]Roll:0D 0A 0D 00 02 00 0F 65 00 0A E4 38 19 13 78 C3 08 0A 
+ap_daemon_thread: last=1795822345 cur=1795822345
+[23:32:35.908290][3]Client[CE010F008888] log on
+[23:32:36.019312][0]Client[CE010F008979] log on
+[23:32:36.020332][3]Client[CE010F008888] log off,reason:206 
+[3]Roll:0D 0A 0D 00 02 00 0F 65 00 0A E4 38 19 13 78 C3 08 0A 
+[23:32:36.133314][0]Client[CE010F008979] log off,reason:206 
+[0]Roll:0D 0A 0D 00 02 00 0F 01 64 0A E4 38 19 13 78 C3 08 0A 
+[23:32:36.281276][0]Client[CE010F008979] log on
+[23:32:36.393277][0]Client[CE010F008979] log off,reason:206 
+[0]Roll:0D 0A 0D 00 02 00 0F 01 64 0A E4 38 19 13 78 C3 08 0A 
+ap_daemon_thread: last=1795822375 cur=1795822375
+[23:33:05.492293][3]Client[CE010F008932] log on
+[23:33:07.348259][3]Client[CE010F008932] log off,reason:152 
+[3]Roll:0D 0A 0D 00 02 00 0F 65 00 0A E4 38 19 13 78 C3 08 0A 
+ap_daemon_thread: last=1795822405 cur=1795822405
+[23:33:26.965279][3]Client[CE010F008888] log on
+[23:33:27.078320][3]Client[CE010F008888] log off,reason:206 
+[3]Roll:0D 0A 0D 00 02 00 0F 65 00 0A E4 38 19 13 78 C3 08 0A 
+[23:33:27.302284][2]Client[CE010F008979] log on
+[23:33:27.413265][2]Client[CE010F008979] log off,reason:206 
+[2]Roll:0D 0A 0D 00 02 00 0F 01 64 0A E4 38 19 13 78 C3 08 0A 
+[1]Idle -> Roll
+[1]Roll:0D 0A 0D 00 02 00 0F 01 64 0A E4 38 19 13 78 C3 08 0A 
+ap_daemon_thread: last=1795822435 cur=1795822435
+[23:33:56.365238][3]Client[CE010F008D67] log on
+[23:33:56.479259][3]Client[CE010F008D67] log off,reason:206 
+[3]Roll:0D 0A 0D 00 02 00 0F 65 00 0A E4 38 19 13 78 C3 08 0A 
+[23:34:05.825293][2]Client[CE010F008880] log on
+[2]Uncomplete packet,need len:128
+[zkAPSendBufPush][IN]Head:56,Tail:57,Len:124
+[23:34:06.105237]topic:1722919071/ESL/E438191378C3,len:169
+[23:34:06.105477][zkAPSendBufProcess][OUT]Head:57,Tail:57,Send 1 packet
+Message published (mid: 69)
+Received message: 32 from topic: 99999/99999/ESL/E438191378C3
+[23:34:06.380100]receive packet:
+01 CE 01 0F 00 88 80 00 00 00 /r/n[CE010F008880]Try Fast,len:24
+[23:34:06.380340][2]Send 31 DATA
+[23:34:06.461282][2]Recv ACK, SN:a1, error code:0
+[2]No need free
+[zkAPSendBufPush][IN]Head:57,Tail:58,Len:30
+[23:34:06.463242]topic:1722919071/ESL/E438191378C3,len:41
+[23:34:06.463442][zkAPSendBufProcess][OUT]Head:58,Tail:58,Send 1 packet
+Message published (mid: 70)
+[23:34:06.527283][2]Client[CE010F008880] log off,reason:178 
+[2]Roll:0D 0A 0D 00 02 00 0F 01 64 0A E4 38 19 13 78 C3 08 0A 
+[23:34:09.311322][3]Client[CE010F008932] log on
+[23:34:10.927265][3]Client[CE010F008932] log off,reason:152 
+[3]Roll:0D 0A 0D 00 02 00 0F 65 00 0A E4 38 19 13 78 C3 08 0A 
+ap_daemon_thread: last=1795822465 cur=1795822465
+[23:34:35.186291][3]Client[CE010F008AF1] log on
+[23:34:35.297312][3]Client[CE010F008AF1] log off,reason:206 
+[3]Roll:0D 0A 0D 00 02 00 0F 65 00 0A E4 38 19 13 78 C3 08 0A 
+[23:34:35.315272][3]Client[CE010F008AF1] log on
+[23:34:36.312287][3]Client[CE010F008AF1] log off,reason:152 
+[3]Roll:0D 0A 0D 00 02 00 0F 65 00 0A E4 38 19 13 78 C3 08 0A 
+[0]Idle -> Roll
+[0]Roll:0D 0A 0D 00 02 00 0F 01 64 0A E4 38 19 13 78 C3 08 0A 
+[23:34:47.003299][3]Client[CE010F008D67] log on
+[23:34:47.116260][3]Client[CE010F008D67] log off,reason:206 
+[3]Roll:0D 0A 0D 00 02 00 0F 65 00 0A E4 38 19 13 78 C3 08 0A 
+[23:34:47.122320][3]Client[CE010F008D67] log on
+[23:34:47.235302][3]Client[CE010F008D67] log off,reason:206 
+[3]Roll:0D 0A 0D 00 02 00 0F 65 00 0A E4 38 19 13 78 C3 08 0A 
+ap_daemon_thread: last=1795822495 cur=1795822495
+ap_daemon_thread: last=1795822525 cur=1795822525
+[23:35:25.836311][0]Client[CE010F008AF1] log on
+[23:35:25.938292][0]Client[CE010F008AF1] log off,reason:206 
+[0]Roll:0D 0A 0D 00 02 00 0F 01 64 0A E4 38 19 13 78 C3 08 0A 
+[23:35:38.680253][0]Client[CE010F008979] log on
+[23:35:38.782275][0]Client[CE010F008979] log off,reason:206 
+[0]Roll:0D 0A 0D 00 02 00 0F 01 64 0A E4 38 19 13 78 C3 08 0A 
+[1]Idle -> Roll
+[1]Roll:0D 0A 0D 00 02 00 0F 01 64 0A E4 38 19 13 78 C3 08 0A 
+[23:35:52.740333][1]Client[CE010F008932] log on
+[23:35:52.843275][1]Client[CE010F008932] log off,reason:206 
+[1]Roll:0D 0A 0D 00 02 00 0F 01 64 0A E4 38 19 13 78 C3 08 0A 
+ap_daemon_thread: last=1795822555 cur=1795822555
+[2]Idle -> Roll
+[2]Roll:0D 0A 0D 00 02 00 0F 01 64 0A E4 38 19 13 78 C3 08 0A 
+[23:36:16.712274][3]Client[CE010F008AF1] log on
+[23:36:16.818295][3]Client[CE010F008AF1] log off,reason:206 
+[3]Roll:0D 0A 0D 00 02 00 0F 65 00 0A E4 38 19 13 78 C3 08 0A 
+ap_daemon_thread: last=1795822585 cur=1795822585
+[23:36:38.684265][1]Client[CE010F008D67] log on
+[23:36:38.792327][1]Client[CE010F008D67] log off,reason:206 
+[1]Roll:0D 0A 0D 00 02 00 0F 01 64 0A E4 38 19 13 78 C3 08 0A 
+[23:36:38.960329][1]Client[CE010F008D67] log on
+[23:36:39.072311][1]Client[CE010F008D67] log off,reason:206 
+[1]Roll:0D 0A 0D 00 02 00 0F 01 64 0A E4 38 19 13 78 C3 08 0A 
+ap_daemon_thread: last=1795822615 cur=1795822615
+[23:37:04.114326][2]Client[CE010F008932] log on

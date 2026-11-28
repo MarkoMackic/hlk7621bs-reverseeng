@@ -1,0 +1,1708 @@
+MQTT MITM proxy listening on :8883
+Targeting broker: *REDACTED*
+Accepted connection from 192.168.1.6:55516
+Proxy certificates not provided. Using plaintext for client connection.
+Client certificates not provided. Connecting to broker with plaintext.
+Connected to real broker at *REDACTED* using plaintext TCP.
+
+=== CLIENT → SERVER 00:07:26 MQTT Packet ===
+Packet Type: CONNECT (0x01)
+Flags: 0x0
+    Protocol Name: MQIsdp
+    Protocol Level: 3
+    Connect Flags: 0xCE
+        Clean Session: true
+        Will Flag: true
+        Will QoS: 1
+        Will Retain: false
+        User Name Flag: true
+        Password Flag: true
+    Keep Alive: 20 seconds
+    Client ID: E438191378C3
+    Will Topic: RegServer/Join
+    Will Message: eyJkZXZ0eXBlIjoiR2F0ZXdheSIsImNtZCI6IkRpc2pvaW4iLCJkZXZpbmZvIjp7Im1vZGVsIjoiRUFQLU00IiwibWFjIjoiRTQzODE5MTM3OEMzIiwic24iOiI2NkFQMDI1MjYwMDIiLCJzb2Z0dmVyc2lvbiI6IjEuMC4zIiwiaHd2ZXJzaW9uIjoxfX0=\x00 (65794a6b5a585a306558426c496a6f69523246305a58646865534973496d4e745a434936496b527063327076615734694c434a6b5a585a70626d5a76496a7037496d31765a475673496a6f69525546514c553030496977696257466a496a6f695254517a4f4445354d544d334f454d7a49697769633234694f6949324e6b46514d4449314d6a59774d4449694c434a7a62325a30646d567963326c7662694936496a45754d43347a49697769614864325a584a7a61573975496a6f786658303d00)
+    *REDACTED*
+    *REDACTED*
+=== End Packet ===
+
+=== CLIENT → SERVER 00:07:26 MQTT Packet ===
+Packet Type: PUBLISH (0x03)
+Flags: 0x0
+  Topic: RegServer/Join
+  Payload:
+    Detected Format: Binary Data
+00000000  65 79 4a 6b 5a 58 5a 30  65 58 42 6c 49 6a 6f 69  |eyJkZXZ0eXBlIjoi|
+00000010  52 32 46 30 5a 58 64 68  65 53 49 73 49 6d 4e 74  |R2F0ZXdheSIsImNt|
+00000020  5a 43 49 36 49 6b 70 76  61 57 34 69 4c 43 4a 30  |ZCI6IkpvaW4iLCJ0|
+00000030  59 58 4e 72 49 6a 6f 77  4c 43 4a 6b 5a 58 5a 70  |YXNrIjowLCJkZXZp|
+00000040  62 6d 5a 76 49 6a 70 37  49 6d 31 76 5a 47 56 73  |bmZvIjp7Im1vZGVs|
+00000050  49 6a 6f 69 52 55 46 51  4c 55 30 30 49 69 77 69  |IjoiRUFQLU00Iiwi|
+00000060  62 32 56 74 62 6d 46 74  5a 53 49 36 49 6b 56 42  |b2VtbmFtZSI6IkVB|
+00000070  55 43 31 4e 4e 43 49 73  49 6e 5a 6c 62 6d 52 76  |UC1NNCIsInZlbmRv|
+00000080  63 69 49 36 4d 43 77 69  64 32 39 79 61 32 31 76  |ciI6MCwid29ya21v|
+00000090  5a 47 55 69 4f 6a 41 73  49 6d 31 68 59 79 49 36  |ZGUiOjAsIm1hYyI6|
+000000a0  49 6b 55 30 4d 7a 67 78  4f 54 45 7a 4e 7a 68 44  |IkU0MzgxOTEzNzhD|
+000000b0  4d 79 49 73 49 6e 4e 75  49 6a 6f 69 4e 6a 5a 42  |MyIsInNuIjoiNjZB|
+000000c0  55 44 41 79 4e 54 49 32  4d 44 41 79 49 69 77 69  |UDAyNTI2MDAyIiwi|
+000000d0  63 32 39 6d 64 48 5a 6c  63 6e 4e 70 62 32 34 69  |c29mdHZlcnNpb24i|
+000000e0  4f 69 49 78 4c 6a 41 75  4d 79 49 73 49 6d 68 33  |OiIxLjAuMyIsImh3|
+000000f0  64 6d 56 79 63 32 6c 76  62 69 49 36 4d 53 77 69  |dmVyc2lvbiI6MSwi|
+00000100  61 58 42 68 5a 47 52 79  49 6a 6f 69 4d 54 6b 79  |aXBhZGRyIjoiMTky|
+00000110  4c 6a 45 32 4f 43 34 78  4c 6a 59 69 66 58 30 3d  |LjE2OC4xLjYifX0=|
+00000120  00                                                |.|
+Packet identifier: b7d24d5e-4bfd-472b-880c-5ac9fcf92219, dataTotal: 289
+=== End Packet ===
+
+=== SERVER → CLIENT 00:07:26 MQTT Packet ===
+Packet Type: CONNACK (0x02)
+Flags: 0x0
+    Session Present: false
+    Return Code: Connection Accepted
+=== End Packet ===
+
+=== CLIENT → SERVER 00:07:26 MQTT Packet ===
+Packet Type: SUBSCRIBE (0x08)
+Flags: 0x2
+    Packet ID: 2
+    Topic Filter: E438191378C3/TopicSet, Requested QoS: 0
+=== End Packet ===
+
+=== SERVER → CLIENT 00:07:26 MQTT Packet ===
+Packet Type: SUBACK (0x09)
+Flags: 0x0
+    Packet ID: 2
+    Granted QoS Levels:
+        Topic 0: Success (Max QoS 0)
+=== End Packet ===
+
+=== CLIENT → SERVER 00:07:27 MQTT Packet ===
+Packet Type: PUBLISH (0x03)
+Flags: 0x0
+  Topic: RegServer/Join
+  Payload:
+    Detected Format: Binary Data
+00000000  65 79 4a 6b 5a 58 5a 30  65 58 42 6c 49 6a 6f 69  |eyJkZXZ0eXBlIjoi|
+00000010  52 32 46 30 5a 58 64 68  65 53 49 73 49 6d 4e 74  |R2F0ZXdheSIsImNt|
+00000020  5a 43 49 36 49 6b 70 76  61 57 34 69 4c 43 4a 30  |ZCI6IkpvaW4iLCJ0|
+00000030  59 58 4e 72 49 6a 6f 77  4c 43 4a 6b 5a 58 5a 70  |YXNrIjowLCJkZXZp|
+00000040  62 6d 5a 76 49 6a 70 37  49 6d 31 76 5a 47 56 73  |bmZvIjp7Im1vZGVs|
+00000050  49 6a 6f 69 52 55 46 51  4c 55 30 30 49 69 77 69  |IjoiRUFQLU00Iiwi|
+00000060  62 32 56 74 62 6d 46 74  5a 53 49 36 49 6b 56 42  |b2VtbmFtZSI6IkVB|
+00000070  55 43 31 4e 4e 43 49 73  49 6e 5a 6c 62 6d 52 76  |UC1NNCIsInZlbmRv|
+00000080  63 69 49 36 4d 43 77 69  64 32 39 79 61 32 31 76  |ciI6MCwid29ya21v|
+00000090  5a 47 55 69 4f 6a 41 73  49 6d 31 68 59 79 49 36  |ZGUiOjAsIm1hYyI6|
+000000a0  49 6b 55 30 4d 7a 67 78  4f 54 45 7a 4e 7a 68 44  |IkU0MzgxOTEzNzhD|
+000000b0  4d 79 49 73 49 6e 4e 75  49 6a 6f 69 4e 6a 5a 42  |MyIsInNuIjoiNjZB|
+000000c0  55 44 41 79 4e 54 49 32  4d 44 41 79 49 69 77 69  |UDAyNTI2MDAyIiwi|
+000000d0  63 32 39 6d 64 48 5a 6c  63 6e 4e 70 62 32 34 69  |c29mdHZlcnNpb24i|
+000000e0  4f 69 49 78 4c 6a 41 75  4d 79 49 73 49 6d 68 33  |OiIxLjAuMyIsImh3|
+000000f0  64 6d 56 79 63 32 6c 76  62 69 49 36 4d 53 77 69  |dmVyc2lvbiI6MSwi|
+00000100  61 58 42 68 5a 47 52 79  49 6a 6f 69 4d 54 6b 79  |aXBhZGRyIjoiMTky|
+00000110  4c 6a 45 32 4f 43 34 78  4c 6a 59 69 66 58 30 3d  |LjE2OC4xLjYifX0=|
+00000120  00                                                |.|
+Packet identifier: b1c84f3c-496d-40dc-9504-823d696c3eee, dataTotal: 289
+=== End Packet ===
+
+=== SERVER → CLIENT 00:07:27 MQTT Packet ===
+Packet Type: PUBLISH (0x03)
+Flags: 0x0
+  Topic: E438191378C3/TopicSet
+  Payload:
+    Detected Format: Base64
+    --- Begin Decoded Base64 ---
+    Detected Format: JSON
+    {
+      "cmd": "TopicSet",
+      "devtype": "Server",
+      "eslconfig": [],
+      "topicinfo": []
+    }
+    --- End Decoded Base64 ---
+Packet identifier: 6007071d-6c24-43ca-9c4a-9ed5e34beca7, dataTotal: 92
+=== End Packet ===
+
+=== SERVER → CLIENT 00:07:27 MQTT Packet ===
+Packet Type: PUBLISH (0x03)
+Flags: 0x0
+  Topic: E438191378C3/TopicSet
+  Payload:
+    Detected Format: Base64
+    --- Begin Decoded Base64 ---
+    Detected Format: JSON
+    {
+      "cmd": "TopicSet",
+      "devtype": "Server",
+      "eslconfig": [
+        {
+          "cfgtype": "sleepconfig",
+          "sleepslot": 10
+        },
+        {
+          "busyperiod": 2,
+          "cfgtype": "period",
+          "rollperiod": 120
+        }
+      ],
+      "topicinfo": [
+        {
+          "pubtopic": "99999/99999/ESL/E438191378C3",
+          "subtopic": "1722919071/ESL/E438191378C3",
+          "topictype": "ESLModule"
+        },
+        {
+          "pubtopic": "99999/99999/Gateway/E438191378C3",
+          "subtopic": "1722919071/Gateway/E438191378C3",
+          "topictype": "GatewayModule"
+        }
+      ]
+    }
+    --- End Decoded Base64 ---
+Packet identifier: 18d783f0-d2d2-4e01-8ce2-583ba12ce387, dataTotal: 520
+=== End Packet ===
+
+=== CLIENT → SERVER 00:07:28 MQTT Packet ===
+Packet Type: UNSUBSCRIBE (0x0A)
+Flags: 0x2
+    Packet ID: 4
+    Topics to Unsubscribe:
+        - E438191378C3/TopicSet
+=== End Packet ===
+
+=== CLIENT → SERVER 00:07:28 MQTT Packet ===
+Packet Type: SUBSCRIBE (0x08)
+Flags: 0x2
+    Packet ID: 5
+    Topic Filter: 99999/99999/Gateway/E438191378C3, Requested QoS: 0
+=== End Packet ===
+
+=== CLIENT → SERVER 00:07:28 MQTT Packet ===
+Packet Type: SUBSCRIBE (0x08)
+Flags: 0x2
+    Packet ID: 6
+    Topic Filter: 99999/99999/ESL/E438191378C3, Requested QoS: 0
+=== End Packet ===
+
+=== CLIENT → SERVER 00:07:28 MQTT Packet ===
+Packet Type: PUBLISH (0x03)
+Flags: 0x4
+  Topic: RegServer/Join
+  Packet ID: 7
+  Payload:
+    Detected Format: Binary Data
+00000000  65 79 4a 6b 5a 58 5a 30  65 58 42 6c 49 6a 6f 69  |eyJkZXZ0eXBlIjoi|
+00000010  52 32 46 30 5a 58 64 68  65 53 49 73 49 6d 4e 74  |R2F0ZXdheSIsImNt|
+00000020  5a 43 49 36 49 6b 70 76  61 57 35 54 64 47 46 30  |ZCI6IkpvaW5TdGF0|
+00000030  64 58 4d 69 4c 43 4a 74  59 57 4d 69 4f 69 4a 46  |dXMiLCJtYWMiOiJF|
+00000040  4e 44 4d 34 4d 54 6b 78  4d 7a 63 34 51 7a 4d 69  |NDM4MTkxMzc4QzMi|
+00000050  4c 43 4a 6a 62 32 52 6c  49 6a 6f 69 4d 43 4a 39  |LCJjb2RlIjoiMCJ9|
+00000060  00                                                |.|
+Packet identifier: 5744f968-c618-42c7-b414-600b2bcf82a3, dataTotal: 97
+=== End Packet ===
+
+=== CLIENT → SERVER 00:07:28 MQTT Packet ===
+Packet Type: PUBLISH (0x03)
+Flags: 0x0
+  Topic: 1722919071/Gateway/E438191378C3
+  Payload:
+    Detected Format: Binary Data
+00000000  65 79 4a 6b 5a 58 5a 30  65 58 42 6c 49 6a 6f 69  |eyJkZXZ0eXBlIjoi|
+00000010  52 32 46 30 5a 58 64 68  65 53 49 73 49 6d 4e 74  |R2F0ZXdheSIsImNt|
+00000020  5a 43 49 36 49 6c 64 68  63 6d 35 70 62 6d 63 69  |ZCI6Ildhcm5pbmci|
+00000030  4c 43 4a 30 59 58 4e 72  49 6a 6f 78 4c 43 4a 6b  |LCJ0YXNrIjoxLCJk|
+00000040  5a 58 5a 70 62 6d 5a 76  49 6a 70 37 49 6d 31 68  |ZXZpbmZvIjp7Im1h|
+00000050  59 79 49 36 49 6b 55 30  4d 7a 67 78 4f 54 45 7a  |YyI6IkU0MzgxOTEz|
+00000060  4e 7a 68 44 4d 79 4a 39  4c 43 4a 33 59 58 4a 75  |NzhDMyJ9LCJ3YXJu|
+00000070  61 57 35 6e 61 57 35 6d  62 79 49 36 65 79 4a 6f  |aW5naW5mbyI6eyJo|
+00000080  59 58 4a 6b 64 32 46 79  5a 53 49 36 4d 58 31 39  |YXJkd2FyZSI6MX19|
+00000090  00                                                |.|
+Packet identifier: 3d5a5638-a500-481e-804d-4ef4f4455d4f, dataTotal: 145
+=== End Packet ===
+
+=== CLIENT → SERVER 00:07:28 MQTT Packet ===
+Packet Type: PUBLISH (0x03)
+Flags: 0x0
+  Topic: 1722919071/Gateway/E438191378C3
+  Payload:
+    Detected Format: Binary Data
+00000000  65 79 4a 6b 5a 58 5a 30  65 58 42 6c 49 6a 6f 69  |eyJkZXZ0eXBlIjoi|
+00000010  52 32 46 30 5a 58 64 68  65 53 49 73 49 6d 4e 74  |R2F0ZXdheSIsImNt|
+00000020  5a 43 49 36 49 6c 64 68  63 6d 35 70 62 6d 63 69  |ZCI6Ildhcm5pbmci|
+00000030  4c 43 4a 30 59 58 4e 72  49 6a 6f 79 4c 43 4a 6b  |LCJ0YXNrIjoyLCJk|
+00000040  5a 58 5a 70 62 6d 5a 76  49 6a 70 37 49 6d 31 68  |ZXZpbmZvIjp7Im1h|
+00000050  59 79 49 36 49 6b 55 30  4d 7a 67 78 4f 54 45 7a  |YyI6IkU0MzgxOTEz|
+00000060  4e 7a 68 44 4d 79 4a 39  4c 43 4a 33 59 58 4a 75  |NzhDMyJ9LCJ3YXJu|
+00000070  61 57 35 6e 61 57 35 6d  62 79 49 36 65 79 4a 6f  |aW5naW5mbyI6eyJo|
+00000080  59 58 4a 6b 64 32 46 79  5a 53 49 36 4d 58 31 39  |YXJkd2FyZSI6MX19|
+00000090  00                                                |.|
+Packet identifier: d501a77d-0573-46dd-abec-119b99de8516, dataTotal: 145
+=== End Packet ===
+
+=== CLIENT → SERVER 00:07:28 MQTT Packet ===
+Packet Type: PUBLISH (0x03)
+Flags: 0x0
+  Topic: 1722919071/Gateway/E438191378C3
+  Payload:
+    Detected Format: Binary Data
+00000000  65 79 4a 6b 5a 58 5a 30  65 58 42 6c 49 6a 6f 69  |eyJkZXZ0eXBlIjoi|
+00000010  52 32 46 30 5a 58 64 68  65 53 49 73 49 6d 4e 74  |R2F0ZXdheSIsImNt|
+00000020  5a 43 49 36 49 6c 64 68  63 6d 35 70 62 6d 63 69  |ZCI6Ildhcm5pbmci|
+00000030  4c 43 4a 30 59 58 4e 72  49 6a 6f 7a 4c 43 4a 6b  |LCJ0YXNrIjozLCJk|
+00000040  5a 58 5a 70 62 6d 5a 76  49 6a 70 37 49 6d 31 68  |ZXZpbmZvIjp7Im1h|
+00000050  59 79 49 36 49 6b 55 30  4d 7a 67 78 4f 54 45 7a  |YyI6IkU0MzgxOTEz|
+00000060  4e 7a 68 44 4d 79 4a 39  4c 43 4a 33 59 58 4a 75  |NzhDMyJ9LCJ3YXJu|
+00000070  61 57 35 6e 61 57 35 6d  62 79 49 36 65 79 4a 6f  |aW5naW5mbyI6eyJo|
+00000080  59 58 4a 6b 64 32 46 79  5a 53 49 36 4d 58 31 39  |YXJkd2FyZSI6MX19|
+00000090  00                                                |.|
+Packet identifier: 04979e88-d728-40e1-8e1d-9d59cf230656, dataTotal: 145
+=== End Packet ===
+
+=== CLIENT → SERVER 00:07:28 MQTT Packet ===
+Packet Type: PUBLISH (0x03)
+Flags: 0x0
+  Topic: 1722919071/Gateway/E438191378C3
+  Payload:
+    Detected Format: Binary Data
+00000000  65 79 4a 6b 5a 58 5a 30  65 58 42 6c 49 6a 6f 69  |eyJkZXZ0eXBlIjoi|
+00000010  52 32 46 30 5a 58 64 68  65 53 49 73 49 6d 4e 74  |R2F0ZXdheSIsImNt|
+00000020  5a 43 49 36 49 6c 64 68  63 6d 35 70 62 6d 63 69  |ZCI6Ildhcm5pbmci|
+00000030  4c 43 4a 30 59 58 4e 72  49 6a 6f 30 4c 43 4a 6b  |LCJ0YXNrIjo0LCJk|
+00000040  5a 58 5a 70 62 6d 5a 76  49 6a 70 37 49 6d 31 68  |ZXZpbmZvIjp7Im1h|
+00000050  59 79 49 36 49 6b 55 30  4d 7a 67 78 4f 54 45 7a  |YyI6IkU0MzgxOTEz|
+00000060  4e 7a 68 44 4d 79 4a 39  4c 43 4a 33 59 58 4a 75  |NzhDMyJ9LCJ3YXJu|
+00000070  61 57 35 6e 61 57 35 6d  62 79 49 36 65 79 4a 6f  |aW5naW5mbyI6eyJo|
+00000080  59 58 4a 6b 64 32 46 79  5a 53 49 36 4d 58 31 39  |YXJkd2FyZSI6MX19|
+00000090  00                                                |.|
+Packet identifier: b6d1d2f2-f731-4e4a-80fb-86e6db6fb45c, dataTotal: 145
+=== End Packet ===
+
+=== CLIENT → SERVER 00:07:28 MQTT Packet ===
+Packet Type: PUBLISH (0x03)
+Flags: 0x0
+  Topic: 1722919071/Gateway/E438191378C3
+  Payload:
+    Detected Format: Binary Data
+00000000  65 79 4a 6b 5a 58 5a 30  65 58 42 6c 49 6a 6f 69  |eyJkZXZ0eXBlIjoi|
+00000010  52 32 46 30 5a 58 64 68  65 53 49 73 49 6d 4e 74  |R2F0ZXdheSIsImNt|
+00000020  5a 43 49 36 49 6b 56 54  54 45 4e 76 62 6d 5a 70  |ZCI6IkVTTENvbmZp|
+00000030  5a 79 49 73 49 6e 52 68  63 32 73 69 4f 6a 41 73  |ZyIsInRhc2siOjAs|
+00000040  49 6d 52 6c 64 6d 6c 75  5a 6d 38 69 4f 6e 73 69  |ImRldmluZm8iOnsi|
+00000050  62 57 46 6a 49 6a 6f 69  52 54 51 7a 4f 44 45 35  |bWFjIjoiRTQzODE5|
+00000060  4d 54 4d 33 4f 45 4d 7a  49 6e 30 73 49 6d 56 7a  |MTM3OEMzIn0sImVz|
+00000070  62 47 4e 76 62 6d 5a 70  5a 79 49 36 65 79 4a 7a  |bGNvbmZpZyI6eyJz|
+00000080  64 47 46 30 64 58 4d 69  4f 6a 63 77 4d 44 42 39  |dGF0dXMiOjcwMDB9|
+00000090  66 51 3d 3d 00                                    |fQ==.|
+Packet identifier: 953b959a-8e61-4343-8e02-d173e55a2554, dataTotal: 149
+=== End Packet ===
+
+=== SERVER → CLIENT 00:07:28 MQTT Packet ===
+Packet Type: UNSUBACK (0x0B)
+Flags: 0x0
+    UNSUBACK for Packet ID: 4
+=== End Packet ===
+
+=== SERVER → CLIENT 00:07:28 MQTT Packet ===
+Packet Type: SUBACK (0x09)
+Flags: 0x0
+    Packet ID: 5
+    Granted QoS Levels:
+        Topic 0: Success (Max QoS 0)
+=== End Packet ===
+
+=== SERVER → CLIENT 00:07:28 MQTT Packet ===
+Packet Type: SUBACK (0x09)
+Flags: 0x0
+    Packet ID: 6
+    Granted QoS Levels:
+        Topic 0: Success (Max QoS 0)
+=== End Packet ===
+
+=== SERVER → CLIENT 00:07:28 MQTT Packet ===
+Packet Type: PUBREC (0x05)
+Flags: 0x0
+Payload (2 bytes): 0007
+Payload (ASCII): \x00\x07
+=== End Packet ===
+
+=== CLIENT → SERVER 00:07:28 MQTT Packet ===
+Packet Type: PUBREL (0x06)
+Flags: 0x2
+Payload (2 bytes): 0007
+Payload (ASCII): \x00\x07
+=== End Packet ===
+
+=== SERVER → CLIENT 00:07:28 MQTT Packet ===
+Packet Type: PUBCOMP (0x07)
+Flags: 0x0
+Payload (2 bytes): 0007
+Payload (ASCII): \x00\x07
+=== End Packet ===
+
+=== CLIENT → SERVER 00:07:48 MQTT Packet ===
+Packet Type: PUBLISH (0x03)
+Flags: 0x0
+  Topic: 1722919071/ESL/E438191378C3
+  Payload:
+    Detected Format: Binary Data
+00000000  45 63 34 42 44 77 43 4e  5a 51 41 41 41 61 38 41  |Ec4BDwCNZQAAAa8A|
+00000010  65 41 45 41 61 34 45 43  67 66 6c 4e 67 6d 4b 48  |eAEAa4ECgflNgmKH|
+00000020  41 65 51 34 47 52 4e 34  77 79 4b 47 41 77 41 41  |AeQ4GRN4wyKGAwAA|
+00000030  43 6f 67 46 41 53 67 41  67 49 6b 41 41 41 41 47  |CogFASgAgIkAAAAG|
+00000040  55 31 4a 44 52 6a 49 35  69 67 41 41 64 54 41 41  |U1JDRjI5igAAdTAA|
+00000050  41 44 68 41 41 41 41 41  44 41 41 42 55 59 43 4d  |ADhAAAAADAABUYCM|
+00000060  41 59 30 44 6a 67 69 50  41 41 41 41 6f 4a 45 41  |AY0DjgiPAAAAoJEA|
+00000070  6b 67 4b 54 41 67 45 41  6c 41 63 45 38 63 74 6e  |kgKTAgEAlAcE8ctn|
+00000080  4a 51 4a 70 6c 51 75 68  6c 67 41 41 64 54 43 5a  |JQJplQuhlgAAdTCZ|
+00000090  43 41 41 43 41 41 41 41  41 51 41 41 6d 67 45 42  |CAACAAAAAQAAmgEB|
+000000a0  50 72 49 76 47 41 3d 3d  00                       |PrIvGA==.|
+Packet identifier: 670c01c3-4e3a-4e4f-b289-78558cccfeb0, dataTotal: 169
+=== End Packet ===
+
+=== SERVER → CLIENT 00:07:49 MQTT Packet ===
+Packet Type: PUBLISH (0x03)
+Flags: 0x0
+  Topic: 99999/99999/ESL/E438191378C3
+  Payload:
+    Detected Format: Base64
+    --- Begin Decoded Base64 ---
+    Detected Format: Binary Data
+00000000  01 ce 01 0f 00 8d 65 00  00 00 a1 00 14 00 00 11  |......e.........|
+00000010  11 09 00 07 5f 20 f7 ea                           |...._ ..|
+    --- End Decoded Base64 ---
+Packet identifier: e0d0403a-8843-4cb6-b056-55d4b13e816a, dataTotal: 32
+=== End Packet ===
+
+=== CLIENT → SERVER 00:07:49 MQTT Packet ===
+Packet Type: PUBLISH (0x03)
+Flags: 0x0
+  Topic: 1722919071/ESL/E438191378C3
+  Payload:
+    Detected Format: Binary Data
+00000000  41 63 34 42 44 77 43 4e  5a 51 41 41 41 62 41 41  |Ac4BDwCNZQAAAbAA|
+00000010  47 67 6b 41 44 51 41 41  41 4b 45 42 41 41 41 52  |GgkADQAAAKEBAAAR|
+00000020  45 51 43 67 37 50 76 72  00                       |EQCg7Pvr.|
+Packet identifier: 0ae5d2d7-cd03-4ed8-a10d-e1b36716105d, dataTotal: 41
+=== End Packet ===
+
+=== CLIENT → SERVER 00:08:12 MQTT Packet ===
+Packet Type: PUBLISH (0x03)
+Flags: 0x0
+  Topic: 1722919071/ESL/E438191378C3
+  Payload:
+    Detected Format: Binary Data
+00000000  45 63 34 42 44 77 43 4c  73 67 41 41 41 58 6f 41  |Ec4BDwCLsgAAAXoA|
+00000010  65 41 45 41 61 34 45 43  65 66 54 66 67 6c 69 48  |eAEAa4ECefTfgliH|
+00000020  41 65 51 34 47 52 4e 34  77 78 36 47 41 77 41 41  |AeQ4GRN4wx6GAwAA|
+00000030  43 6f 67 46 41 53 67 41  67 49 6b 41 41 41 41 47  |CogFASgAgIkAAAAG|
+00000040  55 31 4a 44 52 6a 49 35  69 67 41 41 64 54 41 41  |U1JDRjI5igAAdTAA|
+00000050  41 44 68 41 41 41 41 41  44 41 41 42 55 59 43 4d  |ADhAAAAADAABUYCM|
+00000060  41 59 30 44 6a 67 69 50  41 41 41 41 6f 5a 45 41  |AY0DjgiPAAAAoZEA|
+00000070  6b 67 4b 54 41 67 45 41  6c 41 63 45 6b 61 46 74  |kgKTAgEAlAcEkaFt|
+00000080  4a 51 4a 70 6c 51 74 48  6c 67 41 41 4a 78 43 5a  |JQJplQtHlgAAJxCZ|
+00000090  43 41 41 42 41 41 41 41  41 41 41 41 6d 67 45 42  |CAABAAAAAAAAmgEB|
+000000a0  45 2f 57 63 4e 41 3d 3d  00                       |E/WcNA==.|
+Packet identifier: 5d839be4-0dd3-4132-b356-976c9b64f7ea, dataTotal: 169
+=== End Packet ===
+
+=== SERVER → CLIENT 00:08:12 MQTT Packet ===
+Packet Type: PUBLISH (0x03)
+Flags: 0x0
+  Topic: 99999/99999/ESL/E438191378C3
+  Payload:
+    Detected Format: Base64
+    --- Begin Decoded Base64 ---
+    Detected Format: Binary Data
+00000000  01 ce 01 0f 00 8b b2 00  00 00 a2 00 14 00 00 11  |................|
+00000010  11 09 00 07 3d fa fa e8                           |....=...|
+    --- End Decoded Base64 ---
+Packet identifier: 4de94f8a-0084-4727-8fe0-af5c31257707, dataTotal: 32
+=== End Packet ===
+
+=== CLIENT → SERVER 00:08:12 MQTT Packet ===
+Packet Type: PUBLISH (0x03)
+Flags: 0x0
+  Topic: 1722919071/ESL/E438191378C3
+  Payload:
+    Detected Format: Binary Data
+00000000  41 63 34 42 44 77 43 4c  73 67 41 41 41 58 73 41  |Ac4BDwCLsgAAAXsA|
+00000010  47 67 6b 41 44 51 41 41  41 4b 49 42 41 41 41 52  |GgkADQAAAKIBAAAR|
+00000020  45 51 41 77 79 6c 62 42  00                       |EQAwylbB.|
+Packet identifier: 83ef920a-19a8-4baf-b24f-13aaf63a24f6, dataTotal: 41
+=== End Packet ===
+
+=== CLIENT → SERVER 00:08:32 MQTT Packet ===
+Packet Type: PUBLISH (0x03)
+Flags: 0x0
+  Topic: 1722919071/ESL/E438191378C3
+  Payload:
+    Detected Format: Binary Data
+00000000  45 63 34 42 44 77 43 4b  78 41 41 41 41 61 63 41  |Ec4BDwCKxAAAAacA|
+00000010  65 41 45 41 61 34 45 43  67 66 66 63 67 6d 4b 48  |eAEAa4ECgffcgmKH|
+00000020  41 65 51 34 47 52 4e 34  77 78 2b 47 41 77 41 41  |AeQ4GRN4wx+GAwAA|
+00000030  43 6f 67 46 41 53 67 41  67 49 6b 41 41 41 41 47  |CogFASgAgIkAAAAG|
+00000040  55 31 4a 44 52 6a 49 35  69 67 41 41 64 54 41 41  |U1JDRjI5igAAdTAA|
+00000050  41 44 68 41 41 41 41 41  44 41 41 42 55 59 43 4d  |ADhAAAAADAABUYCM|
+00000060  41 59 30 44 6a 67 69 50  41 41 41 41 6e 5a 45 41  |AY0DjgiPAAAAnZEA|
+00000070  6b 67 4b 54 41 67 45 41  6c 41 63 45 6f 66 64 6f  |kgKTAgEAlAcEofdo|
+00000080  4a 51 4a 70 6c 51 75 61  6c 67 41 41 4a 78 43 5a  |JQJplQualgAAJxCZ|
+00000090  43 41 41 43 41 41 41 41  41 51 41 41 6d 67 45 42  |CAACAAAAAQAAmgEB|
+000000a0  35 51 51 72 79 41 3d 3d  00                       |5QQryA==.|
+Packet identifier: 02aa6813-5861-4695-b8c6-bf567db48f80, dataTotal: 169
+=== End Packet ===
+
+=== SERVER → CLIENT 00:08:32 MQTT Packet ===
+Packet Type: PUBLISH (0x03)
+Flags: 0x0
+  Topic: 99999/99999/ESL/E438191378C3
+  Payload:
+    Detected Format: Protobuf (generic decode, no schema)
+    Field 8 (type 1): 0x6334424477434b78
+    Field 8 (type 1): 0x4141414a34414641
+    Field 8 (type 1): 0x414552454a414165
+    Field 10 (type 1): 
+Packet identifier: 591c22ee-6611-40e8-a459-94e8f6c590d0, dataTotal: 32
+=== End Packet ===
+
+=== CLIENT → SERVER 00:08:32 MQTT Packet ===
+Packet Type: PUBLISH (0x03)
+Flags: 0x0
+  Topic: 1722919071/ESL/E438191378C3
+  Payload:
+    Detected Format: Binary Data
+00000000  41 63 34 42 44 77 43 4b  78 41 41 41 41 61 67 41  |Ac4BDwCKxAAAAagA|
+00000010  47 67 6b 41 44 51 41 41  41 4a 34 42 41 41 41 52  |GgkADQAAAJ4BAAAR|
+00000020  45 51 44 45 4f 35 73 77  00                       |EQDEO5sw.|
+Packet identifier: 75b2f126-a973-41e5-b7f6-948596b6edbf, dataTotal: 41
+=== End Packet ===
+
+=== CLIENT → SERVER 00:08:35 MQTT Packet ===
+Packet Type: PUBLISH (0x03)
+Flags: 0x0
+  Topic: 1722919071/ESL/E438191378C3
+  Payload:
+    Detected Format: Binary Data
+00000000  45 63 34 42 44 77 43 4c  5a 67 41 41 41 61 30 41  |Ec4BDwCLZgAAAa0A|
+00000010  65 41 45 41 61 34 45 43  67 66 4b 6e 67 6c 71 48  |eAEAa4ECgfKnglqH|
+00000020  41 65 51 34 47 52 4e 34  77 78 75 47 41 77 41 41  |AeQ4GRN4wxuGAwAA|
+00000030  43 6f 67 46 41 53 67 41  67 49 6b 41 41 41 41 47  |CogFASgAgIkAAAAG|
+00000040  55 31 4a 44 52 6a 49 35  69 67 41 41 64 54 41 41  |U1JDRjI5igAAdTAA|
+00000050  41 44 68 41 41 41 41 41  44 41 41 42 55 59 43 4d  |ADhAAAAADAABUYCM|
+00000060  41 59 30 44 6a 67 69 50  41 41 41 41 6d 35 45 41  |AY0DjgiPAAAAm5EA|
+00000070  6b 67 4b 54 41 67 45 41  6c 41 63 45 73 59 53 44  |kgKTAgEAlAcEsYSD|
+00000080  4a 51 4a 70 6c 51 74 51  6c 67 41 41 4a 78 43 5a  |JQJplQtQlgAAJxCZ|
+00000090  43 41 41 42 41 41 41 41  41 41 41 41 6d 67 45 42  |CAABAAAAAAAAmgEB|
+000000a0  4a 7a 46 51 6e 51 3d 3d  00                       |JzFQnQ==.|
+Packet identifier: f57cd332-76b1-4467-afe3-57419d14ed0e, dataTotal: 169
+=== End Packet ===
+
+=== SERVER → CLIENT 00:08:35 MQTT Packet ===
+Packet Type: PUBLISH (0x03)
+Flags: 0x0
+  Topic: 99999/99999/ESL/E438191378C3
+  Payload:
+    Detected Format: Base64
+    --- Begin Decoded Base64 ---
+    Detected Format: Binary Data
+00000000  01 ce 01 0f 00 8b 66 00  00 00 9c 00 14 00 00 11  |......f.........|
+00000010  11 09 00 07 80 ae 7d a7                           |......}.|
+    --- End Decoded Base64 ---
+Packet identifier: 599a1cae-48e8-40a1-9bf4-32f6524baed0, dataTotal: 32
+=== End Packet ===
+
+=== CLIENT → SERVER 00:08:35 MQTT Packet ===
+Packet Type: PUBLISH (0x03)
+Flags: 0x0
+  Topic: 1722919071/ESL/E438191378C3
+  Payload:
+    Detected Format: Binary Data
+00000000  41 63 34 42 44 77 43 4c  5a 67 41 41 41 61 34 41  |Ac4BDwCLZgAAAa4A|
+00000010  47 67 6b 41 44 51 41 41  41 4a 77 42 41 41 41 52  |GgkADQAAAJwBAAAR|
+00000020  45 51 43 56 33 37 69 4f  00                       |EQCV37iO.|
+Packet identifier: 5ac9078c-fffb-4b9e-a337-ffa08397821c, dataTotal: 41
+=== End Packet ===
+
+=== SERVER → CLIENT 00:09:00 MQTT Packet ===
+Packet Type: PUBLISH (0x03)
+Flags: 0x0
+  Topic: 99999/99999/ESL/E438191378C3
+  Payload:
+    Detected Format: Base64
+    --- Begin Decoded Base64 ---
+    Detected Format: Protobuf (generic decode, no schema)
+    Field 0 (type 1): 0xce010f008d6a0000
+    Field 0 (type 1): 0x36019f000000010b
+    Field 0 (type 1): 0x9200000001750000
+    Field 0 (type 0): 0
+    Field 0 (type 0): 0
+    Field 0 (type 1): 0x758d2487e1850080
+    Field 0 (type 1): 0x28ffaaffaaffaaff
+    Field 1539199178045741045 (type 2): 
+    --- End Decoded Base64 ---
+Packet identifier: 4172cab3-c646-4ba6-bde1-26d961fd906d, dataTotal: 560
+=== End Packet ===
+
+=== CLIENT → SERVER 00:09:09 MQTT Packet ===
+Packet Type: PUBLISH (0x03)
+Flags: 0x0
+  Topic: 1722919071/ESL/E438191378C3
+  Payload:
+    Detected Format: Binary Data
+00000000  45 63 34 42 44 77 43 4e  61 67 41 41 41 42 34 41  |Ec4BDwCNagAAAB4A|
+00000010  65 41 45 41 61 34 45 41  42 52 71 62 67 6d 4f 48  |eAEAa4EABRqbgmOH|
+00000020  41 65 51 34 47 52 4e 34  77 7a 4b 47 41 77 41 41  |AeQ4GRN4wzKGAwAA|
+00000030  43 6f 67 46 41 53 67 41  67 49 6b 41 41 41 41 47  |CogFASgAgIkAAAAG|
+00000040  55 31 4a 44 52 6a 49 35  69 67 41 41 64 54 41 41  |U1JDRjI5igAAdTAA|
+00000050  41 44 68 41 41 41 41 41  44 41 41 42 55 59 43 4d  |ADhAAAAADAABUYCM|
+00000060  41 59 30 44 6a 67 69 50  41 41 41 42 4e 5a 45 41  |AY0DjgiPAAABNZEA|
+00000070  6b 67 4b 54 41 67 45 41  6c 41 63 45 45 5a 39 74  |kgKTAgEAlAcEEZ9t|
+00000080  4a 51 4a 70 6c 51 75 61  6c 67 41 41 4a 78 43 5a  |JQJplQualgAAJxCZ|
+00000090  43 41 41 45 41 41 41 41  41 41 41 41 6d 67 45 42  |CAAEAAAAAAAAmgEB|
+000000a0  48 69 56 6c 42 51 3d 3d  00                       |HiVlBQ==.|
+Packet identifier: a96e65fb-830c-4864-a74c-2155b9836dd9, dataTotal: 169
+=== End Packet ===
+
+=== SERVER → CLIENT 00:09:10 MQTT Packet ===
+Packet Type: PUBLISH (0x03)
+Flags: 0x0
+  Topic: 99999/99999/ESL/E438191378C3
+  Payload:
+    Detected Format: Base64
+    --- Begin Decoded Base64 ---
+    Detected Format: Protobuf (generic decode, no schema)
+    Field 0 (type 1): 0xce010f008d6a0000
+    Field 0 (type 1): 0x3700140000111109
+    Field 0 (type 0): 7
+    Field 1 (type 5): 
+    --- End Decoded Base64 ---
+Packet identifier: 80750d7d-6971-48ad-b453-22d7cdd14034, dataTotal: 32
+=== End Packet ===
+
+=== CLIENT → SERVER 00:09:10 MQTT Packet ===
+Packet Type: PUBLISH (0x03)
+Flags: 0x0
+  Topic: 1722919071/ESL/E438191378C3
+  Payload:
+    Detected Format: Binary Data
+00000000  41 63 34 42 44 77 43 4e  61 67 41 41 41 42 38 41  |Ac4BDwCNagAAAB8A|
+00000010  47 67 6b 41 44 51 41 41  41 54 59 42 41 41 41 41  |GgkADQAAATYBAAAA|
+00000020  41 51 44 68 37 42 76 57  00                       |AQDh7BvW.|
+Packet identifier: 04942468-14d8-4d63-a04a-281b6a1daef6, dataTotal: 41
+=== End Packet ===
+
+=== CLIENT → SERVER 00:09:34 MQTT Packet ===
+Packet Type: PUBLISH (0x03)
+Flags: 0x0
+  Topic: 1722919071/ESL/E438191378C3
+  Payload:
+    Detected Format: Binary Data
+00000000  45 63 34 42 44 77 43 4b  41 51 41 41 41 63 4d 41  |Ec4BDwCKAQAAAcMA|
+00000010  65 41 45 41 61 34 45 43  67 66 4b 4a 67 6c 79 48  |eAEAa4ECgfKJglyH|
+00000020  41 65 51 34 47 52 4e 34  77 78 6d 47 41 77 41 41  |AeQ4GRN4wxmGAwAA|
+00000030  43 6f 67 46 41 53 67 41  67 49 6b 41 41 41 41 47  |CogFASgAgIkAAAAG|
+00000040  55 31 4a 44 52 6a 49 35  69 67 41 41 64 54 41 41  |U1JDRjI5igAAdTAA|
+00000050  41 44 68 41 41 41 41 41  44 41 41 42 55 59 43 4d  |ADhAAAAADAABUYCM|
+00000060  41 59 30 44 6a 67 69 50  41 41 41 41 6f 4a 45 41  |AY0DjgiPAAAAoJEA|
+00000070  6b 67 4b 54 41 67 45 41  6c 41 63 45 6b 63 5a 6c  |kgKTAgEAlAcEkcZl|
+00000080  4a 51 4a 70 6c 51 74 6b  6c 67 41 41 4a 78 43 5a  |JQJplQtklgAAJxCZ|
+00000090  43 41 41 42 41 41 45 41  41 41 41 41 6d 67 45 42  |CAABAAEAAAAAmgEB|
+000000a0  37 34 6d 76 37 77 3d 3d  00                       |74mv7w==.|
+Packet identifier: 4678bf4e-74eb-4b7e-8477-45d0a625eb00, dataTotal: 169
+=== End Packet ===
+
+=== SERVER → CLIENT 00:09:35 MQTT Packet ===
+Packet Type: PUBLISH (0x03)
+Flags: 0x0
+  Topic: 99999/99999/ESL/E438191378C3
+  Payload:
+    Detected Format: Protobuf (generic decode, no schema)
+    Field 8 (type 1): 0x6334424477434b41
+    Field 10 (type 1): 0x4141414b45414641
+    Field 8 (type 1): 0x414552454a414164
+    Field 11 (type 2): 
+Packet identifier: fc16c613-a0b0-4e77-b79c-9a46f5082432, dataTotal: 32
+=== End Packet ===
+
+=== CLIENT → SERVER 00:09:35 MQTT Packet ===
+Packet Type: PUBLISH (0x03)
+Flags: 0x0
+  Topic: 1722919071/ESL/E438191378C3
+  Payload:
+    Detected Format: Binary Data
+00000000  41 63 34 42 44 77 43 4b  41 51 41 41 41 63 51 41  |Ac4BDwCKAQAAAcQA|
+00000010  47 67 6b 41 44 51 41 41  41 4b 45 42 41 41 41 52  |GgkADQAAAKEBAAAR|
+00000020  45 51 42 52 69 79 42 65  00                       |EQBRiyBe.|
+Packet identifier: ae1319c5-9e12-481c-a8e5-d1380955083d, dataTotal: 41
+=== End Packet ===
+
+=== CLIENT → SERVER 00:09:41 MQTT Packet ===
+Packet Type: PUBLISH (0x03)
+Flags: 0x0
+  Topic: 1722919071/ESL/E438191378C3
+  Payload:
+    Detected Format: Binary Data
+00000000  41 63 34 42 44 77 43 4e  61 67 41 41 41 43 41 41  |Ac4BDwCNagAAACAA|
+00000010  62 67 45 41 59 59 45 41  42 52 71 37 67 6d 4f 48  |bgEAYYEABRq7gmOH|
+00000020  41 65 51 34 47 52 4e 34  77 7a 4b 47 41 77 41 41  |AeQ4GRN4wzKGAwAA|
+00000030  43 6f 67 46 41 53 67 41  67 49 6b 41 41 41 41 47  |CogFASgAgIkAAAAG|
+00000040  55 31 4a 44 52 6a 49 35  69 67 41 41 64 54 41 41  |U1JDRjI5igAAdTAA|
+00000050  41 44 68 41 41 41 41 41  44 41 41 42 55 59 43 4d  |ADhAAAAADAABUYCM|
+00000060  41 59 30 44 6a 67 69 50  41 41 41 42 4e 70 45 41  |AY0DjgiPAAABNpEA|
+00000070  6b 67 4b 54 41 67 45 41  6c 41 63 45 45 5a 39 74  |kgKTAgEAlAcEEZ9t|
+00000080  4a 51 4a 70 6c 51 75 61  6c 67 41 41 4a 78 43 61  |JQJplQualgAAJxCa|
+00000090  41 51 45 4b 78 59 4f 57  00                       |AQEKxYOW.|
+Packet identifier: 4466e00c-7ec8-4541-b611-798c01c794d0, dataTotal: 153
+=== End Packet ===
+
+=== CLIENT → SERVER 00:09:42 MQTT Packet ===
+Packet Type: PUBLISH (0x03)
+Flags: 0x0
+  Topic: 1722919071/ESL/E438191378C3
+  Payload:
+    Detected Format: Binary Data
+00000000  41 63 34 42 44 77 43 4e  61 67 41 41 41 43 45 41  |Ac4BDwCNagAAACEA|
+00000010  47 67 6b 41 44 51 41 41  41 54 63 42 41 41 41 52  |GgkADQAAATcBAAAR|
+00000020  45 51 43 44 4c 55 4a 62  00                       |EQCDLUJb.|
+Packet identifier: c3bac8c4-2aff-46f1-a9aa-48ada6e60c38, dataTotal: 41
+=== End Packet ===
+
+=== CLIENT → SERVER 00:10:39 MQTT Packet ===
+Packet Type: PUBLISH (0x03)
+Flags: 0x0
+  Topic: 1722919071/ESL/E438191378C3
+  Payload:
+    Detected Format: Binary Data
+00000000  45 63 34 42 44 77 43 4c  72 51 41 41 41 68 73 41  |Ec4BDwCLrQAAAhsA|
+00000010  65 41 45 41 61 34 45 43  67 66 6b 4f 67 6c 75 48  |eAEAa4ECgfkOgluH|
+00000020  41 65 51 34 47 52 4e 34  77 78 61 47 41 77 41 41  |AeQ4GRN4wxaGAwAA|
+00000030  43 6f 67 46 41 53 67 41  67 49 6b 41 41 41 41 47  |CogFASgAgIkAAAAG|
+00000040  55 31 4a 44 52 6a 49 35  69 67 41 41 64 54 41 41  |U1JDRjI5igAAdTAA|
+00000050  41 44 68 41 41 41 41 41  44 41 41 42 55 59 43 4d  |ADhAAAAADAABUYCM|
+00000060  41 59 30 44 6a 67 69 50  41 41 41 41 6e 70 45 41  |AY0DjgiPAAAAnpEA|
+00000070  6b 67 4b 54 41 67 45 41  6c 41 63 45 73 57 39 7a  |kgKTAgEAlAcEsW9z|
+00000080  4a 51 4a 70 6c 51 74 64  6c 67 41 41 4a 78 43 5a  |JQJplQtdlgAAJxCZ|
+00000090  43 41 41 4b 41 41 41 41  42 77 41 41 6d 67 45 42  |CAAKAAAABwAAmgEB|
+000000a0  4a 67 31 71 44 67 3d 3d  00                       |Jg1qDg==.|
+Packet identifier: 6f271505-4cc1-48e9-bd0e-41222e88a4f9, dataTotal: 169
+=== End Packet ===
+
+=== SERVER → CLIENT 00:10:39 MQTT Packet ===
+Packet Type: PUBLISH (0x03)
+Flags: 0x0
+  Topic: 99999/99999/ESL/E438191378C3
+  Payload:
+    Detected Format: Protobuf (generic decode, no schema)
+    Field 8 (type 1): 0x6334424477434c72
+    Field 10 (type 1): 0x4141414a38414641
+    Field 8 (type 1): 0x414552454a414166
+    Field 14 (type 1): 
+Packet identifier: ed0feec9-2c05-4ebd-84ac-92de9cfbacef, dataTotal: 32
+=== End Packet ===
+
+=== CLIENT → SERVER 00:10:39 MQTT Packet ===
+Packet Type: PUBLISH (0x03)
+Flags: 0x0
+  Topic: 1722919071/ESL/E438191378C3
+  Payload:
+    Detected Format: Binary Data
+00000000  41 63 34 42 44 77 43 4c  72 51 41 41 41 68 77 41  |Ac4BDwCLrQAAAhwA|
+00000010  47 67 6b 41 44 51 41 41  41 4a 38 42 41 41 41 52  |GgkADQAAAJ8BAAAR|
+00000020  45 51 42 54 75 51 30 49  00                       |EQBTuQ0I.|
+Packet identifier: 8daa61c4-558c-48e5-91f7-5f80a9c5fecc, dataTotal: 41
+=== End Packet ===
+
+=== CLIENT → SERVER 00:10:41 MQTT Packet ===
+Packet Type: PUBLISH (0x03)
+Flags: 0x0
+  Topic: 1722919071/ESL/E438191378C3
+  Payload:
+    Detected Format: Binary Data
+00000000  45 63 34 42 44 77 43 4e  64 41 41 41 41 69 77 41  |Ec4BDwCNdAAAAiwA|
+00000010  65 41 45 41 61 34 45 43  67 66 6f 4a 67 6c 69 48  |eAEAa4ECgfoJgliH|
+00000020  41 65 51 34 47 52 4e 34  77 78 6d 47 41 77 41 41  |AeQ4GRN4wxmGAwAA|
+00000030  43 6f 67 46 41 53 67 41  67 49 6b 41 41 41 41 47  |CogFASgAgIkAAAAG|
+00000040  55 31 4a 44 52 6a 49 35  69 67 41 41 64 54 41 41  |U1JDRjI5igAAdTAA|
+00000050  41 44 68 41 41 41 41 41  44 41 41 42 55 59 43 4d  |ADhAAAAADAABUYCM|
+00000060  41 59 30 44 6a 67 69 50  41 41 41 41 6f 35 45 41  |AY0DjgiPAAAAo5EA|
+00000070  6b 67 4b 54 41 67 45 41  6c 41 63 45 6f 65 70 37  |kgKTAgEAlAcEoep7|
+00000080  4a 51 4a 70 6c 51 74 4a  6c 67 41 41 4a 78 43 5a  |JQJplQtJlgAAJxCZ|
+00000090  43 41 41 43 41 41 45 41  41 51 41 41 6d 67 45 42  |CAACAAEAAQAAmgEB|
+000000a0  49 4d 58 51 52 41 3d 3d  00                       |IMXQRA==.|
+Packet identifier: e5bb719c-a9c8-486a-9e6e-73aee2ce4cfb, dataTotal: 169
+=== End Packet ===
+
+=== SERVER → CLIENT 00:10:41 MQTT Packet ===
+Packet Type: PUBLISH (0x03)
+Flags: 0x0
+  Topic: 99999/99999/ESL/E438191378C3
+  Payload:
+    Detected Format: Protobuf (generic decode, no schema)
+    Field 8 (type 1): 0x6334424477434e64
+    Field 8 (type 1): 0x4141414b51414641
+    Field 8 (type 1): 0x414552454a414163
+    Field 7 (type 1): 
+Packet identifier: c78dc435-7239-46f3-921e-536271dd4ecf, dataTotal: 32
+=== End Packet ===
+
+=== CLIENT → SERVER 00:10:41 MQTT Packet ===
+Packet Type: PUBLISH (0x03)
+Flags: 0x0
+  Topic: 1722919071/ESL/E438191378C3
+  Payload:
+    Detected Format: Binary Data
+00000000  41 63 34 42 44 77 43 4e  64 41 41 41 41 69 30 41  |Ac4BDwCNdAAAAi0A|
+00000010  47 67 6b 41 44 51 41 41  41 4b 51 42 41 41 41 52  |GgkADQAAAKQBAAAR|
+00000020  45 51 43 46 73 46 5a 6f  00                       |EQCFsFZo.|
+Packet identifier: 51c78714-39f5-407c-9ff6-e113e10f4500, dataTotal: 41
+=== End Packet ===
+
+=== CLIENT → SERVER 00:10:52 MQTT Packet ===
+Packet Type: PUBLISH (0x03)
+Flags: 0x0
+  Topic: 1722919071/ESL/E438191378C3
+  Payload:
+    Detected Format: Binary Data
+00000000  45 63 34 42 44 77 43 4c  71 41 41 41 41 63 38 41  |Ec4BDwCLqAAAAc8A|
+00000010  65 41 45 41 61 34 45 43  67 66 74 45 67 6c 2b 48  |eAEAa4ECgftEgl+H|
+00000020  41 65 51 34 47 52 4e 34  77 78 69 47 41 77 41 41  |AeQ4GRN4wxiGAwAA|
+00000030  43 6f 67 46 41 53 67 41  67 49 6b 41 41 41 41 47  |CogFASgAgIkAAAAG|
+00000040  55 31 4a 44 52 6a 49 35  69 67 41 41 64 54 41 41  |U1JDRjI5igAAdTAA|
+00000050  41 44 68 41 41 41 41 41  44 41 41 42 55 59 43 4d  |ADhAAAAADAABUYCM|
+00000060  41 59 30 44 6a 67 69 50  41 41 41 41 6e 5a 45 41  |AY0DjgiPAAAAnZEA|
+00000070  6b 67 4b 54 41 67 45 41  6c 41 63 45 67 55 64 73  |kgKTAgEAlAcEgUds|
+00000080  4a 51 4a 70 6c 51 74 79  6c 67 41 41 4a 78 43 5a  |JQJplQtylgAAJxCZ|
+00000090  43 41 41 47 41 41 45 41  42 41 41 41 6d 67 45 42  |CAAGAAEABAAAmgEB|
+000000a0  39 49 66 41 35 41 3d 3d  00                       |9IfA5A==.|
+Packet identifier: 0a7d1bf2-a85e-49af-8996-3b074f611ac4, dataTotal: 169
+=== End Packet ===
+
+=== SERVER → CLIENT 00:10:52 MQTT Packet ===
+Packet Type: PUBLISH (0x03)
+Flags: 0x0
+  Topic: 99999/99999/ESL/E438191378C3
+  Payload:
+    Detected Format: Base64
+    --- Begin Decoded Base64 ---
+    Detected Format: Binary Data
+00000000  01 ce 01 0f 00 8b a8 00  00 00 9e 00 14 00 00 11  |................|
+00000010  11 09 00 07 3e 02 67 b6                           |....>.g.|
+    --- End Decoded Base64 ---
+Packet identifier: 2ce0fe27-6826-4aac-a86b-24cbe605c1f3, dataTotal: 32
+=== End Packet ===
+
+=== CLIENT → SERVER 00:10:53 MQTT Packet ===
+Packet Type: PUBLISH (0x03)
+Flags: 0x0
+  Topic: 1722919071/ESL/E438191378C3
+  Payload:
+    Detected Format: Binary Data
+00000000  41 63 34 42 44 77 43 4c  71 41 41 41 41 64 41 41  |Ac4BDwCLqAAAAdAA|
+00000010  47 67 6b 41 44 51 41 41  41 4a 34 42 41 41 41 52  |GgkADQAAAJ4BAAAR|
+00000020  45 51 44 6b 68 76 39 57  00                       |EQDkhv9W.|
+Packet identifier: bc458cdf-35ba-422b-b26a-e52d5ea8fbb0, dataTotal: 41
+=== End Packet ===
+
+=== CLIENT → SERVER 00:11:07 MQTT Packet ===
+Packet Type: PUBLISH (0x03)
+Flags: 0x0
+  Topic: 1722919071/ESL/E438191378C3
+  Payload:
+    Detected Format: Binary Data
+00000000  45 63 34 42 44 77 43 4a  4a 41 41 41 41 57 67 41  |Ec4BDwCJJAAAAWgA|
+00000010  65 41 45 41 61 34 45 43  65 66 58 41 67 6d 53 48  |eAEAa4ECefXAgmSH|
+00000020  41 65 51 34 47 52 4e 34  77 78 6d 47 41 77 41 41  |AeQ4GRN4wxmGAwAA|
+00000030  43 6f 67 46 41 53 67 41  67 49 6b 41 41 41 41 47  |CogFASgAgIkAAAAG|
+00000040  55 31 4a 44 52 6a 49 35  69 67 41 41 64 54 41 41  |U1JDRjI5igAAdTAA|
+00000050  41 44 68 41 41 41 41 41  44 41 41 42 55 59 43 4d  |ADhAAAAADAABUYCM|
+00000060  41 59 30 44 6a 67 69 50  41 41 41 41 6f 35 45 41  |AY0DjgiPAAAAo5EA|
+00000070  6b 67 4b 54 41 67 45 41  6c 41 63 45 6f 54 36 41  |kgKTAgEAlAcEoT6A|
+00000080  4a 51 4a 70 6c 51 75 2b  6c 67 41 41 4a 78 43 5a  |JQJplQu+lgAAJxCZ|
+00000090  43 41 41 42 41 41 41 41  41 41 41 41 6d 67 45 42  |CAABAAAAAAAAmgEB|
+000000a0  54 68 36 31 69 51 3d 3d  00                       |Th61iQ==.|
+Packet identifier: 5622e6bf-4784-48ae-b4f2-a42ab18badb9, dataTotal: 169
+=== End Packet ===
+
+=== SERVER → CLIENT 00:11:07 MQTT Packet ===
+Packet Type: PUBLISH (0x03)
+Flags: 0x0
+  Topic: 99999/99999/ESL/E438191378C3
+  Payload:
+    Detected Format: Base64
+    --- Begin Decoded Base64 ---
+    Detected Format: Binary Data
+00000000  01 ce 01 0f 00 89 24 00  00 00 a4 00 14 00 00 11  |......$.........|
+00000010  11 09 00 07 68 72 56 d0                           |....hrV.|
+    --- End Decoded Base64 ---
+Packet identifier: 0d50db47-7826-4185-9277-9b426b09576a, dataTotal: 32
+=== End Packet ===
+
+=== CLIENT → SERVER 00:11:07 MQTT Packet ===
+Packet Type: PUBLISH (0x03)
+Flags: 0x0
+  Topic: 1722919071/ESL/E438191378C3
+  Payload:
+    Detected Format: Binary Data
+00000000  41 63 34 42 44 77 43 4a  4a 41 41 41 41 57 6b 41  |Ac4BDwCJJAAAAWkA|
+00000010  47 67 6b 41 44 51 41 41  41 4b 51 42 41 41 41 52  |GgkADQAAAKQBAAAR|
+00000020  45 51 44 43 6d 6a 78 59  00                       |EQDCmjxY.|
+Packet identifier: 01eeff2d-7c77-4b28-8a0a-f83f79d0b467, dataTotal: 41
+=== End Packet ===
+
+=== CLIENT → SERVER 00:11:37 MQTT Packet ===
+Packet Type: PUBLISH (0x03)
+Flags: 0x0
+  Topic: 1722919071/ESL/E438191378C3
+  Payload:
+    Detected Format: Binary Data
+00000000  45 63 34 42 44 77 43 4c  54 77 41 41 41 55 34 41  |Ec4BDwCLTwAAAU4A|
+00000010  65 41 45 41 61 34 45 43  65 66 5a 6e 67 6d 47 48  |eAEAa4ECefZngmGH|
+00000020  41 65 51 34 47 52 4e 34  77 78 61 47 41 77 41 41  |AeQ4GRN4wxaGAwAA|
+00000030  43 6f 67 46 41 53 67 41  67 49 6b 41 41 41 41 47  |CogFASgAgIkAAAAG|
+00000040  55 31 4a 44 52 6a 49 35  69 67 41 41 64 54 41 41  |U1JDRjI5igAAdTAA|
+00000050  41 44 68 41 41 41 41 41  44 41 41 42 55 59 43 4d  |ADhAAAAADAABUYCM|
+00000060  41 59 30 44 6a 67 69 50  41 41 41 41 6e 4a 45 41  |AY0DjgiPAAAAnJEA|
+00000070  6b 67 4b 54 41 67 45 41  6c 41 63 45 45 65 56 6e  |kgKTAgEAlAcEEeVn|
+00000080  4a 51 4a 70 6c 51 75 49  6c 67 41 41 4a 78 43 5a  |JQJplQuIlgAAJxCZ|
+00000090  43 41 41 46 41 41 55 41  41 77 41 41 6d 67 45 42  |CAAFAAUAAwAAmgEB|
+000000a0  47 34 68 72 79 51 3d 3d  00                       |G4hryQ==.|
+Packet identifier: 5507dc2c-8a03-49d7-bb70-68775c986c2e, dataTotal: 169
+=== End Packet ===
+
+=== SERVER → CLIENT 00:11:37 MQTT Packet ===
+Packet Type: PUBLISH (0x03)
+Flags: 0x0
+  Topic: 99999/99999/ESL/E438191378C3
+  Payload:
+    Detected Format: Base64
+    --- Begin Decoded Base64 ---
+    Detected Format: Binary Data
+00000000  01 ce 01 0f 00 8b 4f 00  00 00 9d 00 14 00 00 11  |......O.........|
+00000010  11 09 00 07 ed 7f c7 60                           |.......`|
+    --- End Decoded Base64 ---
+Packet identifier: 342cb17c-6889-450c-bba0-0cff11644fec, dataTotal: 32
+=== End Packet ===
+
+=== CLIENT → SERVER 00:11:37 MQTT Packet ===
+Packet Type: PUBLISH (0x03)
+Flags: 0x0
+  Topic: 1722919071/ESL/E438191378C3
+  Payload:
+    Detected Format: Binary Data
+00000000  41 63 34 42 44 77 43 4c  54 77 41 41 41 55 38 41  |Ac4BDwCLTwAAAU8A|
+00000010  47 67 6b 41 44 51 41 41  41 4a 30 42 41 41 41 52  |GgkADQAAAJ0BAAAR|
+00000020  45 51 41 66 35 70 70 2f  00                       |EQAf5pp/.|
+Packet identifier: 8eaf7050-3c22-43c5-96da-dff26d50f731, dataTotal: 41
+=== End Packet ===
+
+=== CLIENT → SERVER 00:11:40 MQTT Packet ===
+Packet Type: PUBLISH (0x03)
+Flags: 0x0
+  Topic: 1722919071/ESL/E438191378C3
+  Payload:
+    Detected Format: Binary Data
+00000000  45 63 34 42 44 77 43 4a  6e 67 41 41 41 62 49 41  |Ec4BDwCJngAAAbIA|
+00000010  65 41 45 41 61 34 45 43  67 66 6e 4e 67 6c 32 48  |eAEAa4ECgfnNgl2H|
+00000020  41 65 51 34 47 52 4e 34  77 78 75 47 41 77 41 41  |AeQ4GRN4wxuGAwAA|
+00000030  43 6f 67 46 41 53 67 41  67 49 6b 41 41 41 41 47  |CogFASgAgIkAAAAG|
+00000040  55 31 4a 44 52 6a 49 35  69 67 41 41 64 54 41 41  |U1JDRjI5igAAdTAA|
+00000050  41 44 68 41 41 41 41 41  44 41 41 42 55 59 43 4d  |ADhAAAAADAABUYCM|
+00000060  41 59 30 44 6a 67 69 50  41 41 41 41 6e 5a 45 41  |AY0DjgiPAAAAnZEA|
+00000070  6b 67 4b 54 41 67 45 41  6c 41 63 45 59 52 6c 34  |kgKTAgEAlAcEYRl4|
+00000080  4a 51 4a 70 6c 51 74 6f  6c 67 41 41 4a 78 43 5a  |JQJplQtolgAAJxCZ|
+00000090  43 41 41 42 41 41 41 41  41 41 41 41 6d 67 45 42  |CAABAAAAAAAAmgEB|
+000000a0  69 4e 42 2f 64 77 3d 3d  00                       |iNB/dw==.|
+Packet identifier: b2f0c3c6-b734-46af-936b-98137c627d1f, dataTotal: 169
+=== End Packet ===
+
+=== SERVER → CLIENT 00:11:41 MQTT Packet ===
+Packet Type: PUBLISH (0x03)
+Flags: 0x0
+  Topic: 99999/99999/ESL/E438191378C3
+  Payload:
+    Detected Format: Base64
+    --- Begin Decoded Base64 ---
+    Detected Format: Binary Data
+00000000  01 ce 01 0f 00 89 9e 00  00 00 9e 00 14 00 00 11  |................|
+00000010  11 09 00 07 36 47 4e ba                           |....6GN.|
+    --- End Decoded Base64 ---
+Packet identifier: 1cf63fe2-e624-4278-8c76-71c5c0746e4a, dataTotal: 32
+=== End Packet ===
+
+=== CLIENT → SERVER 00:11:41 MQTT Packet ===
+Packet Type: PUBLISH (0x03)
+Flags: 0x0
+  Topic: 1722919071/ESL/E438191378C3
+  Payload:
+    Detected Format: Binary Data
+00000000  41 63 34 42 44 77 43 4a  6e 67 41 41 41 62 4d 41  |Ac4BDwCJngAAAbMA|
+00000010  47 67 6b 41 44 51 41 41  41 4a 34 42 41 41 41 52  |GgkADQAAAJ4BAAAR|
+00000020  45 51 43 4e 54 78 76 45  00                       |EQCNTxvE.|
+Packet identifier: a405b7a8-5657-4323-ad31-38d5301e04f8, dataTotal: 41
+=== End Packet ===
+
+=== CLIENT → SERVER 00:14:23 MQTT Packet ===
+Packet Type: PUBLISH (0x03)
+Flags: 0x0
+  Topic: 1722919071/ESL/E438191378C3
+  Payload:
+    Detected Format: Binary Data
+00000000  45 63 34 42 44 77 43 49  58 41 41 41 41 61 51 41  |Ec4BDwCIXAAAAaQA|
+00000010  65 41 45 41 61 34 45 43  67 66 50 6c 67 6d 53 48  |eAEAa4ECgfPlgmSH|
+00000020  41 65 51 34 47 52 4e 34  77 78 61 47 41 77 41 41  |AeQ4GRN4wxaGAwAA|
+00000030  43 6f 67 46 41 53 67 41  67 49 6b 41 41 41 41 47  |CogFASgAgIkAAAAG|
+00000040  55 31 4a 44 52 6a 49 35  69 67 41 41 64 54 41 41  |U1JDRjI5igAAdTAA|
+00000050  41 44 68 41 41 41 41 41  44 41 41 42 55 59 43 4d  |ADhAAAAADAABUYCM|
+00000060  41 59 30 44 6a 67 69 50  41 41 41 41 6e 5a 45 41  |AY0DjgiPAAAAnZEA|
+00000070  6b 67 4b 54 41 67 45 41  6c 41 63 45 45 65 74 2f  |kgKTAgEAlAcEEet/|
+00000080  4a 51 4a 70 6c 51 76 59  6c 67 41 41 4a 78 43 5a  |JQJplQvYlgAAJxCZ|
+00000090  43 41 41 5a 41 41 41 41  45 67 41 41 6d 67 45 42  |CAAZAAAAEgAAmgEB|
+000000a0  38 75 47 66 31 51 3d 3d  00                       |8uGf1Q==.|
+Packet identifier: cf7b927a-3a0b-47c3-b212-b7df4e62a152, dataTotal: 169
+=== End Packet ===
+
+=== SERVER → CLIENT 00:14:23 MQTT Packet ===
+Packet Type: PUBLISH (0x03)
+Flags: 0x0
+  Topic: 99999/99999/ESL/E438191378C3
+  Payload:
+    Detected Format: Base64
+    --- Begin Decoded Base64 ---
+    Detected Format: Binary Data
+00000000  01 ce 01 0f 00 88 5c 00  00 00 9e 00 14 00 00 11  |......\.........|
+00000010  11 09 00 07 d2 3e 45 bf                           |.....>E.|
+    --- End Decoded Base64 ---
+Packet identifier: 45db0364-3a93-4be3-8f39-466d54efa9c6, dataTotal: 32
+=== End Packet ===
+
+=== CLIENT → SERVER 00:14:24 MQTT Packet ===
+Packet Type: PUBLISH (0x03)
+Flags: 0x0
+  Topic: 1722919071/ESL/E438191378C3
+  Payload:
+    Detected Format: Binary Data
+00000000  41 63 34 42 44 77 43 49  58 41 41 41 41 61 55 41  |Ac4BDwCIXAAAAaUA|
+00000010  47 67 6b 41 44 51 41 41  41 4a 34 42 41 41 41 52  |GgkADQAAAJ4BAAAR|
+00000020  45 51 41 46 6c 6d 2b 67  00                       |EQAFlm+g.|
+Packet identifier: 9824f909-1dc4-4f8b-937c-1018476dd8a2, dataTotal: 41
+=== End Packet ===
+
+=== CLIENT → SERVER 00:15:06 MQTT Packet ===
+Packet Type: PUBLISH (0x03)
+Flags: 0x0
+  Topic: 1722919071/ESL/E438191378C3
+  Payload:
+    Detected Format: Binary Data
+00000000  45 63 34 42 44 77 43 4a  47 41 41 41 41 62 51 41  |Ec4BDwCJGAAAAbQA|
+00000010  65 41 45 41 61 34 45 43  67 66 6a 65 67 6d 4b 48  |eAEAa4ECgfjegmKH|
+00000020  41 65 51 34 47 52 4e 34  77 78 79 47 41 77 41 41  |AeQ4GRN4wxyGAwAA|
+00000030  43 6f 67 46 41 53 67 41  67 49 6b 41 41 41 41 47  |CogFASgAgIkAAAAG|
+00000040  55 31 4a 44 52 6a 49 35  69 67 41 41 64 54 41 41  |U1JDRjI5igAAdTAA|
+00000050  41 44 68 41 41 41 41 41  44 41 41 42 55 59 43 4d  |ADhAAAAADAABUYCM|
+00000060  41 59 30 44 6a 67 69 50  41 41 41 41 6f 35 45 41  |AY0DjgiPAAAAo5EA|
+00000070  6b 67 4b 54 41 67 45 41  6c 41 63 45 4d 65 78 34  |kgKTAgEAlAcEMex4|
+00000080  4a 51 4a 70 6c 51 75 52  6c 67 41 41 4a 78 43 5a  |JQJplQuRlgAAJxCZ|
+00000090  43 41 41 42 41 41 41 41  41 41 41 41 6d 67 45 42  |CAABAAAAAAAAmgEB|
+000000a0  53 51 44 58 70 41 3d 3d  00                       |SQDXpA==.|
+Packet identifier: d5ce62ae-042d-4482-aaf9-ac3329283f05, dataTotal: 169
+=== End Packet ===
+
+=== SERVER → CLIENT 00:15:06 MQTT Packet ===
+Packet Type: PUBLISH (0x03)
+Flags: 0x0
+  Topic: 99999/99999/ESL/E438191378C3
+  Payload:
+    Detected Format: Base64
+    --- Begin Decoded Base64 ---
+    Detected Format: Binary Data
+00000000  01 ce 01 0f 00 89 18 00  00 00 a4 00 14 00 00 11  |................|
+00000010  11 09 00 07 c5 63 07 bf                           |.....c..|
+    --- End Decoded Base64 ---
+Packet identifier: c2ec2b2c-34d0-4d05-bd26-73d1b2ff209a, dataTotal: 32
+=== End Packet ===
+
+=== CLIENT → SERVER 00:15:06 MQTT Packet ===
+Packet Type: PUBLISH (0x03)
+Flags: 0x0
+  Topic: 1722919071/ESL/E438191378C3
+  Payload:
+    Detected Format: Binary Data
+00000000  41 63 34 42 44 77 43 4a  47 41 41 41 41 62 55 41  |Ac4BDwCJGAAAAbUA|
+00000010  47 67 6b 41 44 51 41 41  41 4b 51 42 41 41 41 52  |GgkADQAAAKQBAAAR|
+00000020  45 51 44 70 77 2f 37 44  00                       |EQDpw/7D.|
+Packet identifier: 106f826b-136e-4bcf-b5e9-e75306f24f60, dataTotal: 41
+=== End Packet ===
+
+=== CLIENT → SERVER 00:16:55 MQTT Packet ===
+Packet Type: PUBLISH (0x03)
+Flags: 0x0
+  Topic: 1722919071/ESL/E438191378C3
+  Payload:
+    Detected Format: Binary Data
+00000000  45 63 34 42 44 77 43 4e  43 41 41 41 41 62 34 41  |Ec4BDwCNCAAAAb4A|
+00000010  65 41 45 41 61 34 45 43  67 66 6c 67 67 6d 4b 48  |eAEAa4ECgflggmKH|
+00000020  41 65 51 34 47 52 4e 34  77 78 69 47 41 77 41 41  |AeQ4GRN4wxiGAwAA|
+00000030  43 6f 67 46 41 53 67 41  67 49 6b 41 41 41 41 47  |CogFASgAgIkAAAAG|
+00000040  55 31 4a 44 52 6a 49 35  69 67 41 41 64 54 41 41  |U1JDRjI5igAAdTAA|
+00000050  41 44 68 41 41 41 41 41  44 41 41 42 55 59 43 4d  |ADhAAAAADAABUYCM|
+00000060  41 59 30 44 6a 67 69 50  41 41 41 41 70 5a 45 41  |AY0DjgiPAAAApZEA|
+00000070  6b 67 4b 54 41 67 45 41  6c 41 63 45 4d 51 4e 76  |kgKTAgEAlAcEMQNv|
+00000080  4a 51 4a 70 6c 51 75 61  6c 67 41 41 4a 78 43 5a  |JQJplQualgAAJxCZ|
+00000090  43 41 41 42 41 41 41 41  41 41 41 41 6d 67 45 42  |CAABAAAAAAAAmgEB|
+000000a0  44 4b 4a 6a 57 41 3d 3d  00                       |DKJjWA==.|
+Packet identifier: c71655fd-15af-4672-bf97-f9f6c16146a2, dataTotal: 169
+=== End Packet ===
+
+=== SERVER → CLIENT 00:16:55 MQTT Packet ===
+Packet Type: PUBLISH (0x03)
+Flags: 0x0
+  Topic: 99999/99999/ESL/E438191378C3
+  Payload:
+    Detected Format: Protobuf (generic decode, no schema)
+    Field 8 (type 1): 0x6334424477434e43
+    Field 8 (type 1): 0x4141414b59414641
+    Field 8 (type 1): 0x414552454a414164
+    Field 6 (type 1): 
+Packet identifier: b9ad4dbd-17a6-4676-a016-843c8ef855e0, dataTotal: 32
+=== End Packet ===
+
+=== CLIENT → SERVER 00:16:55 MQTT Packet ===
+Packet Type: PUBLISH (0x03)
+Flags: 0x0
+  Topic: 1722919071/ESL/E438191378C3
+  Payload:
+    Detected Format: Binary Data
+00000000  41 63 34 42 44 77 43 4e  43 41 41 41 41 62 38 41  |Ac4BDwCNCAAAAb8A|
+00000010  47 67 6b 41 44 51 41 41  41 4b 59 42 41 41 41 52  |GgkADQAAAKYBAAAR|
+00000020  45 51 44 76 67 45 2b 75  00                       |EQDvgE+u.|
+Packet identifier: a4765460-b0af-4bbb-b8e5-956649c115fd, dataTotal: 41
+=== End Packet ===
+
+=== SERVER → CLIENT 00:17:51 MQTT Packet ===
+Packet Type: PUBLISH (0x03)
+Flags: 0x0
+  Topic: 99999/99999/ESL/E438191378C3
+  Payload:
+    Detected Format: Base64
+    --- Begin Decoded Base64 ---
+    Detected Format: Protobuf (generic decode, no schema)
+    Field 0 (type 1): 0xce010f008d6a0000
+    Field 0 (type 1): 0x3801a1000000010b
+    Field 0 (type 1): 0x9400000001770000
+    Field 0 (type 0): 0
+    Field 0 (type 0): 0
+    Field 0 (type 1): 0x7729465e07850080
+    Field 0 (type 1): 0x28ffaaffaaffaaff
+    Field 1539199178045741045 (type 2): 
+    --- End Decoded Base64 ---
+Packet identifier: 73172ed2-2b15-45ec-9964-47f93bae2a5a, dataTotal: 564
+=== End Packet ===
+
+=== CLIENT → SERVER 00:17:54 MQTT Packet ===
+Packet Type: PUBLISH (0x03)
+Flags: 0x0
+  Topic: 1722919071/ESL/E438191378C3
+  Payload:
+    Detected Format: Binary Data
+00000000  41 63 34 42 44 77 43 4e  61 67 41 41 41 43 49 41  |Ac4BDwCNagAAACIA|
+00000010  62 67 45 41 59 59 45 41  42 52 79 6f 67 6d 4f 48  |bgEAYYEABRyogmOH|
+00000020  41 65 51 34 47 52 4e 34  77 7a 57 47 41 77 41 41  |AeQ4GRN4wzWGAwAA|
+00000030  43 6f 67 46 41 53 67 41  67 49 6b 41 41 41 41 47  |CogFASgAgIkAAAAG|
+00000040  55 31 4a 44 52 6a 49 35  69 67 41 41 64 54 41 41  |U1JDRjI5igAAdTAA|
+00000050  41 44 68 41 41 41 41 41  44 41 41 42 55 59 43 4d  |ADhAAAAADAABUYCM|
+00000060  41 59 30 44 6a 67 69 50  41 41 41 42 4e 35 45 41  |AY0DjgiPAAABN5EA|
+00000070  6b 67 4b 54 41 67 45 41  6c 41 63 45 45 5a 39 74  |kgKTAgEAlAcEEZ9t|
+00000080  4a 51 4a 70 6c 51 75 61  6c 67 41 41 4a 78 43 61  |JQJplQualgAAJxCa|
+00000090  41 51 48 31 64 4e 48 64  00                       |AQH1dNHd.|
+Packet identifier: be208bc5-3a04-4d21-95db-1b97c0d5b6e3, dataTotal: 153
+=== End Packet ===
+
+=== CLIENT → SERVER 00:17:54 MQTT Packet ===
+Packet Type: PUBLISH (0x03)
+Flags: 0x0
+  Topic: 1722919071/ESL/E438191378C3
+  Payload:
+    Detected Format: Binary Data
+00000000  41 63 34 42 44 77 43 4e  61 67 41 41 41 43 4d 41  |Ac4BDwCNagAAACMA|
+00000010  47 67 6b 41 44 51 41 41  41 54 67 42 41 41 41 41  |GgkADQAAATgBAAAA|
+00000020  41 51 42 52 74 66 6d 4e  00                       |AQBRtfmN.|
+Packet identifier: b6e2a993-a55f-4ec4-b27f-0829d548d769, dataTotal: 41
+=== End Packet ===
+
+=== CLIENT → SERVER 00:20:16 MQTT Packet ===
+Packet Type: PUBLISH (0x03)
+Flags: 0x0
+  Topic: 1722919071/ESL/E438191378C3
+  Payload:
+    Detected Format: Binary Data
+00000000  45 63 34 42 44 77 43 4c  4f 77 41 41 41 5a 63 41  |Ec4BDwCLOwAAAZcA|
+00000010  65 41 45 41 61 34 45 43  67 66 72 78 67 6d 47 48  |eAEAa4ECgfrxgmGH|
+00000020  41 65 51 34 47 52 4e 34  77 78 79 47 41 77 41 41  |AeQ4GRN4wxyGAwAA|
+00000030  43 6f 67 46 41 53 67 41  67 49 6b 41 41 41 41 47  |CogFASgAgIkAAAAG|
+00000040  55 31 4a 44 52 6a 49 35  69 67 41 41 64 54 41 41  |U1JDRjI5igAAdTAA|
+00000050  41 44 68 41 41 41 41 41  44 41 41 42 55 59 43 4d  |ADhAAAAADAABUYCM|
+00000060  41 59 30 44 6a 67 69 50  41 41 41 41 6d 35 45 41  |AY0DjgiPAAAAm5EA|
+00000070  6b 67 4b 54 41 67 45 41  6c 41 63 45 77 51 43 42  |kgKTAgEAlAcEwQCB|
+00000080  4a 51 4a 70 6c 51 75 4c  6c 67 41 41 4a 78 43 5a  |JQJplQuLlgAAJxCZ|
+00000090  43 41 41 4f 41 41 41 41  43 67 41 41 6d 67 45 42  |CAAOAAAACgAAmgEB|
+000000a0  6c 62 57 51 65 51 3d 3d  00                       |lbWQeQ==.|
+Packet identifier: 175e2281-50cc-4f42-800f-3923d7cc4b45, dataTotal: 169
+=== End Packet ===
+
+=== SERVER → CLIENT 00:20:16 MQTT Packet ===
+Packet Type: PUBLISH (0x03)
+Flags: 0x0
+  Topic: 99999/99999/ESL/E438191378C3
+  Payload:
+    Detected Format: Base64
+    --- Begin Decoded Base64 ---
+    Detected Format: Binary Data
+00000000  01 ce 01 0f 00 8b 3b 00  00 00 9c 00 14 00 00 11  |......;.........|
+00000010  11 09 00 07 0c 94 bc 05                           |........|
+    --- End Decoded Base64 ---
+Packet identifier: 6c2fead0-d001-448e-945f-d08619e5a690, dataTotal: 32
+=== End Packet ===
+
+=== CLIENT → SERVER 00:20:17 MQTT Packet ===
+Packet Type: PUBLISH (0x03)
+Flags: 0x0
+  Topic: 1722919071/ESL/E438191378C3
+  Payload:
+    Detected Format: Binary Data
+00000000  41 63 34 42 44 77 43 4c  4f 77 41 41 41 5a 67 41  |Ac4BDwCLOwAAAZgA|
+00000010  47 67 6b 41 44 51 41 41  41 4a 77 42 41 41 41 52  |GgkADQAAAJwBAAAR|
+00000020  45 51 43 67 6f 45 79 70  00                       |EQCgoEyp.|
+Packet identifier: 933e0655-b7ea-4e95-bf38-8fedb7ee0095, dataTotal: 41
+=== End Packet ===
+
+=== SERVER → CLIENT 00:21:36 MQTT Packet ===
+Packet Type: PUBLISH (0x03)
+Flags: 0x0
+  Topic: 99999/99999/ESL/E438191378C3
+  Payload:
+    Detected Format: Base64
+    --- Begin Decoded Base64 ---
+    Detected Format: Protobuf (generic decode, no schema)
+    Field 0 (type 1): 0xce010f008d6a0000
+    Field 0 (type 1): 0x39019f000000010b
+    Field 0 (type 1): 0x9200000001750000
+    Field 0 (type 0): 0
+    Field 0 (type 0): 0
+    Field 0 (type 1): 0x758d2487e1850080
+    Field 0 (type 1): 0x28ffaaffaaffaaff
+    Field 1539199178045741045 (type 2): 
+    --- End Decoded Base64 ---
+Packet identifier: 928db118-f90f-4f91-add0-fdd58e427e23, dataTotal: 560
+=== End Packet ===
+
+=== CLIENT → SERVER 00:21:37 MQTT Packet ===
+Packet Type: PUBLISH (0x03)
+Flags: 0x0
+  Topic: 1722919071/ESL/E438191378C3
+  Payload:
+    Detected Format: Binary Data
+00000000  41 63 34 42 44 77 43 4e  61 67 41 41 41 43 51 41  |Ac4BDwCNagAAACQA|
+00000010  62 67 45 41 59 59 45 41  42 52 32 48 67 6d 4f 48  |bgEAYYEABR2HgmOH|
+00000020  41 65 51 34 47 52 4e 34  77 7a 61 47 41 77 41 41  |AeQ4GRN4wzaGAwAA|
+00000030  43 6f 67 46 41 53 67 41  67 49 6b 41 41 41 41 47  |CogFASgAgIkAAAAG|
+00000040  55 31 4a 44 52 6a 49 35  69 67 41 41 64 54 41 41  |U1JDRjI5igAAdTAA|
+00000050  41 44 68 41 41 41 41 41  44 41 41 42 55 59 43 4d  |ADhAAAAADAABUYCM|
+00000060  41 59 30 44 6a 67 69 50  41 41 41 42 4f 4a 45 41  |AY0DjgiPAAABOJEA|
+00000070  6b 67 4b 54 41 67 45 41  6c 41 63 45 45 5a 39 74  |kgKTAgEAlAcEEZ9t|
+00000080  4a 51 4a 70 6c 51 75 61  6c 67 41 41 4a 78 43 61  |JQJplQualgAAJxCa|
+00000090  41 51 45 4e 73 39 34 43  00                       |AQENs94C.|
+Packet identifier: 88c35668-4e2a-4b0c-b50c-4753390ff9db, dataTotal: 153
+=== End Packet ===
+
+=== CLIENT → SERVER 00:21:37 MQTT Packet ===
+Packet Type: PUBLISH (0x03)
+Flags: 0x0
+  Topic: 1722919071/ESL/E438191378C3
+  Payload:
+    Detected Format: Binary Data
+00000000  41 63 34 42 44 77 43 4e  61 67 41 41 41 43 55 41  |Ac4BDwCNagAAACUA|
+00000010  47 67 6b 41 44 51 41 41  41 54 6b 42 41 41 41 41  |GgkADQAAATkBAAAA|
+00000020  41 51 43 50 46 35 4d 63  00                       |AQCPF5Mc.|
+Packet identifier: 3a85971d-be2d-4779-9f34-352214308c03, dataTotal: 41
+=== End Packet ===
+
+=== SERVER → CLIENT 00:22:20 MQTT Packet ===
+Packet Type: PUBLISH (0x03)
+Flags: 0x0
+  Topic: 99999/99999/ESL/E438191378C3
+  Payload:
+    Detected Format: Base64
+    --- Begin Decoded Base64 ---
+    Detected Format: Protobuf (generic decode, no schema)
+    Field 0 (type 1): 0xce010f008d6a0000
+    Field 0 (type 1): 0x3a019f000000010b
+    Field 0 (type 1): 0x9200000001750000
+    Field 0 (type 0): 0
+    Field 0 (type 0): 0
+    Field 0 (type 1): 0x758d2487e1850080
+    Field 0 (type 1): 0x28ffaaffaaffaaff
+    Field 1539199178045741045 (type 2): 
+    --- End Decoded Base64 ---
+Packet identifier: 2248524a-7c05-4f0d-86e0-98b1606b9c4a, dataTotal: 560
+=== End Packet ===
+
+=== CLIENT → SERVER 00:22:29 MQTT Packet ===
+Packet Type: PUBLISH (0x03)
+Flags: 0x0
+  Topic: 1722919071/ESL/E438191378C3
+  Payload:
+    Detected Format: Binary Data
+00000000  41 63 34 42 44 77 43 4e  61 67 41 41 41 43 59 41  |Ac4BDwCNagAAACYA|
+00000010  62 67 45 41 59 59 45 41  42 52 32 37 67 6d 4f 48  |bgEAYYEABR27gmOH|
+00000020  41 65 51 34 47 52 4e 34  77 7a 61 47 41 77 41 41  |AeQ4GRN4wzaGAwAA|
+00000030  43 6f 67 46 41 53 67 41  67 49 6b 41 41 41 41 47  |CogFASgAgIkAAAAG|
+00000040  55 31 4a 44 52 6a 49 35  69 67 41 41 64 54 41 41  |U1JDRjI5igAAdTAA|
+00000050  41 44 68 41 41 41 41 41  44 41 41 42 55 59 43 4d  |ADhAAAAADAABUYCM|
+00000060  41 59 30 44 6a 67 69 50  41 41 41 42 4f 5a 45 41  |AY0DjgiPAAABOZEA|
+00000070  6b 67 4b 54 41 67 45 41  6c 41 63 45 45 5a 39 74  |kgKTAgEAlAcEEZ9t|
+00000080  4a 51 4a 70 6c 51 75 61  6c 67 41 41 4a 78 43 61  |JQJplQualgAAJxCa|
+00000090  41 51 46 64 75 44 4c 76  00                       |AQFduDLv.|
+Packet identifier: 66bcfba6-3870-47a2-ae01-2a0907b30e66, dataTotal: 153
+=== End Packet ===
+
+=== CLIENT → SERVER 00:22:29 MQTT Packet ===
+Packet Type: PUBLISH (0x03)
+Flags: 0x0
+  Topic: 1722919071/ESL/E438191378C3
+  Payload:
+    Detected Format: Binary Data
+00000000  41 63 34 42 44 77 43 4e  61 67 41 41 41 43 63 41  |Ac4BDwCNagAAACcA|
+00000010  47 67 6b 41 44 51 41 41  41 54 6f 42 41 41 41 41  |GgkADQAAAToBAAAA|
+00000020  41 51 41 49 58 45 44 79  00                       |AQAIXEDy.|
+Packet identifier: 3a25f7e7-2fad-46a8-b7a9-5a69097d3029, dataTotal: 41
+=== End Packet ===
+
+=== SERVER → CLIENT 00:23:12 MQTT Packet ===
+Packet Type: PUBLISH (0x03)
+Flags: 0x0
+  Topic: 99999/99999/ESL/E438191378C3
+  Payload:
+    Detected Format: Base64
+    --- Begin Decoded Base64 ---
+    Detected Format: Protobuf (generic decode, no schema)
+    Field 0 (type 1): 0xce010f008d6a0000
+    Field 0 (type 1): 0x3b01a1000000010b
+    Field 0 (type 1): 0x9400000001770000
+    Field 0 (type 0): 0
+    Field 0 (type 0): 0
+    Field 0 (type 1): 0x7729465e07850080
+    Field 0 (type 1): 0x28ffaaffaaffaaff
+    Field 1539199178045741045 (type 2): 
+    --- End Decoded Base64 ---
+Packet identifier: 108a5606-c12f-4365-a7f8-c0df60ca08b9, dataTotal: 564
+=== End Packet ===
+
+=== CLIENT → SERVER 00:23:21 MQTT Packet ===
+Packet Type: PUBLISH (0x03)
+Flags: 0x0
+  Topic: 1722919071/ESL/E438191378C3
+  Payload:
+    Detected Format: Binary Data
+00000000  41 63 34 42 44 77 43 4e  61 67 41 41 41 43 67 41  |Ac4BDwCNagAAACgA|
+00000010  62 67 45 41 59 59 45 41  42 52 33 76 67 6d 4f 48  |bgEAYYEABR3vgmOH|
+00000020  41 65 51 34 47 52 4e 34  77 7a 57 47 41 77 41 41  |AeQ4GRN4wzWGAwAA|
+00000030  43 6f 67 46 41 53 67 41  67 49 6b 41 41 41 41 47  |CogFASgAgIkAAAAG|
+00000040  55 31 4a 44 52 6a 49 35  69 67 41 41 64 54 41 41  |U1JDRjI5igAAdTAA|
+00000050  41 44 68 41 41 41 41 41  44 41 41 42 55 59 43 4d  |ADhAAAAADAABUYCM|
+00000060  41 59 30 44 6a 67 69 50  41 41 41 42 4f 70 45 41  |AY0DjgiPAAABOpEA|
+00000070  6b 67 4b 54 41 67 45 41  6c 41 63 45 45 5a 39 74  |kgKTAgEAlAcEEZ9t|
+00000080  4a 51 4a 70 6c 51 75 61  6c 67 41 41 4a 78 43 61  |JQJplQualgAAJxCa|
+00000090  41 51 46 57 5a 68 2b 4e  00                       |AQFWZh+N.|
+Packet identifier: 4f65d066-257c-4713-9263-d8d7cc51fecc, dataTotal: 153
+=== End Packet ===
+
+=== CLIENT → SERVER 00:23:21 MQTT Packet ===
+Packet Type: PUBLISH (0x03)
+Flags: 0x0
+  Topic: 1722919071/ESL/E438191378C3
+  Payload:
+    Detected Format: Binary Data
+00000000  41 63 34 42 44 77 43 4e  61 67 41 41 41 43 6b 41  |Ac4BDwCNagAAACkA|
+00000010  47 67 6b 41 44 51 41 41  41 54 73 42 41 41 41 41  |GgkADQAAATsBAAAA|
+00000020  41 51 44 30 49 6c 6d 70  00                       |AQD0Ilmp.|
+Packet identifier: 93443df6-4d6e-4538-81d1-4def2bd8214d, dataTotal: 41
+=== End Packet ===
+
+=== SERVER → CLIENT 00:24:38 MQTT Packet ===
+Packet Type: PUBLISH (0x03)
+Flags: 0x0
+  Topic: 99999/99999/ESL/E438191378C3
+  Payload:
+    Detected Format: Base64
+    --- Begin Decoded Base64 ---
+    Detected Format: Protobuf (generic decode, no schema)
+    Field 0 (type 1): 0xce010f008d6a0000
+    Field 0 (type 1): 0x3c019f000000010b
+    Field 0 (type 1): 0x9200000001750000
+    Field 0 (type 0): 0
+    Field 0 (type 0): 0
+    Field 0 (type 1): 0x758d2487e1850080
+    Field 0 (type 1): 0x28ffaaffaaffaaff
+    Field 1539199178045741045 (type 2): 
+    --- End Decoded Base64 ---
+Packet identifier: 8ebb4bda-3bfe-475a-b9f7-174677291e7a, dataTotal: 560
+=== End Packet ===
+
+=== CLIENT → SERVER 00:24:43 MQTT Packet ===
+Packet Type: PUBLISH (0x03)
+Flags: 0x0
+  Topic: 1722919071/ESL/E438191378C3
+  Payload:
+    Detected Format: Binary Data
+00000000  41 63 34 42 44 77 43 4e  61 67 41 41 41 43 6f 41  |Ac4BDwCNagAAACoA|
+00000010  62 67 45 41 59 59 45 41  42 52 35 42 67 6d 4f 48  |bgEAYYEABR5BgmOH|
+00000020  41 65 51 34 47 52 4e 34  77 7a 57 47 41 77 41 41  |AeQ4GRN4wzWGAwAA|
+00000030  43 6f 67 46 41 53 67 41  67 49 6b 41 41 41 41 47  |CogFASgAgIkAAAAG|
+00000040  55 31 4a 44 52 6a 49 35  69 67 41 41 64 54 41 41  |U1JDRjI5igAAdTAA|
+00000050  41 44 68 41 41 41 41 41  44 41 41 42 55 59 43 4d  |ADhAAAAADAABUYCM|
+00000060  41 59 30 44 6a 67 69 50  41 41 41 42 4f 35 45 41  |AY0DjgiPAAABO5EA|
+00000070  6b 67 4b 54 41 67 45 41  6c 41 63 45 45 5a 39 74  |kgKTAgEAlAcEEZ9t|
+00000080  4a 51 4a 70 6c 51 75 61  6c 67 41 41 4a 78 43 61  |JQJplQualgAAJxCa|
+00000090  41 51 45 35 75 2f 66 46  00                       |AQE5u/fF.|
+Packet identifier: 9f734c46-4faa-492e-b48f-bccb55eccb76, dataTotal: 153
+=== End Packet ===
+
+=== CLIENT → SERVER 00:24:43 MQTT Packet ===
+Packet Type: PUBLISH (0x03)
+Flags: 0x0
+  Topic: 1722919071/ESL/E438191378C3
+  Payload:
+    Detected Format: Binary Data
+00000000  41 63 34 42 44 77 43 4e  61 67 41 41 41 43 73 41  |Ac4BDwCNagAAACsA|
+00000010  47 67 6b 41 44 51 41 41  41 54 77 42 41 41 41 41  |GgkADQAAATwBAAAA|
+00000020  41 51 41 48 71 44 32 2f  00                       |AQAHqD2/.|
+Packet identifier: 344f108c-9032-4fae-9a7b-e0d45d5f64ff, dataTotal: 41
+=== End Packet ===
+
+=== SERVER → CLIENT 00:25:16 MQTT Packet ===
+Packet Type: PUBLISH (0x03)
+Flags: 0x0
+  Topic: 99999/99999/ESL/E438191378C3
+  Payload:
+    Detected Format: Base64
+    --- Begin Decoded Base64 ---
+    Detected Format: Protobuf (generic decode, no schema)
+    Field 0 (type 1): 0xce010f008d6a0000
+    Field 0 (type 1): 0x3d01a1000000010b
+    Field 0 (type 1): 0x9400000001770000
+    Field 0 (type 0): 0
+    Field 0 (type 0): 0
+    Field 0 (type 1): 0x7729465e07850080
+    Field 0 (type 1): 0x28ffaaffaaffaaff
+    Field 1539199178045741045 (type 2): 
+    --- End Decoded Base64 ---
+Packet identifier: 5210f2a7-ede7-4e95-8c94-7c81f104a186, dataTotal: 564
+=== End Packet ===
+
+=== CLIENT → SERVER 00:25:25 MQTT Packet ===
+Packet Type: PUBLISH (0x03)
+Flags: 0x0
+  Topic: 1722919071/ESL/E438191378C3
+  Payload:
+    Detected Format: Binary Data
+00000000  41 63 34 42 44 77 43 4e  61 67 41 41 41 43 77 41  |Ac4BDwCNagAAACwA|
+00000010  62 67 45 41 59 59 45 41  42 52 35 72 67 6d 4f 48  |bgEAYYEABR5rgmOH|
+00000020  41 65 51 34 47 52 4e 34  77 7a 61 47 41 77 41 41  |AeQ4GRN4wzaGAwAA|
+00000030  43 6f 67 46 41 53 67 41  67 49 6b 41 41 41 41 47  |CogFASgAgIkAAAAG|
+00000040  55 31 4a 44 52 6a 49 35  69 67 41 41 64 54 41 41  |U1JDRjI5igAAdTAA|
+00000050  41 44 68 41 41 41 41 41  44 41 41 42 55 59 43 4d  |ADhAAAAADAABUYCM|
+00000060  41 59 30 44 6a 67 69 50  41 41 41 42 50 4a 45 41  |AY0DjgiPAAABPJEA|
+00000070  6b 67 4b 54 41 67 45 41  6c 41 63 45 45 5a 39 74  |kgKTAgEAlAcEEZ9t|
+00000080  4a 51 4a 70 6c 51 75 61  6c 67 41 41 4a 78 43 61  |JQJplQualgAAJxCa|
+00000090  41 51 48 36 50 50 5a 34  00                       |AQH6PPZ4.|
+Packet identifier: b27a3a15-971c-4cd7-87e2-cfcb3c3a8fc7, dataTotal: 153
+=== End Packet ===
+
+=== CLIENT → SERVER 00:25:25 MQTT Packet ===
+Packet Type: PUBLISH (0x03)
+Flags: 0x0
+  Topic: 1722919071/ESL/E438191378C3
+  Payload:
+    Detected Format: Binary Data
+00000000  41 63 34 42 44 77 43 4e  61 67 41 41 41 43 30 41  |Ac4BDwCNagAAAC0A|
+00000010  47 67 6b 41 44 51 41 41  41 54 30 42 41 41 41 41  |GgkADQAAAT0BAAAA|
+00000020  41 51 41 42 68 6b 32 37  00                       |AQABhk27.|
+Packet identifier: 503c7388-be54-401c-9d75-8a26d3817292, dataTotal: 41
+=== End Packet ===
+
+=== CLIENT → SERVER 00:25:26 MQTT Packet ===
+Packet Type: PUBLISH (0x03)
+Flags: 0x0
+  Topic: 1722919071/ESL/E438191378C3
+  Payload:
+    Detected Format: Binary Data
+00000000  45 63 34 42 44 77 43 4c  6d 41 41 41 41 62 30 41  |Ec4BDwCLmAAAAb0A|
+00000010  65 41 45 41 61 34 45 43  67 66 61 6b 67 6d 53 48  |eAEAa4ECgfakgmSH|
+00000020  41 65 51 34 47 52 4e 34  77 78 75 47 41 77 41 41  |AeQ4GRN4wxuGAwAA|
+00000030  43 6f 67 46 41 53 67 41  67 49 6b 41 41 41 41 47  |CogFASgAgIkAAAAG|
+00000040  55 31 4a 44 52 6a 49 35  69 67 41 41 64 54 41 41  |U1JDRjI5igAAdTAA|
+00000050  41 44 68 41 41 41 41 41  44 41 41 42 55 59 43 4d  |ADhAAAAADAABUYCM|
+00000060  41 59 30 44 6a 67 69 50  41 41 41 41 6e 70 45 41  |AY0DjgiPAAAAnpEA|
+00000070  6b 67 4b 54 41 67 45 41  6c 41 63 45 6b 66 4a 38  |kgKTAgEAlAcEkfJ8|
+00000080  4a 51 4a 70 6c 51 75 37  6c 67 41 41 4a 78 43 5a  |JQJplQu7lgAAJxCZ|
+00000090  43 41 41 63 41 41 41 41  46 51 41 41 6d 67 45 42  |CAAcAAAAFQAAmgEB|
+000000a0  67 73 53 72 50 41 3d 3d  00                       |gsSrPA==.|
+Packet identifier: ad56c92b-8ba9-4b21-b8e3-d1894304ad8a, dataTotal: 169
+=== End Packet ===
+
+=== SERVER → CLIENT 00:25:26 MQTT Packet ===
+Packet Type: PUBLISH (0x03)
+Flags: 0x0
+  Topic: 99999/99999/ESL/E438191378C3
+  Payload:
+    Detected Format: Protobuf (generic decode, no schema)
+    Field 8 (type 1): 0x6334424477434c6d
+    Field 8 (type 1): 0x4141414a38414641
+    Field 8 (type 1): 0x414552454a414163
+    Field 8 (type 5): 0x76473168
+Packet identifier: 28282761-7c05-4e5f-820b-2704c141a651, dataTotal: 32
+=== End Packet ===
+
+=== CLIENT → SERVER 00:25:26 MQTT Packet ===
+Packet Type: PUBLISH (0x03)
+Flags: 0x0
+  Topic: 1722919071/ESL/E438191378C3
+  Payload:
+    Detected Format: Binary Data
+00000000  41 63 34 42 44 77 43 4c  6d 41 41 41 41 62 34 41  |Ac4BDwCLmAAAAb4A|
+00000010  47 67 6b 41 44 51 41 41  41 4a 38 42 41 41 41 52  |GgkADQAAAJ8BAAAR|
+00000020  45 51 42 79 62 74 79 78  00                       |EQBybtyx.|
+Packet identifier: e8d47708-175c-4b20-a4e3-e7b958c36985, dataTotal: 41
+=== End Packet ===
+
+=== SERVER → CLIENT 00:26:36 MQTT Packet ===
+Packet Type: PUBLISH (0x03)
+Flags: 0x0
+  Topic: 99999/99999/ESL/E438191378C3
+  Payload:
+    Detected Format: Base64
+    --- Begin Decoded Base64 ---
+    Detected Format: Protobuf (generic decode, no schema)
+    Field 0 (type 1): 0xce010f008d6a0000
+    Field 0 (type 1): 0x3e019f000000010b
+    Field 0 (type 1): 0x9200000001750000
+    Field 0 (type 0): 0
+    Field 0 (type 0): 0
+    Field 0 (type 1): 0x758d2487e1850080
+    Field 0 (type 1): 0x28ffaaffaaffaaff
+    Field 1539199178045741045 (type 2): 
+    --- End Decoded Base64 ---
+Packet identifier: c19fc70d-8486-4f72-8313-6bde660a0ff7, dataTotal: 560
+=== End Packet ===
+
+=== CLIENT → SERVER 00:26:37 MQTT Packet ===
+Packet Type: PUBLISH (0x03)
+Flags: 0x0
+  Topic: 1722919071/ESL/E438191378C3
+  Payload:
+    Detected Format: Binary Data
+00000000  41 63 34 42 44 77 43 4e  61 67 41 41 41 43 34 41  |Ac4BDwCNagAAAC4A|
+00000010  62 67 45 41 59 59 45 41  42 52 36 7a 67 6d 4f 48  |bgEAYYEABR6zgmOH|
+00000020  41 65 51 34 47 52 4e 34  77 7a 61 47 41 77 41 41  |AeQ4GRN4wzaGAwAA|
+00000030  43 6f 67 46 41 53 67 41  67 49 6b 41 41 41 41 47  |CogFASgAgIkAAAAG|
+00000040  55 31 4a 44 52 6a 49 35  69 67 41 41 64 54 41 41  |U1JDRjI5igAAdTAA|
+00000050  41 44 68 41 41 41 41 41  44 41 41 42 55 59 43 4d  |ADhAAAAADAABUYCM|
+00000060  41 59 30 44 6a 67 69 50  41 41 41 42 50 5a 45 41  |AY0DjgiPAAABPZEA|
+00000070  6b 67 4b 54 41 67 45 41  6c 41 63 45 45 5a 39 74  |kgKTAgEAlAcEEZ9t|
+00000080  4a 51 4a 70 6c 51 75 61  6c 67 41 41 4a 78 43 61  |JQJplQualgAAJxCa|
+00000090  41 51 48 30 54 38 47 71  00                       |AQH0T8Gq.|
+Packet identifier: 7c931faf-74bd-4f6c-87d8-e5ea95a77e78, dataTotal: 153
+=== End Packet ===
+
+=== CLIENT → SERVER 00:26:37 MQTT Packet ===
+Packet Type: PUBLISH (0x03)
+Flags: 0x0
+  Topic: 1722919071/ESL/E438191378C3
+  Payload:
+    Detected Format: Binary Data
+00000000  41 63 34 42 44 77 43 4e  61 67 41 41 41 43 38 41  |Ac4BDwCNagAAAC8A|
+00000010  47 67 6b 41 44 51 41 41  41 54 34 42 41 41 41 41  |GgkADQAAAT4BAAAA|
+00000020  41 51 43 71 7a 79 35 59  00                       |AQCqzy5Y.|
+Packet identifier: e00ac7c8-4bee-49b5-bd6d-f0442ed50756, dataTotal: 41
+=== End Packet ===
+
+=== CLIENT → SERVER 00:27:48 MQTT Packet ===
+Packet Type: PUBLISH (0x03)
+Flags: 0x0
+  Topic: 1722919071/ESL/E438191378C3
+  Payload:
+    Detected Format: Binary Data
+00000000  45 63 34 42 44 77 43 4c  52 67 41 41 41 61 59 41  |Ec4BDwCLRgAAAaYA|
+00000010  65 41 45 41 61 34 45 43  67 66 7a 6b 67 6d 47 48  |eAEAa4ECgfzkgmGH|
+00000020  41 65 51 34 47 52 4e 34  77 78 6d 47 41 77 41 41  |AeQ4GRN4wxmGAwAA|
+00000030  43 6f 67 46 41 53 67 41  67 49 6b 41 41 41 41 47  |CogFASgAgIkAAAAG|
+00000040  55 31 4a 44 52 6a 49 35  69 67 41 41 64 54 41 41  |U1JDRjI5igAAdTAA|
+00000050  41 44 68 41 41 41 41 41  44 41 41 42 55 59 43 4d  |ADhAAAAADAABUYCM|
+00000060  41 59 30 44 6a 67 69 50  41 41 41 41 6f 35 45 41  |AY0DjgiPAAAAo5EA|
+00000070  6b 67 4b 54 41 67 45 41  6c 41 63 45 59 61 42 79  |kgKTAgEAlAcEYaBy|
+00000080  4a 51 4a 70 6c 51 75 52  6c 67 41 41 4a 78 43 5a  |JQJplQuRlgAAJxCZ|
+00000090  43 41 41 2f 41 41 41 41  4c 77 41 41 6d 67 45 42  |CAA/AAAALwAAmgEB|
+000000a0  56 48 45 4c 62 67 3d 3d  00                       |VHELbg==.|
+Packet identifier: f51aaee7-f157-4a69-9b5d-040005061ca8, dataTotal: 169
+=== End Packet ===
+
+=== SERVER → CLIENT 00:27:48 MQTT Packet ===
+Packet Type: PUBLISH (0x03)
+Flags: 0x0
+  Topic: 99999/99999/ESL/E438191378C3
+  Payload:
+    Detected Format: Base64
+    --- Begin Decoded Base64 ---
+    Detected Format: Binary Data
+00000000  01 ce 01 0f 00 8b 46 00  00 00 a4 00 14 00 00 11  |......F.........|
+00000010  11 09 00 07 6f a7 0d db                           |....o...|
+    --- End Decoded Base64 ---
+Packet identifier: c305f68d-86ae-47b2-b790-0d7c8e3b0860, dataTotal: 32
+=== End Packet ===
+
+=== CLIENT → SERVER 00:27:48 MQTT Packet ===
+Packet Type: PUBLISH (0x03)
+Flags: 0x0
+  Topic: 1722919071/ESL/E438191378C3
+  Payload:
+    Detected Format: Binary Data
+00000000  41 63 34 42 44 77 43 4c  52 67 41 41 41 61 63 41  |Ac4BDwCLRgAAAacA|
+00000010  47 67 6b 41 44 51 41 41  41 4b 51 42 41 41 41 52  |GgkADQAAAKQBAAAR|
+00000020  45 51 44 73 32 30 50 58  00                       |EQDs20PX.|
+Packet identifier: a63cf876-0324-4bc1-af57-17783614e2b6, dataTotal: 41
+=== End Packet ===
+
+=== CLIENT → SERVER 00:28:04 MQTT Packet ===
+Packet Type: PUBLISH (0x03)
+Flags: 0x0
+  Topic: 1722919071/ESL/E438191378C3
+  Payload:
+    Detected Format: Binary Data
+00000000  45 63 34 42 44 77 43 4c  79 67 41 41 41 62 30 41  |Ec4BDwCLygAAAb0A|
+00000010  65 41 45 41 61 34 45 43  67 66 32 6e 67 6d 47 48  |eAEAa4ECgf2ngmGH|
+00000020  41 65 51 34 47 52 4e 34  77 78 6d 47 41 77 41 41  |AeQ4GRN4wxmGAwAA|
+00000030  43 6f 67 46 41 53 67 41  67 49 6b 41 41 41 41 47  |CogFASgAgIkAAAAG|
+00000040  55 31 4a 44 52 6a 49 35  69 67 41 41 64 54 41 41  |U1JDRjI5igAAdTAA|
+00000050  41 44 68 41 41 41 41 41  44 41 41 42 55 59 43 4d  |ADhAAAAADAABUYCM|
+00000060  41 59 30 44 6a 67 69 50  41 41 41 41 6f 35 45 41  |AY0DjgiPAAAAo5EA|
+00000070  6b 67 4b 54 41 67 45 41  6c 41 63 45 51 58 4a 77  |kgKTAgEAlAcEQXJw|
+00000080  4a 51 4a 70 6c 51 75 53  6c 67 41 41 4a 78 43 5a  |JQJplQuSlgAAJxCZ|
+00000090  43 41 42 47 41 41 45 41  4e 41 41 41 6d 67 45 42  |CABGAAEANAAAmgEB|
+000000a0  55 4d 61 66 54 51 3d 3d  00                       |UMafTQ==.|
+Packet identifier: 5bd248e7-83c8-4d71-8811-347100d86305, dataTotal: 169
+=== End Packet ===
+
+=== SERVER → CLIENT 00:28:04 MQTT Packet ===
+Packet Type: PUBLISH (0x03)
+Flags: 0x0
+  Topic: 99999/99999/ESL/E438191378C3
+  Payload:
+    Detected Format: Base64
+    --- Begin Decoded Base64 ---
+    Detected Format: Binary Data
+00000000  01 ce 01 0f 00 8b ca 00  00 00 a4 00 14 00 00 11  |................|
+00000010  11 09 00 07 da 29 b2 5d                           |.....).]|
+    --- End Decoded Base64 ---
+Packet identifier: 073d26e9-0a24-4184-88ad-0088b26b722f, dataTotal: 32
+=== End Packet ===
+
+=== CLIENT → SERVER 00:28:04 MQTT Packet ===
+Packet Type: PUBLISH (0x03)
+Flags: 0x0
+  Topic: 1722919071/ESL/E438191378C3
+  Payload:
+    Detected Format: Binary Data
+00000000  41 63 34 42 44 77 43 4c  79 67 41 41 41 62 34 41  |Ac4BDwCLygAAAb4A|
+00000010  47 67 6b 41 44 51 41 41  41 4b 51 42 41 41 41 52  |GgkADQAAAKQBAAAR|
+00000020  45 51 43 48 69 33 6e 6a  00                       |EQCHi3nj.|
+Packet identifier: 01605714-ad14-4ad2-9d3b-99a3cc396d50, dataTotal: 41
+=== End Packet ===
+
+=== CLIENT → SERVER 00:30:27 MQTT Packet ===
+Packet Type: PUBLISH (0x03)
+Flags: 0x0
+  Topic: 1722919071/ESL/E438191378C3
+  Payload:
+    Detected Format: Binary Data
+00000000  45 63 34 42 44 77 43 4a  61 51 41 41 41 61 41 41  |Ec4BDwCJaQAAAaAA|
+00000010  65 41 45 41 61 34 45 43  67 66 68 44 67 6d 53 48  |eAEAa4ECgfhDgmSH|
+00000020  41 65 51 34 47 52 4e 34  77 78 65 47 41 77 41 41  |AeQ4GRN4wxeGAwAA|
+00000030  43 6f 67 46 41 53 67 41  67 49 6b 41 41 41 41 47  |CogFASgAgIkAAAAG|
+00000040  55 31 4a 44 52 6a 49 35  69 67 41 41 64 54 41 41  |U1JDRjI5igAAdTAA|
+00000050  41 44 68 41 41 41 41 41  44 41 41 42 55 59 43 4d  |ADhAAAAADAABUYCM|
+00000060  41 59 30 44 6a 67 69 50  41 41 41 41 6e 4a 45 41  |AY0DjgiPAAAAnJEA|
+00000070  6b 67 4b 54 41 67 45 41  6c 41 63 45 51 51 46 2b  |kgKTAgEAlAcEQQF+|
+00000080  4a 51 4a 70 6c 51 76 49  6c 67 41 41 4a 78 43 5a  |JQJplQvIlgAAJxCZ|
+00000090  43 41 42 5a 41 41 41 41  51 67 41 41 6d 67 45 42  |CABZAAAAQgAAmgEB|
+000000a0  73 71 33 4c 53 67 3d 3d  00                       |sq3LSg==.|
+Packet identifier: 603bf1d2-210b-4c14-a790-00876f44d160, dataTotal: 169
+=== End Packet ===
+
+=== SERVER → CLIENT 00:30:28 MQTT Packet ===
+Packet Type: PUBLISH (0x03)
+Flags: 0x0
+  Topic: 99999/99999/ESL/E438191378C3
+  Payload:
+    Detected Format: Base64
+    --- Begin Decoded Base64 ---
+    Detected Format: Binary Data
+00000000  01 ce 01 0f 00 89 69 00  00 00 9d 00 14 00 00 11  |......i.........|
+00000010  11 09 00 07 28 8a 84 f7                           |....(...|
+    --- End Decoded Base64 ---
+Packet identifier: 58c6fb03-05e3-4dfe-bc99-1b5dbbb1af40, dataTotal: 32
+=== End Packet ===
+
+=== CLIENT → SERVER 00:30:28 MQTT Packet ===
+Packet Type: PUBLISH (0x03)
+Flags: 0x0
+  Topic: 1722919071/ESL/E438191378C3
+  Payload:
+    Detected Format: Binary Data
+00000000  41 63 34 42 44 77 43 4a  61 51 41 41 41 61 45 41  |Ac4BDwCJaQAAAaEA|
+00000010  47 67 6b 41 44 51 41 41  41 4a 30 42 41 41 41 52  |GgkADQAAAJ0BAAAR|
+00000020  45 51 42 7a 44 6f 6c 6f  00                       |EQBzDolo.|
+Packet identifier: d2b93ba3-01a5-4f52-90cc-85d405d992e9, dataTotal: 41
+=== End Packet ===
+
+=== CLIENT → SERVER 00:34:06 MQTT Packet ===
+Packet Type: PUBLISH (0x03)
+Flags: 0x0
+  Topic: 1722919071/ESL/E438191378C3
+  Payload:
+    Detected Format: Binary Data
+00000000  45 63 34 42 44 77 43 49  67 41 41 41 41 62 51 41  |Ec4BDwCIgAAAAbQA|
+00000010  65 41 45 41 61 34 45 43  67 66 66 50 67 6d 47 48  |eAEAa4ECgffPgmGH|
+00000020  41 65 51 34 47 52 4e 34  77 78 71 47 41 77 41 41  |AeQ4GRN4wxqGAwAA|
+00000030  43 6f 67 46 41 53 67 41  67 49 6b 41 41 41 41 47  |CogFASgAgIkAAAAG|
+00000040  55 31 4a 44 52 6a 49 35  69 67 41 41 64 54 41 41  |U1JDRjI5igAAdTAA|
+00000050  41 44 68 41 41 41 41 41  44 41 41 42 55 59 43 4d  |ADhAAAAADAABUYCM|
+00000060  41 59 30 44 6a 67 69 50  41 41 41 41 6f 4a 45 41  |AY0DjgiPAAAAoJEA|
+00000070  6b 67 4b 54 41 67 45 41  6c 41 63 45 41 55 79 44  |kgKTAgEAlAcEAUyD|
+00000080  4a 51 4a 70 6c 51 75 59  6c 67 41 41 4a 78 43 5a  |JQJplQuYlgAAJxCZ|
+00000090  43 41 41 42 41 41 41 41  41 41 41 41 6d 67 45 42  |CAABAAAAAAAAmgEB|
+000000a0  4d 73 59 69 6f 67 3d 3d  00                       |MsYiog==.|
+Packet identifier: 6d3a578d-4ea1-41cf-8110-31f47a81dc8a, dataTotal: 169
+=== End Packet ===
+
+=== SERVER → CLIENT 00:34:06 MQTT Packet ===
+Packet Type: PUBLISH (0x03)
+Flags: 0x0
+  Topic: 99999/99999/ESL/E438191378C3
+  Payload:
+    Detected Format: Base64
+    --- Begin Decoded Base64 ---
+    Detected Format: Binary Data
+00000000  01 ce 01 0f 00 88 80 00  00 00 a1 00 14 00 00 11  |................|
+00000010  11 09 00 07 47 c4 aa c0                           |....G...|
+    --- End Decoded Base64 ---
+Packet identifier: bd805675-6aab-402f-b10c-77bf68bf3ba8, dataTotal: 32
+=== End Packet ===
+
+=== CLIENT → SERVER 00:34:06 MQTT Packet ===
+Packet Type: PUBLISH (0x03)
+Flags: 0x0
+  Topic: 1722919071/ESL/E438191378C3
+  Payload:
+    Detected Format: Binary Data
+00000000  41 63 34 42 44 77 43 49  67 41 41 41 41 62 55 41  |Ac4BDwCIgAAAAbUA|
+00000010  47 67 6b 41 44 51 41 41  41 4b 45 42 41 41 41 52  |GgkADQAAAKEBAAAR|
+00000020  45 51 44 5a 50 74 51 77  00                       |EQDZPtQw.|
+Packet identifier: e010f771-1198-45ff-96c2-e532ac1e9d7f, dataTotal: 41
+=== End Packet ===
